@@ -34,29 +34,33 @@ export default function PlantPopover({ plant, anchorRect, side = "right" }) {
 
   if (!anchorRect) return null;
 
-  // Position: try right of anchor, flip left if too close to edge
-  const POPOVER_WIDTH = 320;
   const PADDING = 12;
-  const viewportWidth = window.innerWidth;
-  const viewportHeight = window.innerHeight;
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+  // Never wider than the viewport (with padding on each side)
+  const POPOVER_WIDTH = Math.min(300, vw - PADDING * 2);
+  const MAX_HEIGHT = vh - PADDING * 2;
 
+  // Horizontal: try right → try left → center
   let left = anchorRect.right + PADDING;
-  if (left + POPOVER_WIDTH > viewportWidth - PADDING) {
-    left = anchorRect.left - POPOVER_WIDTH - PADDING;
+  if (left + POPOVER_WIDTH > vw - PADDING) {
+    const leftSide = anchorRect.left - POPOVER_WIDTH - PADDING;
+    left = leftSide >= PADDING ? leftSide : (vw - POPOVER_WIDTH) / 2;
   }
+  left = Math.max(PADDING, left);
 
+  // Vertical: align to anchor, clamp so it never goes below viewport
   let top = anchorRect.top;
-  const estimatedHeight = 400;
-  if (top + estimatedHeight > viewportHeight - PADDING) {
-    top = viewportHeight - estimatedHeight - PADDING;
+  if (top + MAX_HEIGHT > vh - PADDING) {
+    top = vh - MAX_HEIGHT - PADDING;
   }
   top = Math.max(PADDING, top);
 
   return (
     <div
       ref={popoverRef}
-      className="fixed z-50 bg-white border border-stone-200 rounded-xl shadow-xl overflow-hidden"
-      style={{ width: POPOVER_WIDTH, top, left }}
+      className="fixed z-50 bg-white border border-stone-200 rounded-xl shadow-xl overflow-y-auto overflow-x-hidden"
+      style={{ width: POPOVER_WIDTH, maxHeight: MAX_HEIGHT, top, left }}
     >
       {/* Image */}
       <div className="w-full h-40 bg-stone-100 relative overflow-hidden">
