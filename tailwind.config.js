@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       gridTemplateColumns: {
-        "bloom-chart": "260px repeat(12, minmax(0, 1fr))",
+        "bloom-chart": "200px repeat(12, minmax(0, 1fr))",
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],

@@ -31,14 +31,14 @@ export default function GroupTabs({ groups, activeGroupId, onSelect, onAdd, onRe
   };
 
   return (
-    <div className="no-print flex items-center gap-1 mb-4 border-b border-stone-200 pb-0">
+    <div className="no-print flex items-center gap-1 mb-3 border-b border-stone-200 pb-0">
       {groups.map((group) => {
         const isActive = group.id === activeGroupId;
         return (
           <div
             key={group.id}
             onClick={() => onSelect(group.id)}
-            className={`group/tab relative flex items-center gap-1.5 px-4 py-2.5 rounded-t-lg border border-b-0 cursor-pointer transition-colors select-none ${
+            className={`group/tab relative flex items-center gap-1.5 px-3 py-2 rounded-t-lg border border-b-0 cursor-pointer transition-colors select-none ${
               isActive
                 ? "bg-white border-stone-200 text-stone-800 -mb-px z-10"
                 : "bg-stone-100 border-transparent text-stone-500 hover:bg-stone-50 hover:text-stone-700"
@@ -100,7 +100,7 @@ export default function GroupTabs({ groups, activeGroupId, onSelect, onAdd, onRe
       {/* Add new group */}
       <button
         onClick={onAdd}
-        className="flex items-center gap-1 px-3 py-2.5 text-sm text-stone-400 hover:text-green-700 hover:bg-stone-50 rounded-t-lg transition-colors"
+        className="flex items-center gap-1 px-3 py-2 text-sm text-stone-400 hover:text-green-700 hover:bg-stone-50 rounded-t-lg transition-colors"
         title="Add group"
       >
         <span className="text-base leading-none">+</span>

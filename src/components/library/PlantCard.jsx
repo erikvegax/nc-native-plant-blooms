@@ -33,7 +33,7 @@ export default function PlantCard({ plant, isInPlan, onAdd, onRemove }) {
 
   return (
     <div
-      className={`border rounded-lg p-4 transition-all ${
+      className={`border rounded-lg p-3 transition-all ${
         isInPlan
           ? "border-green-400 bg-green-50"
           : "border-stone-200 bg-white hover:border-stone-300"
@@ -52,7 +52,7 @@ export default function PlantCard({ plant, isInPlan, onAdd, onRemove }) {
             )}
           </div>
           <div className="flex items-center gap-1.5">
-            <p className="text-base font-semibold text-stone-800 leading-snug">
+            <p className="text-sm font-semibold text-stone-800 leading-snug">
               {plant.name}
             </p>
             <button
@@ -65,7 +65,7 @@ export default function PlantCard({ plant, isInPlan, onAdd, onRemove }) {
               ℹ
             </button>
           </div>
-          <p className="text-sm text-stone-500 italic leading-snug mt-0.5">
+          <p className="text-xs text-stone-500 italic leading-snug mt-0.5">
             {plant.scientificName}
           </p>
         </div>
@@ -81,7 +81,7 @@ export default function PlantCard({ plant, isInPlan, onAdd, onRemove }) {
         </button>
       </div>
 
-      <div className="mt-3 flex items-center gap-3 text-sm text-stone-500 flex-wrap">
+      <div className="mt-2 flex items-center gap-2 text-xs text-stone-500 flex-wrap">
         <span title={SUN_ORDER.filter((s) => plant.sun.includes(s)).map((s) => SUN_ICONS[s].label).join(", ")}>
           {SUN_ORDER.filter((s) => plant.sun.includes(s)).map((s) => SUN_ICONS[s].icon).join(" ")}
         </span>

@@ -117,7 +117,7 @@ export default function App() {
 
       <div className="print-content flex flex-1 overflow-hidden">
         {/* Left sidebar — filters */}
-        <aside className="no-print w-64 shrink-0 overflow-y-auto border-r border-stone-200 bg-stone-50">
+        <aside className="no-print w-52 shrink-0 overflow-y-auto border-r border-stone-200 bg-stone-50">
           <FilterPanel
             filters={filters}
             onChange={handleFilterChange}
@@ -126,11 +126,11 @@ export default function App() {
         </aside>
 
         {/* Center — plant library */}
-        <section className="no-print w-96 shrink-0 flex flex-col border-r border-stone-200 bg-white overflow-hidden">
-          <div className="p-4 border-b border-stone-100 shrink-0">
+        <section className="no-print w-72 shrink-0 flex flex-col border-r border-stone-200 bg-white overflow-hidden">
+          <div className="p-3 border-b border-stone-100 shrink-0">
             <SearchBar value={searchQuery} onChange={setSearchQuery} />
           </div>
-          <div className="flex-1 overflow-y-auto p-4 pt-2">
+          <div className="flex-1 overflow-y-auto p-3 pt-2">
             <PlantLibrary
               plants={filteredPlants}
               planIds={planIdsSet}
@@ -141,7 +141,7 @@ export default function App() {
         </section>
 
         {/* Right — bloom schedule */}
-        <main className="print-main flex-1 overflow-auto p-6">
+        <main className="print-main flex-1 overflow-auto p-4">
           <GroupTabs
             groups={groups}
             activeGroupId={activeGroupId}

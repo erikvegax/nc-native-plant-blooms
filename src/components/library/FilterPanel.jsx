@@ -9,26 +9,26 @@ function FilterGroup({ title, options, selected, filterKey, onChange }) {
   };
 
   return (
-    <div className="mb-7">
-      <p className="text-xs font-semibold uppercase tracking-wider text-stone-500 mb-3">
+    <div className="mb-5">
+      <p className="text-xs font-semibold uppercase tracking-wider text-stone-500 mb-2">
         {title}
       </p>
-      <div className="space-y-2.5">
+      <div className="space-y-2">
         {options.map((opt) => {
           const checked = selected.includes(opt.value);
           return (
             <label
               key={opt.value}
-              className="flex items-center gap-3 cursor-pointer group"
+              className="flex items-center gap-2 cursor-pointer group"
             >
               <input
                 type="checkbox"
                 checked={checked}
                 onChange={() => toggle(opt.value)}
-                className="w-4 h-4 rounded accent-green-700 cursor-pointer shrink-0"
+                className="w-3.5 h-3.5 rounded accent-green-700 cursor-pointer shrink-0"
               />
               <span
-                className={`text-base transition-colors ${
+                className={`text-sm transition-colors ${
                   checked ? "text-stone-800 font-medium" : "text-stone-600 group-hover:text-stone-800"
                 }`}
               >
@@ -46,8 +46,8 @@ export default function FilterPanel({ filters, onChange, onReset }) {
   const hasActive = Object.values(filters).some((arr) => arr.length > 0);
 
   return (
-    <div className="p-5">
-      <div className="flex items-center justify-between mb-6">
+    <div className="p-4">
+      <div className="flex items-center justify-between mb-4">
         <h2 className="text-sm font-semibold text-stone-700 uppercase tracking-wide">Filters</h2>
         {hasActive && (
           <button

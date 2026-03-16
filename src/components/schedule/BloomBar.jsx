@@ -9,7 +9,7 @@ export default function BloomBar({ state, color, isFirst, isLast }) {
   if (state === "dormant") {
     return (
       <div className="h-full w-full flex items-center px-1">
-        <div className="bloom-bar-fill w-full h-5 rounded bg-stone-100" />
+        <div className="bloom-bar-fill w-full h-3 rounded bg-stone-100" />
       </div>
     );
   }
@@ -17,7 +17,7 @@ export default function BloomBar({ state, color, isFirst, isLast }) {
   if (state === "active") {
     return (
       <div className="h-full w-full flex items-center" style={edgePadding}>
-        <div className="bloom-bar-fill w-full h-7" style={{ backgroundColor: "#8aab78", borderRadius: radius }} />
+        <div className="bloom-bar-fill w-full h-5" style={{ backgroundColor: "#8aab78", borderRadius: radius }} />
       </div>
     );
   }
@@ -28,7 +28,7 @@ export default function BloomBar({ state, color, isFirst, isLast }) {
   return (
     <div className="h-full w-full flex items-center" style={edgePadding}>
       <div
-        className="bloom-bar-fill w-full h-8 shadow-sm"
+        className="bloom-bar-fill w-full h-6 shadow-sm"
         style={{
           backgroundColor: barColor,
           borderTop:    `1px solid ${darken(barColor, 0.15)}`,

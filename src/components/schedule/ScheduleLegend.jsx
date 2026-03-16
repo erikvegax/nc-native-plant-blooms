@@ -27,7 +27,7 @@ export default function ScheduleLegend({ plants = [], plantColors = {} }) {
   ];
 
   return (
-    <div className="schedule-legend flex items-center gap-8 px-5 py-4 bg-stone-50 border-t border-stone-200 text-base text-stone-500 flex-wrap">
+    <div className="schedule-legend flex items-center gap-6 px-4 py-3 bg-stone-50 border-t border-stone-200 text-sm text-stone-500 flex-wrap">
       <span className="font-semibold text-stone-600">Legend:</span>
 
       <span className="flex items-center gap-2 flex-wrap">
@@ -37,13 +37,13 @@ export default function ScheduleLegend({ plants = [], plantColors = {} }) {
               <span
                 key={hex}
                 title={`${name} — ${label}`}
-                className="w-5 h-5 rounded border"
+                className="w-4 h-4 rounded border"
                 style={{ backgroundColor: hex, borderColor: darken(hex, 0.15) }}
               />
             ))}
           </span>
         ) : (
-          <span className="w-10 h-5 rounded bg-stone-200" />
+          <span className="w-8 h-4 rounded bg-stone-200" />
         )}
         <span>Bloom Period</span>
       </span>
@@ -55,23 +55,23 @@ export default function ScheduleLegend({ plants = [], plantColors = {} }) {
               <span
                 key={hex}
                 title={`${name} — ${label}`}
-                className="w-5 h-5 rounded border"
+                className="w-4 h-4 rounded border"
                 style={{ backgroundColor: hex, borderColor: darken(hex, 0.15) }}
               />
             ))}
           </span>
         ) : (
-          <span className="w-10 h-5 rounded bg-stone-200" />
+          <span className="w-8 h-4 rounded bg-stone-200" />
         )}
         <span>Fall Color</span>
       </span>
 
       <span className="flex items-center gap-2">
-        <span className="w-10 h-5 rounded" style={{ backgroundColor: "#8aab78" }} />
+        <span className="w-8 h-4 rounded" style={{ backgroundColor: "#8aab78" }} />
         Active / Foliage
       </span>
       <span className="flex items-center gap-2">
-        <span className="w-10 h-5 rounded bg-stone-100 border border-stone-300" />
+        <span className="w-8 h-4 rounded bg-stone-100 border border-stone-300" />
         Dormant
       </span>
     </div>
