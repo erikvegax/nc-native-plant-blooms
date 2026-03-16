@@ -15,7 +15,7 @@ const MOISTURE_LABELS = {
   wet: "Wet",
 };
 
-export default function PlantPopover({ plant, anchorRect, side = "right" }) {
+export default function PlantPopover({ plant, anchorRect, onClose, onRemove }) {
   const [imageData, setImageData] = useState(null);
   const [imageLoading, setImageLoading] = useState(true);
   const popoverRef = useRef(null);
@@ -37,8 +37,9 @@ export default function PlantPopover({ plant, anchorRect, side = "right" }) {
   const PADDING = 12;
   const vw = window.innerWidth;
   const vh = window.innerHeight;
-  // Never wider than the viewport (with padding on each side)
-  const POPOVER_WIDTH = Math.min(300, vw - PADDING * 2);
+  const isMobile = vw < 640;
+  // Smaller on mobile, never wider than viewport
+  const POPOVER_WIDTH = Math.min(isMobile ? 250 : 300, vw - PADDING * 2);
   const MAX_HEIGHT = vh - PADDING * 2;
 
   // Horizontal: try right → try left → center
@@ -59,11 +60,12 @@ export default function PlantPopover({ plant, anchorRect, side = "right" }) {
   return (
     <div
       ref={popoverRef}
+      onMouseDown={(e) => e.stopPropagation()}
       className="fixed z-50 bg-white border border-stone-200 rounded-xl shadow-xl overflow-y-auto overflow-x-hidden"
       style={{ width: POPOVER_WIDTH, maxHeight: MAX_HEIGHT, top, left }}
     >
       {/* Image */}
-      <div className="w-full h-40 bg-stone-100 relative overflow-hidden">
+      <div className="w-full h-28 sm:h-36 bg-stone-100 relative overflow-hidden">
         {imageLoading && (
           <div className="absolute inset-0 flex items-center justify-center text-stone-400">
             <svg className="w-6 h-6 animate-spin" fill="none" viewBox="0 0 24 24">
@@ -84,6 +86,16 @@ export default function PlantPopover({ plant, anchorRect, side = "right" }) {
             No image available
           </div>
         )}
+        {/* Close button */}
+        {onClose && (
+          <button
+            onClick={onClose}
+            className="absolute top-2 right-2 z-10 w-6 h-6 rounded-full bg-black/40 hover:bg-black/60 text-white flex items-center justify-center text-base leading-none transition-colors"
+          >
+            ×
+          </button>
+        )}
+
         {/* Bloom color chips overlaid on image */}
         {plant.bloomColors.length > 0 && (
           <div className="absolute bottom-2 right-2 flex gap-1">
@@ -137,6 +149,15 @@ export default function PlantPopover({ plant, anchorRect, side = "right" }) {
 
         {imageData?.attribution && (
           <p className="text-[10px] text-stone-300 mt-3 leading-tight">{imageData.attribution}</p>
+        )}
+
+        {onRemove && (
+          <button
+            onClick={onRemove}
+            className="mt-3 w-full py-1.5 rounded-lg border border-red-200 text-red-500 hover:bg-red-50 text-xs font-medium transition-colors"
+          >
+            Remove from plan
+          </button>
         )}
       </div>
     </div>

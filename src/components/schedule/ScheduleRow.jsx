@@ -8,19 +8,31 @@ import { usePopover } from "../../utils/usePopover";
 import PlantPopover from "../shared/PlantPopover";
 
 export default function ScheduleRow({ plant, selectedColor, onRemove, onColorChange }) {
-  const { popover, onInfoClick } = usePopover();
+  const { popover, onInfoClick, close } = usePopover();
   const [tooltip, setTooltip] = useState(null);
 
   const pollinators = POLLINATOR_DATA[plant.id];
 
   const handleBloomMouseEnter = useCallback((e) => {
     if (!pollinators || pollinators.length === 0) return;
-    setTooltip({ anchorRect: e.currentTarget.getBoundingClientRect() });
+    if (window.matchMedia("(hover: hover)").matches) {
+      setTooltip({ anchorRect: e.currentTarget.getBoundingClientRect() });
+    }
   }, [pollinators]);
 
   const handleBloomMouseLeave = useCallback(() => {
-    setTooltip(null);
+    if (window.matchMedia("(hover: hover)").matches) {
+      setTooltip(null);
+    }
   }, []);
+
+  const handleBloomClick = useCallback((e) => {
+    if (!pollinators || pollinators.length === 0) return;
+    if (!window.matchMedia("(hover: hover)").matches) {
+      const rect = e.currentTarget.getBoundingClientRect();
+      setTooltip((prev) => prev ? null : { anchorRect: rect });
+    }
+  }, [pollinators]);
   const months = Array.from({ length: 12 }, (_, i) => i + 1);
 
   const fallData = FALL_COLOR_DATA[plant.id];
@@ -45,15 +57,15 @@ export default function ScheduleRow({ plant, selectedColor, onRemove, onColorCha
   return (
     <div className="schedule-row grid grid-cols-bloom-chart-mobile lg:grid-cols-bloom-chart border-b border-stone-100 group hover:bg-stone-50 transition-colors">
       {/* Plant name column */}
-      <div className="schedule-row-label sticky left-0 z-10 bg-white group-hover:bg-stone-50 border-r border-stone-200 px-3 py-2 flex items-center justify-between gap-2 transition-colors">
+      <div className="schedule-row-label sm:sticky left-0 z-10 bg-white group-hover:bg-stone-50 border-r border-stone-200 px-2 py-1 sm:px-3 sm:py-2 flex items-center justify-between gap-1 sm:gap-2 transition-colors">
         <div className="min-w-0">
-          <div className="flex items-center gap-1.5 min-w-0">
-            <p className="text-sm font-semibold text-stone-800 leading-tight truncate">
+          <div className="flex items-center gap-1 sm:gap-1.5 min-w-0">
+            <p className="text-xs sm:text-sm font-semibold text-stone-800 leading-tight truncate">
               {plant.name}
             </p>
             <button
               onClick={(e) => onInfoClick(plant, e)}
-              className={`no-print shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-sm font-bold transition-colors ${
+              className={`no-print shrink-0 w-4 h-4 sm:w-5 sm:h-5 rounded-full flex items-center justify-center text-[10px] sm:text-sm font-bold transition-colors ${
                 popover ? "bg-green-700 text-white" : "bg-stone-200 text-stone-500 hover:bg-stone-300 hover:text-stone-700"
               }`}
               title="Plant info"
@@ -92,7 +104,7 @@ export default function ScheduleRow({ plant, selectedColor, onRemove, onColorCha
         </div>
         <button
           onClick={() => onRemove(plant.id)}
-          className="no-print shrink-0 w-6 h-6 rounded flex items-center justify-center text-stone-300 hover:text-red-500 hover:bg-red-50 transition-colors opacity-0 group-hover:opacity-100 text-lg"
+          className="no-print hidden sm:flex shrink-0 w-6 h-6 rounded items-center justify-center text-stone-300 hover:text-red-500 hover:bg-red-50 transition-colors opacity-0 group-hover:opacity-100 text-lg"
           title="Remove from plan"
         >
           ×
@@ -117,6 +129,7 @@ export default function ScheduleRow({ plant, selectedColor, onRemove, onColorCha
             className="h-8 sm:h-10 flex items-center"
             onMouseEnter={state === "bloom" ? handleBloomMouseEnter : undefined}
             onMouseLeave={state === "bloom" ? handleBloomMouseLeave : undefined}
+            onClick={state === "bloom" ? handleBloomClick : undefined}
           >
             <BloomBar
               state={state}
@@ -129,7 +142,7 @@ export default function ScheduleRow({ plant, selectedColor, onRemove, onColorCha
       })}
 
       {popover && (
-        <PlantPopover plant={popover.plant} anchorRect={popover.anchorRect} />
+        <PlantPopover plant={popover.plant} anchorRect={popover.anchorRect} onClose={close} onRemove={() => { onRemove(plant.id); close(); }} />
       )}
 
       {tooltip && pollinators && (

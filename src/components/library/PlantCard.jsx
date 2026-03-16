@@ -29,7 +29,7 @@ const MOISTURE_LABELS = {
 
 export default function PlantCard({ plant, isInPlan, onAdd, onRemove }) {
   const typeClass = TYPE_COLORS[plant.type] ?? "bg-stone-100 text-stone-700";
-  const { popover, onInfoClick } = usePopover();
+  const { popover, onInfoClick, close } = usePopover();
 
   return (
     <div
@@ -110,7 +110,7 @@ export default function PlantCard({ plant, isInPlan, onAdd, onRemove }) {
       </div>
 
       {popover && (
-        <PlantPopover plant={popover.plant} anchorRect={popover.anchorRect} />
+        <PlantPopover plant={popover.plant} anchorRect={popover.anchorRect} onClose={close} />
       )}
     </div>
   );

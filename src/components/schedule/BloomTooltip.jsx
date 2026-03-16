@@ -9,6 +9,14 @@ export default function BloomTooltip({ pollinators, anchorRect, onClose }) {
     return () => window.removeEventListener("scroll", handleScroll, true);
   }, [onClose]);
 
+  useEffect(() => {
+    const handleOutside = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) onClose();
+    };
+    document.addEventListener("pointerdown", handleOutside);
+    return () => document.removeEventListener("pointerdown", handleOutside);
+  }, [onClose]);
+
   if (!anchorRect) return null;
 
   const GAP = 6;
@@ -19,7 +27,7 @@ export default function BloomTooltip({ pollinators, anchorRect, onClose }) {
   return (
     <div
       ref={ref}
-      className="fixed z-50 pointer-events-none"
+      className="fixed z-50"
       style={{
         left,
         top,
