@@ -21,6 +21,7 @@ export default function BloomSchedule({ plants, plantColors, onRemove, onColorCh
 
   return (
     <div className="bloom-schedule-container overflow-x-auto rounded-xl border border-stone-200 bg-white shadow-sm">
+      <div className="min-w-[432px] lg:min-w-0 w-full">
       {/* Print-only title */}
       <div className="print-title px-4 pt-4 pb-2">
         <h1 className="text-lg font-semibold text-stone-800">NC Native Plant Bloom Schedule</h1>
@@ -44,6 +45,7 @@ export default function BloomSchedule({ plants, plantColors, onRemove, onColorCh
       </div>
 
       <ScheduleLegend plants={plants} plantColors={plantColors} />
+      </div>
     </div>
   );
 }

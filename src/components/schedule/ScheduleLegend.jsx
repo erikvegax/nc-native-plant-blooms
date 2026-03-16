@@ -27,7 +27,7 @@ export default function ScheduleLegend({ plants = [], plantColors = {} }) {
   ];
 
   return (
-    <div className="schedule-legend flex items-center gap-6 px-4 py-3 bg-stone-50 border-t border-stone-200 text-sm text-stone-500 flex-wrap">
+    <div className="schedule-legend flex items-center gap-x-4 gap-y-1.5 lg:gap-6 px-3 lg:px-4 py-2 lg:py-3 bg-stone-50 border-t border-stone-200 text-xs lg:text-sm text-stone-500 flex-wrap">
       <span className="font-semibold text-stone-600">Legend:</span>
 
       <span className="flex items-center gap-2 flex-wrap">
