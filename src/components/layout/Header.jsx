@@ -6,7 +6,7 @@ export default function Header({ planCount, onExport, onAbout }) {
       </h1>
       <div className="flex items-center gap-3">
         {planCount > 0 && (
-          <span className="text-sm text-stone-600">
+          <span className="hidden sm:inline text-sm text-stone-600">
             <span className="font-semibold text-green-700">{planCount}</span>{" "}
             {planCount === 1 ? "plant" : "plants"} in plan
           </span>
@@ -20,7 +20,7 @@ export default function Header({ planCount, onExport, onAbout }) {
         <button
           onClick={onExport}
           disabled={planCount === 0}
-          className="px-4 py-1.5 text-sm font-medium rounded-md bg-green-700 text-white hover:bg-green-800 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+          className="hidden sm:block px-4 py-1.5 text-sm font-medium rounded-md bg-green-700 text-white hover:bg-green-800 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
         >
           Export PDF
         </button>

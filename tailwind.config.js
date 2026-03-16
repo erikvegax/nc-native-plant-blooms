@@ -5,6 +5,7 @@ export default {
     extend: {
       gridTemplateColumns: {
         "bloom-chart": "200px repeat(12, minmax(0, 1fr))",
+        "bloom-chart-mobile": "120px repeat(12, 26px)",
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],

@@ -2,6 +2,7 @@ import { useState, useMemo } from "react";
 import plants from "./data/plants";
 import { filterAndSearch } from "./utils/filterUtils";
 import Header from "./components/layout/Header";
+import BottomNav from "./components/layout/BottomNav";
 import FilterPanel from "./components/library/FilterPanel";
 import SearchBar from "./components/library/SearchBar";
 import PlantLibrary from "./components/library/PlantLibrary";
@@ -25,6 +26,8 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filters, setFilters] = useState(INITIAL_FILTERS);
   const [showAbout, setShowAbout] = useState(false);
+  const [mobileTab, setMobileTab] = useState("schedule");
+  const [tabletPanel, setTabletPanel] = useState("plants");
   const [groups, setGroups] = useState(() => [makeGroup("Group 1", 0)]);
   const [activeGroupId, setActiveGroupId] = useState(() => groups[0].id);
 
@@ -43,6 +46,11 @@ export default function App() {
   const planPlants = useMemo(
     () => activeGroup.planIds.map((id) => plants.find((p) => p.id === id)).filter(Boolean),
     [activeGroup]
+  );
+
+  const activeFilterCount = useMemo(
+    () => Object.values(filters).reduce((sum, arr) => sum + arr.length, 0),
+    [filters]
   );
 
   // ─── Group handlers ────────────────────────────────────────────────────────
@@ -70,7 +78,7 @@ export default function App() {
     );
   };
 
-  // ─── Plant handlers (operate on active group) ──────────────────────────────
+  // ─── Plant handlers ────────────────────────────────────────────────────────
   const handleAddPlant = (id) => {
     setGroups((prev) =>
       prev.map((g) =>
@@ -110,14 +118,40 @@ export default function App() {
 
   const totalPlants = groups.reduce((sum, g) => sum + g.planIds.length, 0);
 
+  // Shared plant library JSX (used in both mobile panel and tablet combined panel)
+  const plantLibraryContent = (
+    <>
+      <div className="p-3 border-b border-stone-100 shrink-0">
+        <SearchBar value={searchQuery} onChange={setSearchQuery} />
+      </div>
+      <div className="flex-1 overflow-y-auto p-3 pt-2">
+        <PlantLibrary
+          plants={filteredPlants}
+          planIds={planIdsSet}
+          onAdd={(id) => { handleAddPlant(id); setMobileTab("schedule"); }}
+          onRemove={handleRemovePlant}
+        />
+      </div>
+    </>
+  );
+
   return (
     <div className="print-layout h-screen flex flex-col bg-stone-50 overflow-hidden">
       <Header planCount={totalPlants} onExport={handleExport} onAbout={() => setShowAbout(true)} />
       {showAbout && <AboutModal onClose={() => setShowAbout(false)} />}
 
-      <div className="print-content flex flex-1 overflow-hidden">
-        {/* Left sidebar — filters */}
-        <aside className="no-print w-52 shrink-0 overflow-y-auto border-r border-stone-200 bg-stone-50">
+      <div className="print-content flex flex-1 min-h-0 overflow-hidden">
+
+        {/* ── FILTER SIDEBAR
+              Mobile:  visible when mobileTab === 'filters', full width
+              Tablet:  hidden (handled by tablet combined panel)
+              Desktop: always visible, fixed width                        ── */}
+        <aside className={[
+          "no-print shrink-0 overflow-y-auto border-r border-stone-200 bg-stone-50",
+          mobileTab === "filters" ? "flex flex-col w-full" : "hidden",
+          "md:hidden",
+          "lg:flex lg:flex-col lg:w-52",
+        ].join(" ")}>
           <FilterPanel
             filters={filters}
             onChange={handleFilterChange}
@@ -125,23 +159,58 @@ export default function App() {
           />
         </aside>
 
-        {/* Center — plant library */}
-        <section className="no-print w-72 shrink-0 flex flex-col border-r border-stone-200 bg-white overflow-hidden">
-          <div className="p-3 border-b border-stone-100 shrink-0">
-            <SearchBar value={searchQuery} onChange={setSearchQuery} />
+        {/* ── TABLET COMBINED PANEL (md–lg only)
+              Left panel with Plants / Filters tab switcher              ── */}
+        <div className="no-print hidden md:flex lg:hidden w-64 shrink-0 flex-col border-r border-stone-200 bg-white overflow-hidden">
+          <div className="flex shrink-0 border-b border-stone-200">
+            {["plants", "filters"].map((p) => (
+              <button
+                key={p}
+                onClick={() => setTabletPanel(p)}
+                className={`flex-1 py-2 text-xs font-semibold uppercase tracking-wide transition-colors ${
+                  tabletPanel === p
+                    ? "text-green-700 border-b-2 border-green-700 -mb-px bg-white"
+                    : "text-stone-400 hover:text-stone-600"
+                }`}
+              >
+                {p === "plants" ? "Plants" : "Filters"}
+              </button>
+            ))}
           </div>
-          <div className="flex-1 overflow-y-auto p-3 pt-2">
-            <PlantLibrary
-              plants={filteredPlants}
-              planIds={planIdsSet}
-              onAdd={handleAddPlant}
-              onRemove={handleRemovePlant}
-            />
-          </div>
+          {tabletPanel === "plants" ? (
+            plantLibraryContent
+          ) : (
+            <div className="flex-1 overflow-y-auto">
+              <FilterPanel
+                filters={filters}
+                onChange={handleFilterChange}
+                onReset={handleFilterReset}
+              />
+            </div>
+          )}
+        </div>
+
+        {/* ── PLANT LIBRARY
+              Mobile:  visible when mobileTab === 'plants', full width
+              Tablet:  hidden (inside combined panel above)
+              Desktop: always visible, fixed width                        ── */}
+        <section className={[
+          "no-print shrink-0 flex-col border-r border-stone-200 bg-white overflow-hidden",
+          mobileTab === "plants" ? "flex w-full" : "hidden",
+          "md:hidden",
+          "lg:flex lg:w-72",
+        ].join(" ")}>
+          {plantLibraryContent}
         </section>
 
-        {/* Right — bloom schedule */}
-        <main className="print-main flex-1 overflow-auto p-4">
+        {/* ── BLOOM SCHEDULE
+              Mobile:  visible when mobileTab === 'schedule'
+              Tablet+: always visible                                      ── */}
+        <main className={[
+          "print-main flex-1 min-h-0 overflow-auto p-3 md:p-4 flex-col",
+          mobileTab === "schedule" ? "flex" : "hidden",
+          "md:flex",
+        ].join(" ")}>
           <GroupTabs
             groups={groups}
             activeGroupId={activeGroupId}
@@ -173,6 +242,14 @@ export default function App() {
           />
         </main>
       </div>
+
+      {/* Bottom nav — mobile only */}
+      <BottomNav
+        activeTab={mobileTab}
+        onChange={setMobileTab}
+        activeFilterCount={activeFilterCount}
+        planCount={activeGroup.planIds.length}
+      />
     </div>
   );
 }

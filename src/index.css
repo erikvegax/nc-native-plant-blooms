@@ -106,6 +106,12 @@
     position: static !important;
   }
 
+  /* ── Force full-width grid columns for print ──────────────── */
+  .month-header,
+  .schedule-row {
+    grid-template-columns: 200px repeat(12, minmax(0, 1fr)) !important;
+  }
+
   /* ── Print-only title ─────────────────────────────────────── */
   .print-title {
     display: block !important;

@@ -43,7 +43,7 @@ export default function ScheduleRow({ plant, selectedColor, onRemove, onColorCha
     : null;
 
   return (
-    <div className="schedule-row grid grid-cols-bloom-chart border-b border-stone-100 group hover:bg-stone-50 transition-colors">
+    <div className="schedule-row grid grid-cols-bloom-chart-mobile lg:grid-cols-bloom-chart border-b border-stone-100 group hover:bg-stone-50 transition-colors">
       {/* Plant name column */}
       <div className="schedule-row-label sticky left-0 z-10 bg-white group-hover:bg-stone-50 border-r border-stone-200 px-3 py-2 flex items-center justify-between gap-2 transition-colors">
         <div className="min-w-0">
@@ -61,7 +61,7 @@ export default function ScheduleRow({ plant, selectedColor, onRemove, onColorCha
               ℹ
             </button>
           </div>
-          <p className="text-xs text-stone-400 italic leading-tight truncate mt-0.5">
+          <p className="hidden sm:block text-xs text-stone-400 italic leading-tight truncate mt-0.5">
             {plant.scientificName}
           </p>
 
@@ -114,7 +114,7 @@ export default function ScheduleRow({ plant, selectedColor, onRemove, onColorCha
         return (
           <div
             key={month}
-            className="h-10 flex items-center"
+            className="h-8 sm:h-10 flex items-center"
             onMouseEnter={state === "bloom" ? handleBloomMouseEnter : undefined}
             onMouseLeave={state === "bloom" ? handleBloomMouseLeave : undefined}
           >

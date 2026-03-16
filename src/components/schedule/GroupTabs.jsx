@@ -31,7 +31,7 @@ export default function GroupTabs({ groups, activeGroupId, onSelect, onAdd, onRe
   };
 
   return (
-    <div className="no-print flex items-center gap-1 mb-3 border-b border-stone-200 pb-0">
+    <div className="no-print flex items-center gap-1 mb-3 border-b border-stone-200 pb-0 overflow-x-auto">
       {groups.map((group) => {
         const isActive = group.id === activeGroupId;
         return (
