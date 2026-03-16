@@ -111,7 +111,7 @@ export default function App() {
   const totalPlants = groups.reduce((sum, g) => sum + g.planIds.length, 0);
 
   return (
-    <div className="print-layout h-full flex flex-col bg-stone-50">
+    <div className="print-layout h-screen flex flex-col bg-stone-50 overflow-hidden">
       <Header planCount={totalPlants} onExport={handleExport} onAbout={() => setShowAbout(true)} />
       {showAbout && <AboutModal onClose={() => setShowAbout(false)} />}
 
