@@ -42,22 +42,21 @@ function FilterGroup({ title, options, selected, filterKey, onChange }) {
   );
 }
 
-export default function FilterPanel({ filters, onChange, onReset }) {
+export default function FilterPanel({ filters, onChange, onReset, showHeader = true }) {
   const hasActive = Object.values(filters).some((arr) => arr.length > 0);
 
   return (
     <div className="p-4">
-      <div className="flex items-center justify-between mb-4">
-        <h2 className="text-sm font-semibold text-stone-700 uppercase tracking-wide">Filters</h2>
-        {hasActive && (
-          <button
-            onClick={onReset}
-            className="text-sm text-green-700 hover:text-green-900 font-medium"
-          >
-            Clear all
-          </button>
-        )}
-      </div>
+      {showHeader && (
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-sm font-semibold text-stone-700 uppercase tracking-wide">Filters</h2>
+          {hasActive && (
+            <button onClick={onReset} className="text-sm text-green-700 hover:text-green-900 font-medium">
+              Clear all
+            </button>
+          )}
+        </div>
+      )}
 
       <FilterGroup
         title="Sun Exposure"

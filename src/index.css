@@ -121,3 +121,10 @@
 .print-title {
   display: none;
 }
+
+/* Close sub-pixel gaps between adjacent continuous bars (screen + print) */
+.bloom-bar-fill {
+  margin-left: -1px;
+  margin-right: -1px;
+  width: calc(100% + 2px);
+}

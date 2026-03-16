@@ -3,7 +3,7 @@ import plants from "./data/plants";
 import { filterAndSearch } from "./utils/filterUtils";
 import Header from "./components/layout/Header";
 import BottomNav from "./components/layout/BottomNav";
-import FilterPanel from "./components/library/FilterPanel";
+import FilterModal from "./components/library/FilterModal";
 import SearchBar from "./components/library/SearchBar";
 import PlantLibrary from "./components/library/PlantLibrary";
 import BloomSchedule from "./components/schedule/BloomSchedule";
@@ -26,8 +26,8 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filters, setFilters] = useState(INITIAL_FILTERS);
   const [showAbout, setShowAbout] = useState(false);
+  const [showFilterModal, setShowFilterModal] = useState(false);
   const [mobileTab, setMobileTab] = useState("schedule");
-  const [tabletPanel, setTabletPanel] = useState("plants");
   const [groups, setGroups] = useState(() => [makeGroup("Group 1", 0)]);
   const [activeGroupId, setActiveGroupId] = useState(() => groups[0].id);
 
@@ -118,11 +118,34 @@ export default function App() {
 
   const totalPlants = groups.reduce((sum, g) => sum + g.planIds.length, 0);
 
-  // Shared plant library JSX (used in both mobile panel and tablet combined panel)
-  const plantLibraryContent = (
+  // Plant library panel — shared between mobile and desktop
+  const plantsPanel = (
     <>
-      <div className="p-3 border-b border-stone-100 shrink-0">
-        <SearchBar value={searchQuery} onChange={setSearchQuery} />
+      {/* Search + filter button */}
+      <div className="p-3 border-b border-stone-100 shrink-0 flex gap-2 items-center">
+        <div className="flex-1">
+          <SearchBar value={searchQuery} onChange={setSearchQuery} />
+        </div>
+        <button
+          onClick={() => setShowFilterModal(true)}
+          title="Filter plants"
+          className={`shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border text-xs font-medium transition-colors ${
+            activeFilterCount > 0
+              ? "bg-green-50 text-green-700 border-green-300 hover:bg-green-100"
+              : "bg-white text-stone-500 border-stone-200 hover:border-stone-300 hover:text-stone-700"
+          }`}
+        >
+          <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+            <line x1="4" y1="6" x2="20" y2="6" />
+            <line x1="7" y1="12" x2="17" y2="12" />
+            <line x1="10" y1="18" x2="14" y2="18" />
+          </svg>
+          {activeFilterCount > 0 && (
+            <span className="bg-green-600 text-white rounded-full w-4 h-4 flex items-center justify-center text-[9px] font-bold leading-none">
+              {activeFilterCount}
+            </span>
+          )}
+        </button>
       </div>
       <div className="flex-1 overflow-y-auto p-3 pt-2">
         <PlantLibrary
@@ -138,69 +161,28 @@ export default function App() {
   return (
     <div className="print-layout h-screen flex flex-col bg-stone-50 overflow-hidden">
       <Header planCount={totalPlants} onExport={handleExport} onAbout={() => setShowAbout(true)} />
+
       {showAbout && <AboutModal onClose={() => setShowAbout(false)} />}
+      {showFilterModal && (
+        <FilterModal
+          filters={filters}
+          onChange={handleFilterChange}
+          onReset={handleFilterReset}
+          onClose={() => setShowFilterModal(false)}
+        />
+      )}
 
       <div className="print-content flex flex-1 min-h-0 overflow-hidden">
 
-        {/* ── FILTER SIDEBAR
-              Mobile:  visible when mobileTab === 'filters', full width
-              Tablet:  hidden (handled by tablet combined panel)
-              Desktop: always visible, fixed width                        ── */}
-        <aside className={[
-          "no-print shrink-0 overflow-y-auto border-r border-stone-200 bg-stone-50",
-          mobileTab === "filters" ? "flex flex-col w-full" : "hidden",
-          "md:hidden",
-          "lg:flex lg:flex-col lg:w-52",
-        ].join(" ")}>
-          <FilterPanel
-            filters={filters}
-            onChange={handleFilterChange}
-            onReset={handleFilterReset}
-          />
-        </aside>
-
-        {/* ── TABLET COMBINED PANEL (md–lg only)
-              Left panel with Plants / Filters tab switcher              ── */}
-        <div className="no-print hidden md:flex lg:hidden w-64 shrink-0 flex-col border-r border-stone-200 bg-white overflow-hidden">
-          <div className="flex shrink-0 border-b border-stone-200">
-            {["plants", "filters"].map((p) => (
-              <button
-                key={p}
-                onClick={() => setTabletPanel(p)}
-                className={`flex-1 py-2 text-xs font-semibold uppercase tracking-wide transition-colors ${
-                  tabletPanel === p
-                    ? "text-green-700 border-b-2 border-green-700 -mb-px bg-white"
-                    : "text-stone-400 hover:text-stone-600"
-                }`}
-              >
-                {p === "plants" ? "Plants" : "Filters"}
-              </button>
-            ))}
-          </div>
-          {tabletPanel === "plants" ? (
-            plantLibraryContent
-          ) : (
-            <div className="flex-1 overflow-y-auto">
-              <FilterPanel
-                filters={filters}
-                onChange={handleFilterChange}
-                onReset={handleFilterReset}
-              />
-            </div>
-          )}
-        </div>
-
         {/* ── PLANT LIBRARY
               Mobile:  visible when mobileTab === 'plants', full width
-              Tablet:  hidden (inside combined panel above)
-              Desktop: always visible, fixed width                        ── */}
+              Tablet+: always visible, fixed width                        ── */}
         <section className={[
           "no-print shrink-0 flex-col border-r border-stone-200 bg-white overflow-hidden",
           mobileTab === "plants" ? "flex w-full" : "hidden",
-          "md:hidden",
-          "lg:flex lg:w-72",
+          "md:flex md:w-72",
         ].join(" ")}>
-          {plantLibraryContent}
+          {plantsPanel}
         </section>
 
         {/* ── BLOOM SCHEDULE

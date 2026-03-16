@@ -1,12 +1,12 @@
 const TABS = [
   {
-    id: "filters",
-    label: "Filters",
+    id: "schedule",
+    label: "Schedule",
     icon: (
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-        <line x1="4" y1="6" x2="20" y2="6" />
-        <line x1="7" y1="12" x2="17" y2="12" />
-        <line x1="10" y1="18" x2="14" y2="18" />
+        <line x1="3" y1="7" x2="10" y2="7" />
+        <line x1="3" y1="12" x2="16" y2="12" />
+        <line x1="3" y1="17" x2="13" y2="17" />
       </svg>
     ),
   },
@@ -21,17 +21,6 @@ const TABS = [
       </svg>
     ),
   },
-  {
-    id: "schedule",
-    label: "Schedule",
-    icon: (
-      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-        <line x1="3" y1="7" x2="10" y2="7" />
-        <line x1="3" y1="12" x2="16" y2="12" />
-        <line x1="3" y1="17" x2="13" y2="17" />
-      </svg>
-    ),
-  },
 ];
 
 export default function BottomNav({ activeTab, onChange, activeFilterCount, planCount }) {
@@ -42,9 +31,10 @@ export default function BottomNav({ activeTab, onChange, activeFilterCount, plan
     >
       {TABS.map(({ id, label, icon }) => {
         const isActive = activeTab === id;
+        // Show filter count badge on plants tab, plan count badge on schedule tab
         const badge =
-          id === "filters" ? activeFilterCount :
-          id === "plants"  ? planCount : 0;
+          id === "plants" ? activeFilterCount :
+          id === "schedule" ? planCount : 0;
 
         return (
           <button

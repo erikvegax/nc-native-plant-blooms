@@ -9,7 +9,7 @@ export default function BloomBar({ state, color, isFirst, isLast }) {
   if (state === "dormant") {
     return (
       <div className="h-full w-full flex items-center px-1">
-        <div className="bloom-bar-fill w-full h-3 rounded bg-stone-100" />
+        <div className="w-full h-3 rounded bg-stone-100" />
       </div>
     );
   }
