@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-import { BLOOM_COLOR_MAP } from "../../data/plants";
+import { BLOOM_COLOR_MAP, BERRY_COLOR_MAP } from "../../data/plants";
 import { FALL_COLOR_DATA } from "../../data/fallColorData";
 import { POLLINATOR_DATA } from "../../data/pollinatorData";
 import BloomBar from "./BloomBar";
@@ -8,7 +8,7 @@ import { usePopover } from "../../utils/usePopover";
 import PlantPopover from "../shared/PlantPopover";
 
 export default function ScheduleRow({ plant, selectedColor, onRemove, onColorChange }) {
-  const { popover, onInfoClick, close } = usePopover();
+  const { popover, popoverRef, onInfoClick, onInfoMouseEnter, onInfoMouseLeave, onPopoverMouseEnter, onPopoverMouseLeave, close } = usePopover();
   const [tooltip, setTooltip] = useState(null);
 
   const pollinators = POLLINATOR_DATA[plant.id];
@@ -41,14 +41,25 @@ export default function ScheduleRow({ plant, selectedColor, onRemove, onColorCha
     ? BLOOM_COLOR_MAP[fallData.fallColors[0]] ?? fallData.fallColors[0]
     : null;
 
-  const cellStates = months.map((month) => ({
-    month,
-    state:
-      plant.bloomMonths.includes(month)   ? "bloom"
-      : fallColorMonths.includes(month)   ? "fall-color"
-      : plant.activeMonths.includes(month) ? "active"
-      : "dormant",
-  }));
+  const berryMonths = plant.berryMonths ?? [];
+  const berryColorHex = plant.berryColor ? (BERRY_COLOR_MAP[plant.berryColor] ?? plant.berryColor) : null;
+
+  const cellStates = months.map((month, idx) => {
+    const prevMonth = idx > 0 ? months[idx - 1] : null;
+    const nextMonth = idx < 11 ? months[idx + 1] : null;
+    const hasBerry = berryMonths.includes(month);
+    return {
+      month,
+      state:
+        plant.bloomMonths.includes(month)    ? "bloom"
+        : fallColorMonths.includes(month)    ? "fall-color"
+        : plant.activeMonths.includes(month) ? "active"
+        : "dormant",
+      hasBerry,
+      berryIsFirst: hasBerry && !berryMonths.includes(prevMonth),
+      berryIsLast:  hasBerry && !berryMonths.includes(nextMonth),
+    };
+  });
 
   const bloomColor = plant.bloomColors.length > 0
     ? BLOOM_COLOR_MAP[selectedColor] ?? selectedColor
@@ -65,6 +76,8 @@ export default function ScheduleRow({ plant, selectedColor, onRemove, onColorCha
             </p>
             <button
               onClick={(e) => onInfoClick(plant, e)}
+              onMouseEnter={(e) => onInfoMouseEnter(plant, e)}
+              onMouseLeave={() => onInfoMouseLeave()}
               className={`no-print shrink-0 w-4 h-4 sm:w-5 sm:h-5 rounded-full flex items-center justify-center text-[10px] sm:text-sm font-bold transition-colors ${
                 popover ? "bg-green-700 text-white" : "bg-stone-200 text-stone-500 hover:bg-stone-300 hover:text-stone-700"
               }`}
@@ -112,7 +125,7 @@ export default function ScheduleRow({ plant, selectedColor, onRemove, onColorCha
       </div>
 
       {/* Month cells */}
-      {cellStates.map(({ month, state }, idx) => {
+      {cellStates.map(({ month, state, hasBerry, berryIsFirst, berryIsLast }, idx) => {
         const prevState = idx > 0 ? cellStates[idx - 1].state : null;
         const nextState = idx < 11 ? cellStates[idx + 1].state : null;
 
@@ -136,13 +149,16 @@ export default function ScheduleRow({ plant, selectedColor, onRemove, onColorCha
               color={color}
               isFirst={isFirst}
               isLast={isLast}
+              berryColor={hasBerry ? berryColorHex : null}
+              berryIsFirst={berryIsFirst}
+              berryIsLast={berryIsLast}
             />
           </div>
         );
       })}
 
       {popover && (
-        <PlantPopover plant={popover.plant} anchorRect={popover.anchorRect} onClose={close} onRemove={() => { onRemove(plant.id); close(); }} />
+        <PlantPopover plant={popover.plant} anchorRect={popover.anchorRect} onClose={close} onRemove={() => { onRemove(plant.id); close(); }} popoverRef={popoverRef} onMouseEnter={onPopoverMouseEnter} onMouseLeave={onPopoverMouseLeave} />
       )}
 
       {tooltip && pollinators && (

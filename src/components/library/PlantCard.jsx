@@ -29,7 +29,7 @@ const MOISTURE_LABELS = {
 
 export default function PlantCard({ plant, isInPlan, onAdd, onRemove }) {
   const typeClass = TYPE_COLORS[plant.type] ?? "bg-stone-100 text-stone-700";
-  const { popover, onInfoClick, close } = usePopover();
+  const { popover, popoverRef, onInfoClick, onInfoMouseEnter, onInfoMouseLeave, onPopoverMouseEnter, onPopoverMouseLeave, close } = usePopover();
 
   return (
     <div
@@ -57,6 +57,8 @@ export default function PlantCard({ plant, isInPlan, onAdd, onRemove }) {
             </p>
             <button
               onClick={(e) => onInfoClick(plant, e)}
+              onMouseEnter={(e) => onInfoMouseEnter(plant, e)}
+              onMouseLeave={() => onInfoMouseLeave()}
               className={`shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-sm font-bold transition-colors ${
                 popover ? "bg-green-700 text-white" : "bg-stone-200 text-stone-500 hover:bg-stone-300 hover:text-stone-700"
               }`}
@@ -110,7 +112,7 @@ export default function PlantCard({ plant, isInPlan, onAdd, onRemove }) {
       </div>
 
       {popover && (
-        <PlantPopover plant={popover.plant} anchorRect={popover.anchorRect} onClose={close} />
+        <PlantPopover plant={popover.plant} anchorRect={popover.anchorRect} onClose={close} popoverRef={popoverRef} onMouseEnter={onPopoverMouseEnter} onMouseLeave={onPopoverMouseLeave} />
       )}
     </div>
   );

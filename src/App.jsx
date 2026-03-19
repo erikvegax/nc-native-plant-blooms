@@ -16,6 +16,10 @@ const INITIAL_FILTERS = {
   soil: [],
   size: [],
   type: [],
+  bloomMonth: [],
+  bloomColor: [],
+  spreading: [],
+  berryInterest: [],
 };
 
 function makeGroup(name, index) {
