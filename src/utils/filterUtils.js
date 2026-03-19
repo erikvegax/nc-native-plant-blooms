@@ -29,10 +29,47 @@ export function filterAndSearch(plants, filters, query) {
       return false;
     if (filters.type.length && !filters.type.includes(plant.type))
       return false;
+    if (
+      filters.bloomMonth.length &&
+      !filters.bloomMonth.some((m) => plant.bloomMonths.includes(Number(m)))
+    )
+      return false;
+    if (
+      filters.bloomColor.length &&
+      !filters.bloomColor.some((c) => {
+        const specific = BLOOM_COLOR_GROUPS[c] ?? [c];
+        return specific.some((s) => plant.bloomColors.includes(s));
+      })
+    )
+      return false;
+    if (
+      filters.berryInterest.length &&
+      filters.berryInterest.includes("has-berries") &&
+      (!plant.berryMonths || plant.berryMonths.length === 0)
+    )
+      return false;
+
+    if (filters.spreading.length) {
+      const wantsSpreading = filters.spreading.includes("spreading");
+      const wantsNonSpreading = filters.spreading.includes("non-spreading");
+      if (wantsSpreading && !wantsNonSpreading && !plant.spreading) return false;
+      if (wantsNonSpreading && !wantsSpreading && plant.spreading) return false;
+    }
 
     return true;
   });
 }
+
+const BLOOM_COLOR_GROUPS = {
+  white:  ["white", "cream"],
+  pink:   ["pink", "deep-pink", "magenta"],
+  red:    ["red", "red-orange", "brick-red", "maroon"],
+  orange: ["orange", "red-orange"],
+  yellow: ["yellow", "golden-yellow", "pale-yellow"],
+  purple: ["purple", "blue-purple", "blue-violet", "violet", "lavender", "pale-lavender"],
+  blue:   ["blue", "sky-blue"],
+  bronze: ["bronze"],
+};
 
 export const FILTER_OPTIONS = {
   sun: [
@@ -67,5 +104,36 @@ export const FILTER_OPTIONS = {
     { value: "fern", label: "Fern" },
     { value: "groundcover", label: "Groundcover" },
     { value: "vine", label: "Vine" },
+  ],
+  bloomMonth: [
+    { value: "1", label: "January" },
+    { value: "2", label: "February" },
+    { value: "3", label: "March" },
+    { value: "4", label: "April" },
+    { value: "5", label: "May" },
+    { value: "6", label: "June" },
+    { value: "7", label: "July" },
+    { value: "8", label: "August" },
+    { value: "9", label: "September" },
+    { value: "10", label: "October" },
+    { value: "11", label: "November" },
+    { value: "12", label: "December" },
+  ],
+  bloomColor: [
+    { value: "white",  label: "White / Cream" },
+    { value: "pink",   label: "Pink / Magenta" },
+    { value: "red",    label: "Red" },
+    { value: "orange", label: "Orange" },
+    { value: "yellow", label: "Yellow" },
+    { value: "purple", label: "Purple / Lavender" },
+    { value: "blue",   label: "Blue" },
+    { value: "bronze", label: "Bronze" },
+  ],
+  spreading: [
+    { value: "spreading", label: "Spreads / Colonizes" },
+    { value: "non-spreading", label: "Clumping / Non-spreading" },
+  ],
+  berryInterest: [
+    { value: "has-berries", label: "Has Berry / Fruit Interest" },
   ],
 };

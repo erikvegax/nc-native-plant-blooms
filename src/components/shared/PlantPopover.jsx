@@ -15,10 +15,11 @@ const MOISTURE_LABELS = {
   wet: "Wet",
 };
 
-export default function PlantPopover({ plant, anchorRect, onClose, onRemove }) {
+export default function PlantPopover({ plant, anchorRect, onClose, onRemove, popoverRef: externalRef, onMouseEnter, onMouseLeave }) {
   const [imageData, setImageData] = useState(null);
   const [imageLoading, setImageLoading] = useState(true);
-  const popoverRef = useRef(null);
+  const localRef = useRef(null);
+  const popoverRef = externalRef ?? localRef;
 
   useEffect(() => {
     let cancelled = false;
@@ -61,6 +62,8 @@ export default function PlantPopover({ plant, anchorRect, onClose, onRemove }) {
     <div
       ref={popoverRef}
       onMouseDown={(e) => e.stopPropagation()}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
       className="fixed z-50 bg-white border border-stone-200 rounded-xl shadow-xl overflow-y-auto overflow-x-hidden"
       style={{ width: POPOVER_WIDTH, maxHeight: MAX_HEIGHT, top, left }}
     >
@@ -129,8 +132,18 @@ export default function PlantPopover({ plant, anchorRect, onClose, onRemove }) {
             </span>
           ))}
           <span className="text-xs bg-stone-50 text-stone-700 border border-stone-200 px-2 py-0.5 rounded-full">
-            {plant.heightMin}–{plant.heightMax}′
+            {plant.heightMin}–{plant.heightMax}′ tall
           </span>
+          {plant.spreadMin != null && (
+            <span className="text-xs bg-stone-50 text-stone-700 border border-stone-200 px-2 py-0.5 rounded-full">
+              {plant.spreadMin}–{plant.spreadMax}′ wide
+            </span>
+          )}
+          {plant.spreading && (
+            <span className="text-xs bg-orange-50 text-orange-700 border border-orange-200 px-2 py-0.5 rounded-full">
+              Spreads
+            </span>
+          )}
           {plant.evergreen && (
             <span className="text-xs bg-green-50 text-green-800 border border-green-200 px-2 py-0.5 rounded-full">
               Evergreen

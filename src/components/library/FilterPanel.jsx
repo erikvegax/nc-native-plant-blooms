@@ -93,6 +93,34 @@ export default function FilterPanel({ filters, onChange, onReset, showHeader = t
         filterKey="type"
         onChange={onChange}
       />
+      <FilterGroup
+        title="Bloom Month"
+        options={FILTER_OPTIONS.bloomMonth}
+        selected={filters.bloomMonth}
+        filterKey="bloomMonth"
+        onChange={onChange}
+      />
+      <FilterGroup
+        title="Bloom Color"
+        options={FILTER_OPTIONS.bloomColor}
+        selected={filters.bloomColor}
+        filterKey="bloomColor"
+        onChange={onChange}
+      />
+      <FilterGroup
+        title="Spreading Habit"
+        options={FILTER_OPTIONS.spreading}
+        selected={filters.spreading}
+        filterKey="spreading"
+        onChange={onChange}
+      />
+      <FilterGroup
+        title="Berry / Fruit Interest"
+        options={FILTER_OPTIONS.berryInterest}
+        selected={filters.berryInterest}
+        filterKey="berryInterest"
+        onChange={onChange}
+      />
     </div>
   );
 }

@@ -74,6 +74,12 @@ export default function ScheduleLegend({ plants = [], plantColors = {} }) {
         <span className="w-8 h-4 rounded bg-stone-100 border border-stone-300" />
         Dormant
       </span>
+      <span className="flex items-center gap-2">
+        <span className="relative w-8 h-4 rounded bg-stone-100 border border-stone-300 overflow-hidden">
+          <span className="absolute bottom-0 left-0 right-0 h-1.5 rounded" style={{ backgroundColor: "#d94040" }} />
+        </span>
+        Berry / Fruit
+      </span>
     </div>
   );
 }
