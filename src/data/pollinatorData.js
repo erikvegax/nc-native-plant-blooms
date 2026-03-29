@@ -82,4 +82,30 @@ export const POLLINATOR_DATA = {
   "coral-honeysuckle": ["ruby-throated hummingbird", "bumblebees", "hummingbird clearwing moth"],
   "crossvine": ["ruby-throated hummingbird", "bumblebees"],
   "virgins-bower": ["native bees", "bumblebees", "wasps"],
+
+  // ─── ADDITIONAL TREES ───────────────────────────────────────────────────────
+  "sassafras": ["native bees", "spicebush swallowtail"],
+  "painted-buckeye": ["ruby-throated hummingbird", "bumblebees", "eastern tiger swallowtail"],
+
+  // ─── ADDITIONAL SHRUBS ──────────────────────────────────────────────────────
+  "summersweet": ["native bees", "bumblebees", "monarch butterfly", "ruby-throated hummingbird"],
+  "arrowwood-viburnum": ["native bees", "bumblebees", "spring azure butterfly", "beetles"],
+  "rosebay-rhododendron": ["bumblebees", "native bees", "ruby-throated hummingbird"],
+  "highbush-blueberry": ["native bees", "bumblebees", "honeybees"],
+  "carolina-rose": ["native bees", "bumblebees", "eastern tiger swallowtail"],
+  "dwarf-fothergilla": ["native bees", "bumblebees", "honeybees"],
+
+  // ─── ADDITIONAL PERENNIALS ──────────────────────────────────────────────────
+  "indian-pink": ["ruby-throated hummingbird", "hummingbird clearwing moth", "eastern tiger swallowtail"],
+  "blazing-star": ["monarch butterfly", "eastern tiger swallowtail", "bumblebees", "native bees", "goldfinches (seeds)"],
+  "threadleaf-coreopsis": ["native bees", "bumblebees", "skipper butterflies", "goldfinches (seeds)"],
+  "swamp-hibiscus": ["ruby-throated hummingbird", "bumblebees", "native bees", "Ptilothrix bees (specialist)"],
+  "swamp-sunflower": ["monarch butterfly", "native bees", "bumblebees", "goldfinches (seeds)"],
+  "golden-alexanders": ["black swallowtail (host)", "native bees", "bumblebees", "beneficial wasps"],
+  "wild-lupine": ["bumblebees", "native bees", "Lupinus specialist bees"],
+  "blue-sage": ["monarch butterfly", "bumblebees", "native bees", "ruby-throated hummingbird"],
+  "virginia-bluebells": ["ruby-throated hummingbird", "bumblebees", "native bees", "hummingbird clearwing moth"],
+
+  // ─── ADDITIONAL GROUNDCOVERS ────────────────────────────────────────────────
+  "partridgeberry": ["native bees", "bumblebees"],
 };

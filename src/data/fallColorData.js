@@ -96,4 +96,46 @@ export const FALL_COLOR_DATA = {
     fallColors: ["fall-orange", "copper"],
     fallColorMonths: [10, 11],
   },
+
+  // ─── ADDITIONAL TREES ───────────────────────────────────────────────────────
+  "sassafras": {
+    fallColors: ["scarlet", "fall-orange", "golden-yellow"],
+    fallColorMonths: [10, 11],
+  },
+  "sweetgum": {
+    fallColors: ["scarlet", "crimson", "burgundy", "fall-orange"],
+    fallColorMonths: [10, 11],
+  },
+  "painted-buckeye": {
+    fallColors: ["golden-yellow"],
+    fallColorMonths: [10],
+  },
+
+  // ─── ADDITIONAL SHRUBS ──────────────────────────────────────────────────────
+  "summersweet": {
+    fallColors: ["golden-yellow"],
+    fallColorMonths: [10],
+  },
+  "arrowwood-viburnum": {
+    fallColors: ["burgundy", "scarlet"],
+    fallColorMonths: [10, 11],
+  },
+  "highbush-blueberry": {
+    fallColors: ["scarlet", "crimson"],
+    fallColorMonths: [10, 11],
+  },
+  "dwarf-fothergilla": {
+    fallColors: ["scarlet", "fall-orange", "golden-yellow"],
+    fallColorMonths: [10, 11],
+  },
+
+  // ─── ADDITIONAL GRASSES ─────────────────────────────────────────────────────
+  "big-bluestem": {
+    fallColors: ["copper", "fall-orange"],
+    fallColorMonths: [10, 11],
+  },
+  "indian-grass": {
+    fallColors: ["golden-yellow", "copper"],
+    fallColorMonths: [10, 11],
+  },
 };
