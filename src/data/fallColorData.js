@@ -137,5 +137,83 @@ export const FALL_COLOR_DATA = {
   "indian-grass": {
     fallColors: ["golden-yellow", "copper"],
     fallColorMonths: [10, 11],
+  },,
+
+  // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
+  "white-oak": {
+    fallColors: ["crimson","burgundy"],
+    fallColorMonths: [10,11],
+  },
+  "southern-red-oak": {
+    fallColors: ["fall-orange","copper"],
+    fallColorMonths: [10,11],
+  },
+  "willow-oak": {
+    fallColors: ["golden-yellow","fall-orange"],
+    fallColorMonths: [10,11],
+  },
+  "chestnut-oak": {
+    fallColors: ["golden-yellow","fall-orange"],
+    fallColorMonths: [10,11],
+  },
+  "scarlet-oak": {
+    fallColors: ["scarlet","crimson"],
+    fallColorMonths: [10,11],
+  },
+  "american-beech": {
+    fallColors: ["golden-yellow","copper"],
+    fallColorMonths: [10,11],
+  },
+  "shagbark-hickory": {
+    fallColors: ["golden-yellow"],
+    fallColorMonths: [10],
+  },
+  "mockernut-hickory": {
+    fallColors: ["golden-yellow"],
+    fallColorMonths: [10],
+  },
+  "pignut-hickory": {
+    fallColors: ["golden-yellow"],
+    fallColorMonths: [10],
+  },
+  "bitternut-hickory": {
+    fallColors: ["golden-yellow"],
+    fallColorMonths: [10],
+  },
+  "red-maple": {
+    fallColors: ["scarlet","fall-orange"],
+    fallColorMonths: [10,11],
+  },
+  "sugar-maple": {
+    fallColors: ["scarlet","fall-orange","golden-yellow"],
+    fallColorMonths: [10],
+  },
+  "american-hornbeam": {
+    fallColors: ["fall-orange","scarlet"],
+    fallColorMonths: [10,11],
+  },
+  "hophornbeam": {
+    fallColors: ["golden-yellow"],
+    fallColorMonths: [10],
+  },
+  "white-ash": {
+    fallColors: ["burgundy","crimson"],
+    fallColorMonths: [10,11],
+  },
+  "green-ash": {
+    fallColors: ["golden-yellow"],
+    fallColorMonths: [10],
+  },
+  "bald-cypress": {
+    fallColors: ["copper","fall-orange"],
+    fallColorMonths: [10,11],
+  },
+  "water-tupelo": {
+    fallColors: ["scarlet","crimson"],
+    fallColorMonths: [10],
+  },
+  "pond-cypress": {
+    fallColors: ["copper","fall-orange"],
+    fallColorMonths: [10,11],
   },
 };

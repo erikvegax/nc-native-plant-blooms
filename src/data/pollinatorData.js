@@ -107,5 +107,19 @@ export const POLLINATOR_DATA = {
   "virginia-bluebells": ["ruby-throated hummingbird", "bumblebees", "native bees", "hummingbird clearwing moth"],
 
   // ─── ADDITIONAL GROUNDCOVERS ────────────────────────────────────────────────
-  "partridgeberry": ["native bees", "bumblebees"],
+  "partridgeberry": ["native bees", "bumblebees"],,
+
+  // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
+  "red-maple": ["native bees","honeybees"],
+  "sugar-maple": ["native bees","honeybees"],
+  "black-cherry": ["native bees","bumblebees","honeybees","butterflies"],
+  "american-plum": ["native bees","bumblebees","honeybees"],
+  "chickasaw-plum": ["native bees","bumblebees","honeybees"],
+  "american-basswood": ["honeybees","native bees","bumblebees"],
+  "yellow-buckeye": ["ruby-throated hummingbird","bumblebees","eastern tiger swallowtail"],
+  "black-locust": ["honeybees","native bees","bumblebees"],
+  "cucumber-magnolia": ["beetles"],
+  "fraser-magnolia": ["beetles"],
+  "bigleaf-magnolia": ["beetles"],
+  "kentucky-coffeetree": ["native bees","bumblebees"],
 };
