@@ -278,5 +278,19 @@ export const FALL_COLOR_DATA = {
   "bowmans-root": {
     fallColors: ["crimson","fall-orange"],
     fallColorMonths: [10,11],
+  },,
+
+  // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
+  "broomsedge-bluestem": {
+    fallColors: ["copper","fall-orange"],
+    fallColorMonths: [10,11],
+  },
+  "bushy-bluestem": {
+    fallColors: ["fall-orange","copper"],
+    fallColorMonths: [10,11],
+  },
+  "prairie-dropseed": {
+    fallColors: ["golden-yellow","fall-orange"],
+    fallColorMonths: [10,11],
   },
 };

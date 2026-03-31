@@ -11199,6 +11199,3042 @@ const plants = [
       "evergreen",
       "fall-blooming"
     ]
+  },,
+
+  // ─── ADDITIONAL PLANTS (batch-merged) ─────────────────────────────────────
+  {
+    "id": "purpletop-grass",
+    "name": "Purpletop Grass",
+    "scientificName": "Tridens flavus",
+    "type": "grass",
+    "heightMin": 3,
+    "heightMax": 5,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ],
+    "bloomMonths": [
+      8,
+      9,
+      10
+    ],
+    "bloomColors": [
+      "purple"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Open, drooping panicles of dark purple spikelets top tall stems in late summer. Extremely common roadside grass throughout NC. Oily seeds leave purple stains. Easy to establish and naturalizes freely.",
+    "wildlifeValue": "Seeds eaten by sparrows and juncos; cover for ground-nesting birds",
+    "specialFeatures": [
+      "fall-interest",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "broomsedge-bluestem",
+    "name": "Broomsedge Bluestem",
+    "scientificName": "Andropogon virginicus",
+    "type": "grass",
+    "heightMin": 2,
+    "heightMax": 4,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "clay",
+      "sandy"
+    ],
+    "bloomMonths": [
+      9,
+      10
+    ],
+    "bloomColors": [
+      "bronze"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Iconic warm-season bunchgrass that turns coppery-orange in fall and persists through winter. Often the first grass to colonize old fields. Fluffy white seed heads catch the light beautifully in low winter sun.",
+    "wildlifeValue": "Sparrows and ground-nesting birds; cover for wildlife year-round",
+    "specialFeatures": [
+      "winter-interest",
+      "fall-color"
+    ]
+  },
+  {
+    "id": "split-beard-bluestem",
+    "name": "Split-beard Bluestem",
+    "scientificName": "Andropogon ternarius",
+    "type": "grass",
+    "heightMin": 2,
+    "heightMax": 4,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry"
+    ],
+    "soil": [
+      "sandy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      9,
+      10
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Pairs of fluffy silvery-white seed heads that split apart give this grass its common name. Striking winter display when backlit. Grows in dry, infertile soils where few other grasses thrive.",
+    "wildlifeValue": "Cover and seeds for birds; nesting material",
+    "specialFeatures": [
+      "winter-interest",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "bushy-bluestem",
+    "name": "Bushy Bluestem",
+    "scientificName": "Andropogon glomeratus",
+    "type": "grass",
+    "heightMin": 3,
+    "heightMax": 5,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ],
+    "bloomMonths": [
+      9,
+      10,
+      11
+    ],
+    "bloomColors": [
+      "bronze"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Dense, bushy clusters of coppery seed heads packed tightly at the top of stems. Found in wet ditches, seeps, and pond margins. Turns rich orange-bronze in fall. One of the showiest native grasses for moist sites.",
+    "wildlifeValue": "Cover for sparrows and wrens; seeds for small birds",
+    "specialFeatures": [
+      "fall-color",
+      "wetland"
+    ]
+  },
+  {
+    "id": "wiregrass",
+    "name": "Wiregrass",
+    "scientificName": "Aristida stricta",
+    "type": "grass",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry"
+    ],
+    "soil": [
+      "sandy"
+    ],
+    "bloomMonths": [
+      9,
+      10
+    ],
+    "bloomColors": [
+      "bronze"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "The signature grass of longleaf pine savannas — wiry, tufted, and fire-adapted. Blooms most prolifically after fire. Historically the dominant groundcover across millions of acres of the SE Coastal Plain.",
+    "wildlifeValue": "Essential groundcover for longleaf pine ecosystem wildlife",
+    "specialFeatures": [
+      "fire-adapted",
+      "evergreen"
+    ]
+  },
+  {
+    "id": "pink-muhly-grass",
+    "name": "Pink Muhly Grass",
+    "scientificName": "Muhlenbergia capillaris",
+    "type": "grass",
+    "heightMin": 2,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [
+      9,
+      10,
+      11
+    ],
+    "bloomColors": [
+      "pink"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Spectacular billowing clouds of bright pink flower panicles in fall make this one of the showiest native grasses. Fine-textured clumping grass that is drought-tolerant once established. A landscape favorite.",
+    "wildlifeValue": "Seeds for sparrows; cover for small wildlife",
+    "specialFeatures": [
+      "fall-blooming",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "deer-tongue-grass",
+    "name": "Deer Tongue Grass",
+    "scientificName": "Dichanthelium clandestinum",
+    "type": "grass",
+    "heightMin": 2,
+    "heightMax": 4,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      6,
+      7
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Broad-leaved warm-season grass with bamboo-like stems and open panicles. Common in moist meadows and woodland edges. The wide, tongue-shaped leaves are distinctive among native grasses.",
+    "wildlifeValue": "Seeds important for turkey and quail; deer browse the leaves",
+    "specialFeatures": [
+      "wildlife",
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "bottlebrush-grass",
+    "name": "Bottlebrush Grass",
+    "scientificName": "Elymus hystrix",
+    "type": "grass",
+    "heightMin": 2,
+    "heightMax": 4,
+    "sizeCategory": "medium",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "dry"
+    ],
+    "soil": [
+      "loamy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      6,
+      7
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Distinctive spiky seed heads resemble bottle brushes — the spikelets spread outward at right angles. One of the best native grasses for shade. Cool-season grass that greens up early and tolerates dry woodland conditions.",
+    "wildlifeValue": "Seeds eaten by woodland birds; turkeys especially",
+    "specialFeatures": [
+      "shade-tolerant",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "virginia-wild-rye",
+    "name": "Virginia Wild Rye",
+    "scientificName": "Elymus virginicus",
+    "type": "grass",
+    "heightMin": 2,
+    "heightMax": 4,
+    "sizeCategory": "medium",
+    "sun": [
+      "part-shade",
+      "full-sun"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      6,
+      7
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "Robust cool-season bunchgrass with arching seed heads. Common along streams, woodland edges, and floodplains. Green up early in spring, providing erosion control and early season structure.",
+    "wildlifeValue": "Seeds for sparrows and small birds; erosion control on stream banks",
+    "specialFeatures": [
+      "erosion-control",
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "soft-rush",
+    "name": "Soft Rush",
+    "scientificName": "Juncus effusus",
+    "type": "grass",
+    "heightMin": 2,
+    "heightMax": 4,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ],
+    "bloomMonths": [
+      6,
+      7,
+      8
+    ],
+    "bloomColors": [
+      "bronze"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Dense clumps of round, dark green stems topped with loose clusters of tiny brown flowers. One of the most common and useful wetland plants for rain gardens, bioswales, and pond edges. Evergreen in mild winters.",
+    "wildlifeValue": "Cover for frogs, toads, and birds; waterfowl nesting habitat",
+    "specialFeatures": [
+      "rain-garden",
+      "evergreen",
+      "wetland"
+    ]
+  },
+  {
+    "id": "fox-sedge",
+    "name": "Fox Sedge",
+    "scientificName": "Carex vulpinoidea",
+    "type": "grass",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ],
+    "bloomMonths": [
+      5,
+      6,
+      7
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "Dense spiky seed heads resemble a fox's bushy tail. A clumping wetland sedge excellent for rain gardens and wet meadows. Tolerates periodic flooding and helps filter stormwater runoff.",
+    "wildlifeValue": "Seeds for wetland birds; cover for amphibians",
+    "specialFeatures": [
+      "rain-garden",
+      "wetland"
+    ]
+  },
+  {
+    "id": "tussock-sedge",
+    "name": "Tussock Sedge",
+    "scientificName": "Carex stricta",
+    "type": "grass",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      4,
+      5,
+      6
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "Forms distinctive raised tussocks (mounds) in wetlands and along streams. Fine-textured arching leaves fountain outward. The tussock microhabitat supports diverse insect and amphibian communities.",
+    "wildlifeValue": "Tussocks provide nesting sites for birds and habitat for salamanders",
+    "specialFeatures": [
+      "wetland",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "cherokee-sedge",
+    "name": "Cherokee Sedge",
+    "scientificName": "Carex cherokeensis",
+    "type": "grass",
+    "heightMin": 1,
+    "heightMax": 2,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-sun"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Semi-evergreen sedge forming graceful clumps of narrow arching leaves. Drooping seed heads on slender stems are attractive in spring. Excellent as a native lawn substitute or groundcover in partial shade.",
+    "wildlifeValue": "Cover for small wildlife; seeds for birds",
+    "specialFeatures": [
+      "evergreen",
+      "lawn-alternative",
+      "groundcover"
+    ]
+  },
+  {
+    "id": "woolgrass",
+    "name": "Woolgrass",
+    "scientificName": "Scirpus cyperinus",
+    "type": "grass",
+    "heightMin": 3,
+    "heightMax": 5,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      7,
+      8,
+      9
+    ],
+    "bloomColors": [
+      "bronze"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Large drooping clusters of woolly-looking reddish-brown spikelets top tall stems. A dramatic native sedge for wet areas, rain gardens, and pond margins. Fast-growing and effective at stabilizing wet soils.",
+    "wildlifeValue": "Waterfowl cover and food; red-winged blackbird nesting habitat",
+    "specialFeatures": [
+      "rain-garden",
+      "wetland"
+    ]
+  },
+  {
+    "id": "prairie-dropseed",
+    "name": "Prairie Dropseed",
+    "scientificName": "Sporobolus heterolepis",
+    "type": "grass",
+    "heightMin": 1.5,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "rocky",
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [
+      8,
+      9
+    ],
+    "bloomColors": [
+      "pink"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Fine-textured fountain of hair-like leaves with airy, fragrant flower panicles that smell like cilantro or buttered popcorn. Turns golden-orange in fall. Slow to establish but extremely long-lived and drought-tolerant.",
+    "wildlifeValue": "Seeds for sparrows; cover for small wildlife",
+    "specialFeatures": [
+      "fragrant",
+      "drought-tolerant",
+      "fall-color"
+    ]
+  },
+  {
+    "id": "ebony-spleenwort",
+    "name": "Ebony Spleenwort",
+    "scientificName": "Asplenium platyneuron",
+    "type": "fern",
+    "heightMin": 0.5,
+    "heightMax": 1.5,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "rocky",
+      "loamy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Small upright fern with dark, shiny ebony-colored stems and ladder-like pinnae. One of the most common and adaptable ferns in NC, found on rocks, walls, and woodland banks. Nearly evergreen.",
+    "wildlifeValue": "Cover for small wildlife; spores eaten by some insects",
+    "specialFeatures": [
+      "evergreen",
+      "shade-tolerant",
+      "rock-garden"
+    ]
+  },
+  {
+    "id": "lady-fern",
+    "name": "Lady Fern",
+    "scientificName": "Athyrium filix-femina",
+    "type": "fern",
+    "heightMin": 1.5,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Graceful, lacy fronds on a medium-sized fern that forms attractive vase-shaped clumps. One of the most elegant native ferns. Fiddleheads emerge red-tinged in spring. Adapts well to garden culture.",
+    "wildlifeValue": "Cover for amphibians and small mammals",
+    "specialFeatures": [
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "new-york-fern",
+    "name": "New York Fern",
+    "scientificName": "Thelypteris noveboracensis",
+    "type": "fern",
+    "heightMin": 1,
+    "heightMax": 2,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "rich"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Fronds taper at both ends — 'New Yorkers burn the candle at both ends.' Spreads by rhizomes to form dense colonies that make excellent deciduous groundcover. Yellowish-green fronds turn golden in fall.",
+    "wildlifeValue": "Groundcover for woodland wildlife; habitat for invertebrates",
+    "specialFeatures": [
+      "groundcover",
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "sensitive-fern",
+    "name": "Sensitive Fern",
+    "scientificName": "Onoclea sensibilis",
+    "type": "fern",
+    "heightMin": 1,
+    "heightMax": 2,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-sun"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Broad, coarse-textured fronds with bead-like fertile spore stalks that persist through winter. Called 'sensitive' because it's among the first ferns to die back at the first frost. Spreads vigorously in wet areas.",
+    "wildlifeValue": "Cover for wetland wildlife; persistent fertile fronds used by birds",
+    "specialFeatures": [
+      "wetland",
+      "winter-interest"
+    ]
+  },
+  {
+    "id": "netted-chain-fern",
+    "name": "Netted Chain Fern",
+    "scientificName": "Woodwardia areolata",
+    "type": "fern",
+    "heightMin": 1,
+    "heightMax": 2,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Glossy, dimorphic fern — sterile fronds are broad and chain-like, fertile fronds are narrow with rows of sori. Spreads by rhizomes in acidic wetlands and stream margins. Attractive glossy texture.",
+    "wildlifeValue": "Wetland cover for amphibians and small wildlife",
+    "specialFeatures": [
+      "wetland",
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "resurrection-fern",
+    "name": "Resurrection Fern",
+    "scientificName": "Pleopeltis polypodioides",
+    "type": "fern",
+    "heightMin": 0.25,
+    "heightMax": 0.5,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "rocky"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Epiphytic fern growing on tree branches and rocks that curls up brown and appears dead during drought, then unfurls green within hours of rain. A signature plant of Southern live oak branches. Evergreen.",
+    "wildlifeValue": "Microhabitat for invertebrates on tree branches",
+    "specialFeatures": [
+      "epiphytic",
+      "drought-tolerant",
+      "evergreen"
+    ]
+  },
+  {
+    "id": "marginal-wood-fern",
+    "name": "Marginal Wood Fern",
+    "scientificName": "Dryopteris marginalis",
+    "type": "fern",
+    "heightMin": 1,
+    "heightMax": 2.5,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "dry"
+    ],
+    "soil": [
+      "rocky",
+      "loamy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Handsome evergreen fern with leathery blue-green fronds in a symmetrical vase shape. Sori are positioned along the margins of the pinnules. Thrives on rocky slopes and at the base of boulders. Very cold-hardy.",
+    "wildlifeValue": "Year-round cover for woodland wildlife",
+    "specialFeatures": [
+      "evergreen",
+      "shade-tolerant",
+      "rock-garden"
+    ]
+  },
+  {
+    "id": "hay-scented-fern",
+    "name": "Hay-scented Fern",
+    "scientificName": "Dennstaedtia punctilobula",
+    "type": "fern",
+    "heightMin": 1,
+    "heightMax": 2.5,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-sun"
+    ],
+    "moisture": [
+      "medium",
+      "dry"
+    ],
+    "soil": [
+      "loamy",
+      "sandy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Lacy, yellowish-green fronds that smell like freshly cut hay when crushed. Spreads aggressively by rhizomes to form dense colonies. Turns golden-yellow in fall. Can dominate large areas in mountain forests.",
+    "wildlifeValue": "Groundcover for turkeys and grouse; deer-resistant",
+    "specialFeatures": [
+      "fragrant",
+      "groundcover",
+      "deer-resistant"
+    ]
+  },
+  {
+    "id": "interrupted-fern",
+    "name": "Interrupted Fern",
+    "scientificName": "Claytosmunda claytoniana",
+    "type": "fern",
+    "heightMin": 2,
+    "heightMax": 4,
+    "sizeCategory": "medium",
+    "sun": [
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Large fern named for the fertile pinnae that 'interrupt' the middle of the frond — they wither and fall off by summer, leaving a gap. Closely related to cinnamon and royal ferns. Forms massive crowns over time.",
+    "wildlifeValue": "Cover for woodland wildlife; historical fern fiber used by hummingbirds for nests",
+    "specialFeatures": [
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "broad-beech-fern",
+    "name": "Broad Beech Fern",
+    "scientificName": "Phegopteris hexagonoptera",
+    "type": "fern",
+    "heightMin": 1,
+    "heightMax": 2,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Broad, triangular fronds with the lowest pair of pinnae angled downward and forward. Spreads by rhizomes to form attractive colonies. Often found near beech trees in rich cove forests. Soft, delicate texture.",
+    "wildlifeValue": "Groundcover for woodland invertebrates and amphibians",
+    "specialFeatures": [
+      "groundcover",
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "walking-fern",
+    "name": "Walking Fern",
+    "scientificName": "Asplenium rhizophyllum",
+    "type": "fern",
+    "heightMin": 0.25,
+    "heightMax": 0.5,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium"
+    ],
+    "soil": [
+      "rocky"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Unique fern with simple, undivided lance-shaped fronds that taper to long tips. These tips root where they touch the ground, creating new plants — the fern 'walks' across rocks. Found on mossy limestone boulders.",
+    "wildlifeValue": "Microhabitat specialist; indicator of high-quality limestone habitats",
+    "specialFeatures": [
+      "evergreen",
+      "rock-garden",
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "southern-shield-fern",
+    "name": "Southern Shield Fern",
+    "scientificName": "Thelypteris kunthii",
+    "type": "fern",
+    "heightMin": 2,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "rich"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "Large, arching fronds with a fine texture that spread by rhizomes to form lush colonies. More heat-tolerant than most ferns. Semi-evergreen in the Piedmont and Coastal Plain. Excellent for massed plantings in shade.",
+    "wildlifeValue": "Cover for shade-dwelling wildlife",
+    "specialFeatures": [
+      "shade-tolerant",
+      "groundcover"
+    ]
+  },
+  {
+    "id": "rattlesnake-fern",
+    "name": "Rattlesnake Fern",
+    "scientificName": "Botrypus virginianus",
+    "type": "fern",
+    "heightMin": 1,
+    "heightMax": 2,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A single triangular sterile frond and a separate tall fertile stalk bearing grape-like spore clusters. The fertile stalk was said to resemble a rattlesnake's rattle. Indicator of rich, undisturbed woodlands.",
+    "wildlifeValue": "Indicator species for healthy forest ecosystems",
+    "specialFeatures": [
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "pickerelweed",
+    "name": "Pickerelweed",
+    "scientificName": "Pontederia cordata",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "wet"
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ],
+    "bloomMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "bloomColors": [
+      "blue-purple"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Spikes of violet-blue flowers above glossy heart-shaped leaves in shallow water. One of the showiest native aquatic plants. Grows in up to 12 inches of standing water. Excellent for pond margins and water gardens.",
+    "wildlifeValue": "Bees, butterflies; seeds eaten by ducks; fish shelter among stems",
+    "specialFeatures": [
+      "aquatic",
+      "long-blooming"
+    ]
+  },
+  {
+    "id": "arrow-arum",
+    "name": "Arrow Arum",
+    "scientificName": "Peltandra virginica",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 2,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "wet"
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Large arrow-shaped leaves and a green spathe enclosing a cream spadix, similar to jack-in-the-pulpit. Grows in shallow water and mucky soils. Green berry clusters ripen to dark brown. Common in swamps and pond margins.",
+    "wildlifeValue": "Seeds eaten by wood ducks; cover for aquatic wildlife",
+    "specialFeatures": [
+      "aquatic",
+      "wetland"
+    ]
+  },
+  {
+    "id": "golden-club",
+    "name": "Golden Club",
+    "scientificName": "Orontium aquaticum",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 2,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      3,
+      4,
+      5
+    ],
+    "bloomColors": [
+      "golden-yellow"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "Bright golden-yellow flower spikes (spadix without a spathe) rise above water-repellent blue-green leaves. Water beads up and rolls off the velvety leaf surface. One of the earliest-blooming aquatic plants.",
+    "wildlifeValue": "Seeds eaten by waterfowl; early season nectar for bees",
+    "specialFeatures": [
+      "aquatic",
+      "spring-blooming"
+    ]
+  },
+  {
+    "id": "american-lotus",
+    "name": "American Lotus",
+    "scientificName": "Nelumbo lutea",
+    "type": "perennial",
+    "heightMin": 2,
+    "heightMax": 4,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "wet"
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ],
+    "bloomMonths": [
+      7,
+      8,
+      9
+    ],
+    "bloomColors": [
+      "pale-yellow",
+      "cream"
+    ],
+    "activeMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "evergreen": false,
+    "description": "Spectacular large pale yellow flowers up to 10 inches across above huge circular leaves that can be 2 feet wide. The only native lotus in North America. Shower-head-like seed pods are used in dried arrangements.",
+    "wildlifeValue": "Seeds eaten by ducks and wading birds; tubers eaten by muskrats and beavers",
+    "specialFeatures": [
+      "aquatic",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "fragrant-water-lily",
+    "name": "Fragrant Water Lily",
+    "scientificName": "Nymphaea odorata",
+    "type": "perennial",
+    "heightMin": 0.25,
+    "heightMax": 0.5,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "wet"
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ],
+    "bloomMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "bloomColors": [
+      "white",
+      "pink"
+    ],
+    "activeMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "evergreen": false,
+    "description": "Classic floating white water lily with a sweet fragrance. Round floating leaves with a V-shaped notch. Flowers open in the morning and close by afternoon. Found in quiet ponds, lakes, and slow streams throughout NC.",
+    "wildlifeValue": "Habitat for fish and frogs; visited by bees and beetles; lily pad cover for aquatic life",
+    "specialFeatures": [
+      "aquatic",
+      "fragrant"
+    ]
+  },
+  {
+    "id": "spatterdock",
+    "name": "Spatterdock",
+    "scientificName": "Nuphar lutea",
+    "type": "perennial",
+    "heightMin": 0.5,
+    "heightMax": 1,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "wet"
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ],
+    "bloomMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Yellow globe-shaped flowers barely open above heart-shaped floating leaves. More tolerant of shade and moving water than true water lilies. Massive rhizomes anchor in muddy bottoms. Very common in NC waterways.",
+    "wildlifeValue": "Seeds and rhizomes eaten by waterfowl and beavers; fish and turtle habitat",
+    "specialFeatures": [
+      "aquatic",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "blue-eyed-grass",
+    "name": "Blue-eyed Grass",
+    "scientificName": "Sisyrinchium angustifolium",
+    "type": "perennial",
+    "heightMin": 0.5,
+    "heightMax": 1.5,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "sandy"
+    ],
+    "bloomMonths": [
+      4,
+      5,
+      6
+    ],
+    "bloomColors": [
+      "blue-purple"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "dormantMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "Tiny star-shaped violet-blue flowers with yellow centers on grass-like foliage. Despite the name, it's actually in the iris family, not a grass. Forms charming tufts in meadows and open woodlands. Self-seeds freely.",
+    "wildlifeValue": "Small bees and syrphid flies",
+    "specialFeatures": [
+      "self-sowing",
+      "lawn-alternative"
+    ]
+  },
+  {
+    "id": "marsh-marigold",
+    "name": "Marsh Marigold",
+    "scientificName": "Caltha palustris",
+    "type": "perennial",
+    "heightMin": 0.5,
+    "heightMax": 1.5,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      3,
+      4,
+      5
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "dormantMonths": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "Cheerful bright yellow buttercup-like flowers above rounded, glossy green leaves. One of the first wildflowers to bloom along mountain streams and seeps. Found at higher elevations in NC's mountains.",
+    "wildlifeValue": "Early spring pollinators; syrphid flies and small bees",
+    "specialFeatures": [
+      "spring-blooming",
+      "wetland"
+    ]
+  },
+  {
+    "id": "halberd-leaved-rose-mallow",
+    "name": "Halberd-leaved Rose Mallow",
+    "scientificName": "Hibiscus laevis",
+    "type": "perennial",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      7,
+      8,
+      9
+    ],
+    "bloomColors": [
+      "pink",
+      "white"
+    ],
+    "activeMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "evergreen": false,
+    "description": "Large 5-inch pink to white hibiscus flowers with a red center on tall stems. Distinctive halberd-shaped (spear-tip) leaves. Found in marshes, ditches, and wet meadows. Dies back to ground in winter.",
+    "wildlifeValue": "Bumblebees, hummingbirds; host for Painted Lady butterfly caterpillars",
+    "specialFeatures": [
+      "wetland",
+      "long-blooming"
+    ]
+  },
+  {
+    "id": "sweet-flag",
+    "name": "Sweet Flag",
+    "scientificName": "Acorus calamus",
+    "type": "perennial",
+    "heightMin": 1.5,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "Iris-like aromatic leaves with a distinctive sweet cinnamon fragrance when crushed. Inconspicuous finger-like spadix of tiny flowers. Grows in shallow water and wet soils. Historically used as a medicinal and fragrance plant.",
+    "wildlifeValue": "Wetland cover for wildlife; muskrats eat the rhizomes",
+    "specialFeatures": [
+      "fragrant",
+      "wetland"
+    ]
+  },
+  {
+    "id": "duck-potato",
+    "name": "Duck Potato",
+    "scientificName": "Sagittaria latifolia",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "wet"
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ],
+    "bloomMonths": [
+      7,
+      8,
+      9
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Whorls of three-petaled white flowers on tall stems above distinctive arrowhead-shaped leaves. Starchy tubers were an important food source for Native Americans. Common in shallow water and mud flats.",
+    "wildlifeValue": "Tubers eaten by ducks, geese, and muskrats; important waterfowl food",
+    "specialFeatures": [
+      "aquatic",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "water-willow",
+    "name": "Water Willow",
+    "scientificName": "Justicia americana",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "wet"
+    ],
+    "soil": [
+      "rocky",
+      "clay"
+    ],
+    "bloomMonths": [
+      6,
+      7,
+      8
+    ],
+    "bloomColors": [
+      "white",
+      "lavender"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Dense colonies of narrow willow-like leaves in shallow streams and river margins with orchid-like white and purple flowers. Forms important fish habitat. Stabilizes stream banks and reduces erosion.",
+    "wildlifeValue": "Critical fish habitat; cover for crayfish and aquatic insects; bees visit flowers",
+    "specialFeatures": [
+      "aquatic",
+      "erosion-control"
+    ]
+  },
+  {
+    "id": "soft-stem-bulrush",
+    "name": "Soft-stem Bulrush",
+    "scientificName": "Schoenoplectus tabernaemontani",
+    "type": "grass",
+    "heightMin": 3,
+    "heightMax": 8,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "wet"
+    ],
+    "soil": [
+      "clay",
+      "loamy"
+    ],
+    "bloomMonths": [
+      6,
+      7,
+      8
+    ],
+    "bloomColors": [
+      "bronze"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Tall, round dark green stems with clusters of brown spikelets near the top. Major wetland species used extensively in constructed wetlands and stormwater treatment. Provides dense wildlife cover.",
+    "wildlifeValue": "Important waterfowl habitat; red-winged blackbirds, marsh wrens nest in stands",
+    "specialFeatures": [
+      "wetland",
+      "rain-garden",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "allegheny-spurge",
+    "name": "Allegheny Spurge",
+    "scientificName": "Pachysandra procumbens",
+    "type": "groundcover",
+    "heightMin": 0.5,
+    "heightMax": 1,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "dry"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      3,
+      4
+    ],
+    "bloomColors": [
+      "white",
+      "pink"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Native alternative to invasive Japanese pachysandra. Mottled semi-evergreen leaves and fragrant bottlebrush-like white to pinkish flowers in early spring. Slowly spreads to form a dense mat. Far better for wildlife than its Asian cousin.",
+    "wildlifeValue": "Early spring bees visit flowers; cover for ground-dwelling wildlife",
+    "specialFeatures": [
+      "evergreen",
+      "shade-tolerant",
+      "groundcover"
+    ]
+  },
+  {
+    "id": "moss-phlox",
+    "name": "Moss Phlox",
+    "scientificName": "Phlox subulata",
+    "type": "groundcover",
+    "heightMin": 0.25,
+    "heightMax": 0.5,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "sandy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      3,
+      4,
+      5
+    ],
+    "bloomColors": [
+      "pink",
+      "lavender",
+      "white"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Dense mats of needle-like evergreen foliage erupt in a carpet of pink, lavender, or white flowers in spring. Native to rocky outcrops and dry slopes in NC's mountains and Piedmont. Iconic rock garden plant.",
+    "wildlifeValue": "Early butterflies and bees",
+    "specialFeatures": [
+      "evergreen",
+      "drought-tolerant",
+      "rock-garden"
+    ]
+  },
+  {
+    "id": "golden-ragwort",
+    "name": "Golden Ragwort",
+    "scientificName": "Packera aurea",
+    "type": "groundcover",
+    "heightMin": 1,
+    "heightMax": 2,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-sun"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      3,
+      4,
+      5
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Cheerful clusters of golden-yellow daisy-like flowers on tall stems above a basal rosette of heart-shaped evergreen leaves. One of the best native groundcovers — spreads by stolons to form dense weed-suppressing mats.",
+    "wildlifeValue": "Early bees, small butterflies, and syrphid flies",
+    "specialFeatures": [
+      "evergreen",
+      "groundcover",
+      "deer-resistant"
+    ]
+  },
+  {
+    "id": "wild-strawberry",
+    "name": "Wild Strawberry",
+    "scientificName": "Fragaria virginiana",
+    "type": "groundcover",
+    "heightMin": 0.25,
+    "heightMax": 0.5,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "Tiny but intensely flavorful red strawberries follow white five-petaled flowers. Spreads by runners to form mats. One of the parents of the modern cultivated strawberry. An excellent edible native groundcover.",
+    "wildlifeValue": "Fruits eaten by birds, box turtles, chipmunks; bee-pollinated flowers",
+    "specialFeatures": [
+      "edible-fruit",
+      "groundcover"
+    ]
+  },
+  {
+    "id": "bearberry",
+    "name": "Bearberry",
+    "scientificName": "Arctostaphylos uva-ursi",
+    "type": "groundcover",
+    "heightMin": 0.25,
+    "heightMax": 0.5,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry"
+    ],
+    "soil": [
+      "sandy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      3,
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white",
+      "pink"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Low-growing evergreen mat with glossy dark leaves, small urn-shaped pink-white flowers, and bright red berries. Found on sandy or rocky soils at higher elevations in NC. Excellent groundcover for difficult, dry sites.",
+    "wildlifeValue": "Berries eaten by bears, grouse, and turkeys; bumblebee-pollinated",
+    "specialFeatures": [
+      "evergreen",
+      "drought-tolerant",
+      "groundcover"
+    ]
+  },
+  {
+    "id": "pussytoes",
+    "name": "Pussytoes",
+    "scientificName": "Antennaria plantaginifolia",
+    "type": "groundcover",
+    "heightMin": 0.25,
+    "heightMax": 1,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry"
+    ],
+    "soil": [
+      "sandy",
+      "rocky",
+      "clay"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Fuzzy white flower clusters resemble tiny cat paws. Silvery-green basal leaves form rosettes that spread by stolons. Thrives in poor, dry soils. Host plant for American Lady butterfly. A charming, tough groundcover.",
+    "wildlifeValue": "Host plant for American Lady butterfly; small pollinators visit flowers",
+    "specialFeatures": [
+      "butterfly-host",
+      "evergreen",
+      "drought-tolerant",
+      "groundcover"
+    ]
+  },
+  {
+    "id": "venus-flytrap",
+    "name": "Venus Flytrap",
+    "scientificName": "Dionaea muscipula",
+    "type": "perennial",
+    "heightMin": 0.25,
+    "heightMax": 0.5,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "sandy"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "The world's most famous carnivorous plant — found ONLY within a 75-mile radius of Wilmington, NC. Hinged leaf traps snap shut on insects in a fraction of a second. Small white flowers on a tall stalk. Federally protected.",
+    "wildlifeValue": "Unique insectivore; ecological indicator of healthy longleaf pine savannas",
+    "specialFeatures": [
+      "carnivorous",
+      "fire-adapted",
+      "nc-endemic"
+    ]
+  },
+  {
+    "id": "purple-pitcher-plant",
+    "name": "Purple Pitcher Plant",
+    "scientificName": "Sarracenia purpurea",
+    "type": "perennial",
+    "heightMin": 0.5,
+    "heightMax": 1,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "sandy"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "maroon",
+      "red"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Rosettes of squat, burgundy-veined pitcher leaves that fill with rainwater to trap insects. Nodding dark red flowers on tall stalks. Found in bogs and wet savannas. The pitchers host a unique food web of aquatic organisms.",
+    "wildlifeValue": "Unique pitcher ecosystem; supports specialized insects including the pitcher plant moth",
+    "specialFeatures": [
+      "carnivorous",
+      "evergreen",
+      "fire-adapted"
+    ]
+  },
+  {
+    "id": "yellow-pitcher-plant",
+    "name": "Yellow Pitcher Plant",
+    "scientificName": "Sarracenia flava",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "sandy"
+    ],
+    "bloomMonths": [
+      3,
+      4
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Tall bright yellow-green trumpet-shaped pitchers with red veining at the throat lure insects inside. Large nodding yellow flowers bloom before the new pitchers emerge. Found in wet pine savannas of the Coastal Plain.",
+    "wildlifeValue": "Traps insects; supports specialized moths and flies adapted to pitcher plants",
+    "specialFeatures": [
+      "carnivorous",
+      "evergreen",
+      "fire-adapted"
+    ]
+  },
+  {
+    "id": "roundleaf-sundew",
+    "name": "Roundleaf Sundew",
+    "scientificName": "Drosera rotundifolia",
+    "type": "perennial",
+    "heightMin": 0.1,
+    "heightMax": 0.25,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "wet"
+    ],
+    "soil": [
+      "sandy"
+    ],
+    "bloomMonths": [
+      6,
+      7,
+      8
+    ],
+    "bloomColors": [
+      "white",
+      "pink"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Tiny rosettes of round leaves covered in glistening sticky tentacles that trap and digest small insects. Miniature white to pink flowers on a thin stalk. Found in sphagnum bogs and seeps at higher elevations in NC.",
+    "wildlifeValue": "Insectivore; indicator of pristine bog habitats",
+    "specialFeatures": [
+      "carnivorous"
+    ]
+  },
+  {
+    "id": "spoonleaf-sundew",
+    "name": "Spoonleaf Sundew",
+    "scientificName": "Drosera intermedia",
+    "type": "perennial",
+    "heightMin": 0.1,
+    "heightMax": 0.25,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "wet"
+    ],
+    "soil": [
+      "sandy"
+    ],
+    "bloomMonths": [
+      6,
+      7,
+      8
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Spoon-shaped leaves on elongated petioles form a rosette of glistening insect-trapping tentacles. Found in wet sandy margins of Carolina bays and pocosin edges. Often grows alongside Venus flytraps on the Coastal Plain.",
+    "wildlifeValue": "Insectivore; indicator of healthy Coastal Plain wetlands",
+    "specialFeatures": [
+      "carnivorous"
+    ]
+  },
+  {
+    "id": "sea-oats",
+    "name": "Sea Oats",
+    "scientificName": "Uniola paniculata",
+    "type": "grass",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry"
+    ],
+    "soil": [
+      "sandy"
+    ],
+    "bloomMonths": [
+      6,
+      7,
+      8
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "The signature dune grass of NC's barrier islands. Large oat-like seed heads nod in the ocean breeze. Deep roots trap sand and build dunes. Protected by law — collecting is prohibited. Essential for coastal dune stability.",
+    "wildlifeValue": "Seeds eaten by beach mice and sparrows; stabilizes dune habitat for nesting sea turtles",
+    "specialFeatures": [
+      "coastal",
+      "evergreen",
+      "erosion-control"
+    ]
+  },
+  {
+    "id": "american-beach-grass",
+    "name": "American Beach Grass",
+    "scientificName": "Ammophila breviligulata",
+    "type": "grass",
+    "heightMin": 2,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry"
+    ],
+    "soil": [
+      "sandy"
+    ],
+    "bloomMonths": [
+      7,
+      8
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Dense, upright tufts of stiff blue-green leaves with spike-like seed heads. Primary dune-building grass on NC's northern Outer Banks. Spreads by aggressive rhizomes, trapping sand to form and stabilize dunes.",
+    "wildlifeValue": "Dune habitat for shorebirds and beach-nesting species",
+    "specialFeatures": [
+      "coastal",
+      "evergreen",
+      "erosion-control"
+    ]
+  },
+  {
+    "id": "yucca",
+    "name": "Yucca",
+    "scientificName": "Yucca filamentosa",
+    "type": "perennial",
+    "heightMin": 2,
+    "heightMax": 8,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry"
+    ],
+    "soil": [
+      "sandy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      5,
+      6,
+      7
+    ],
+    "bloomColors": [
+      "white",
+      "cream"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Rosettes of stiff, sword-shaped evergreen leaves with curly filaments on the edges. Tall spikes of waxy white bell-shaped flowers. Pollinated exclusively by yucca moths in an obligate mutualism. Found in sandy and rocky areas.",
+    "wildlifeValue": "Yucca moth obligate pollinator; shelter for small wildlife",
+    "specialFeatures": [
+      "evergreen",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "prickly-pear-cactus",
+    "name": "Prickly Pear Cactus",
+    "scientificName": "Opuntia humifusa",
+    "type": "perennial",
+    "heightMin": 0.5,
+    "heightMax": 1.5,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry"
+    ],
+    "soil": [
+      "sandy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      5,
+      6,
+      7
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "NC's native cactus — flat green pads with tufts of spines and glochids. Showy yellow flowers followed by edible reddish-purple fruits. Found on sandy dunes, rock outcrops, and dry roadsides. Surprisingly cold-hardy.",
+    "wildlifeValue": "Bees pollinate flowers; fruits eaten by box turtles, birds, and small mammals",
+    "specialFeatures": [
+      "evergreen",
+      "drought-tolerant",
+      "edible-fruit"
+    ]
+  },
+  {
+    "id": "pink-ladys-slipper",
+    "name": "Pink Lady's Slipper",
+    "scientificName": "Cypripedium acaule",
+    "type": "perennial",
+    "heightMin": 0.5,
+    "heightMax": 1.5,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "sandy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "pink"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "dormantMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Iconic pink inflated pouch-shaped flower between two broad basal leaves. Depends on specific mycorrhizal fungi and is extremely difficult to transplant. Found in acidic oak-pine woodlands. Can take 10+ years to bloom from seed.",
+    "wildlifeValue": "Bumblebees (trapped temporarily in the pouch to ensure pollination)",
+    "specialFeatures": [
+      "shade-tolerant",
+      "mycorrhizal-dependent"
+    ]
+  },
+  {
+    "id": "yellow-fringed-orchid",
+    "name": "Yellow Fringed Orchid",
+    "scientificName": "Platanthera ciliaris",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 2.5,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [
+      7,
+      8
+    ],
+    "bloomColors": [
+      "orange",
+      "golden-yellow"
+    ],
+    "activeMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "evergreen": false,
+    "description": "Stunning spikes of bright orange-yellow flowers with deeply fringed lips. One of the showiest native orchids. Found in bogs, wet meadows, and pine savannas. Pollinated by large butterflies including swallowtails.",
+    "wildlifeValue": "Swallowtail butterflies; specialized pollination relationship",
+    "specialFeatures": [
+      "wetland",
+      "fire-adapted"
+    ]
+  },
+  {
+    "id": "downy-rattlesnake-plantain",
+    "name": "Downy Rattlesnake Plantain",
+    "scientificName": "Goodyera pubescens",
+    "type": "perennial",
+    "heightMin": 0.5,
+    "heightMax": 1,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "loamy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      7,
+      8
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Rosette of dark green leaves with distinctive white net-like veining that persists year-round. Small white flowers in a dense spike. The most common native orchid in NC forests. Creeping rhizomes form small colonies.",
+    "wildlifeValue": "Bumblebees; evergreen rosettes provide ground-level habitat year-round",
+    "specialFeatures": [
+      "evergreen",
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "crane-fly-orchid",
+    "name": "Crane-fly Orchid",
+    "scientificName": "Tipularia discolor",
+    "type": "perennial",
+    "heightMin": 0.5,
+    "heightMax": 1.5,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      7,
+      8
+    ],
+    "bloomColors": [
+      "lavender",
+      "cream"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": false,
+    "description": "Unusual orchid with a single purple-backed leaf that appears in fall and withers before the leafless flower stalk emerges in summer. Pollinated by noctuid moths. One of the most common but overlooked native orchids.",
+    "wildlifeValue": "Night-flying moths; part of the forest floor food web",
+    "specialFeatures": [
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "puttyroot",
+    "name": "Puttyroot",
+    "scientificName": "Aplectrum hyemale",
+    "type": "perennial",
+    "heightMin": 0.5,
+    "heightMax": 1.5,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "cream",
+      "lavender"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": false,
+    "description": "Single pleated leaf with white veins appears in fall and persists through winter, withering before the flower stalk of yellowish-brown and purple flowers emerges. Named for the glutinous substance in the corm once used as glue.",
+    "wildlifeValue": "Small bees; part of rich woodland ecosystem",
+    "specialFeatures": [
+      "shade-tolerant"
+    ]
   },
 ];
 
