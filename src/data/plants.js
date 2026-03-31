@@ -7051,6 +7051,2270 @@ const plants = [
       "wet-tolerance",
       "fall-color"
     ]
+  },,
+
+  // ─── ADDITIONAL PLANTS (batch-merged) ─────────────────────────────────────
+  {
+    "id": "solomons-seal",
+    "name": "Solomon's Seal",
+    "scientificName": "Polygonatum biflorum",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Graceful arching stems lined with paired dangling cream-white bell flowers in spring. Blue-black berries follow in fall. The elegant form adds a refined woodland aesthetic to shade gardens. Spreads slowly by rhizomes to form attractive colonies.",
+    "wildlifeValue": "Berries eaten by thrushes and grouse; nectar for bumblebees",
+    "specialFeatures": [
+      "shade-tolerant",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "false-solomons-seal",
+    "name": "False Solomon's Seal",
+    "scientificName": "Maianthemum racemosum",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Similar arching form to Solomon's Seal but with a feathery terminal plume of fragrant white flowers instead of dangling bells. Red speckled berries ripen in late summer. One of the most common and dependable native woodland wildflowers in NC.",
+    "wildlifeValue": "Berries eaten by thrushes, grouse, and chipmunks; pollinated by native bees",
+    "specialFeatures": [
+      "shade-tolerant",
+      "wildlife",
+      "fragrant"
+    ]
+  },
+  {
+    "id": "trout-lily",
+    "name": "Trout Lily",
+    "scientificName": "Erythronium americanum",
+    "type": "perennial",
+    "heightMin": 0.3,
+    "heightMax": 0.8,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      3,
+      4
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5
+    ],
+    "dormantMonths": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "A spring ephemeral that carpets rich woodland floors with mottled brown-and-green leaves (resembling trout) and nodding yellow lily flowers. Entire colonies go dormant by late spring. Can take 7 years from seed to first bloom. One of the most charming early spring wildflowers.",
+    "wildlifeValue": "Early pollen for native bees and bee flies emerging in spring",
+    "specialFeatures": [
+      "spring-ephemeral",
+      "shade-tolerant",
+      "early-bloom"
+    ]
+  },
+  {
+    "id": "hepatica",
+    "name": "Hepatica",
+    "scientificName": "Hepatica americana",
+    "type": "perennial",
+    "heightMin": 0.3,
+    "heightMax": 0.5,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      2,
+      3,
+      4
+    ],
+    "bloomColors": [
+      "lavender",
+      "white",
+      "pink"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "One of the very first wildflowers to bloom, pushing delicate lavender, white, or pink flowers through the leaf litter as early as February. The three-lobed evergreen leaves persist through winter. A true treasure of NC's rich deciduous forests. Slow to establish but long-lived.",
+    "wildlifeValue": "Critical very early pollen for native bees and bee flies",
+    "specialFeatures": [
+      "evergreen",
+      "early-bloom",
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "rue-anemone",
+    "name": "Rue Anemone",
+    "scientificName": "Thalictrum thalictroides",
+    "type": "perennial",
+    "heightMin": 0.3,
+    "heightMax": 0.8,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      3,
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white",
+      "pink"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "dormantMonths": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "A delicate spring ephemeral with wiry stems bearing clusters of white to pink flowers above ferny foliage. Blooms for an unusually long period for a spring wildflower — often 6 weeks or more. Tuberous roots allow it to persist in dry summer conditions. A graceful addition to woodland gardens.",
+    "wildlifeValue": "Spring pollen for native bees and syrphid flies",
+    "specialFeatures": [
+      "spring-ephemeral",
+      "shade-tolerant",
+      "long-blooming"
+    ]
+  },
+  {
+    "id": "tall-meadow-rue",
+    "name": "Tall Meadow Rue",
+    "scientificName": "Thalictrum pubescens",
+    "type": "perennial",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "part-shade",
+      "full-sun"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      6,
+      7
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Airy clouds of white flowers rise 3-6 feet above handsome blue-green columbine-like foliage in early summer. Surprisingly tall and stately for a native wildflower. Thrives at the edges of moist woodlands and meadows. Wind-pollinated — the fluffy staminate flowers are the showy part.",
+    "wildlifeValue": "Cover and structure for wildlife; seeds for birds",
+    "specialFeatures": [
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "creeping-phlox",
+    "name": "Creeping Phlox",
+    "scientificName": "Phlox stolonifera",
+    "type": "perennial",
+    "heightMin": 0.3,
+    "heightMax": 0.8,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy",
+      "well-drained"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "lavender",
+      "blue-violet",
+      "pink"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "A semi-evergreen woodland groundcover that spreads by stolons to form lush mats covered in lavender, violet, or pink flowers in spring. Unlike the sun-loving Moss Phlox, this species thrives in shade. One of the best native groundcovers for shaded areas in NC mountain and Piedmont gardens.",
+    "wildlifeValue": "Nectar for swallowtails, skippers, and hummingbird moths",
+    "specialFeatures": [
+      "evergreen",
+      "shade-tolerant",
+      "groundcover",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "foamflower",
+    "name": "Foamflower",
+    "scientificName": "Tiarella cordifolia",
+    "type": "perennial",
+    "heightMin": 0.5,
+    "heightMax": 1,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Frothy spikes of white flowers rise above semi-evergreen, maple-shaped leaves that often develop burgundy markings in cool weather. Spreads by runners to form a beautiful groundcover in shade. One of the finest native plants for the woodland garden. Easy to grow in rich, moist shade.",
+    "wildlifeValue": "Nectar for native bees and syrphid flies; groundcover for small wildlife",
+    "specialFeatures": [
+      "evergreen",
+      "shade-tolerant",
+      "groundcover"
+    ]
+  },
+  {
+    "id": "alumroot",
+    "name": "Alumroot",
+    "scientificName": "Heuchera americana",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 2,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "The native parent of the popular 'coral bells' cultivars, with attractive evergreen basal foliage that often develops purple-silver mottling. Airy sprays of tiny greenish-cream flowers on wiry stems. Thrives on rocky slopes and dry shade where many plants struggle. Extremely long-lived.",
+    "wildlifeValue": "Nectar for native bees and hummingbirds; evergreen cover",
+    "specialFeatures": [
+      "evergreen",
+      "shade-tolerant",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "shooting-star",
+    "name": "Shooting Star",
+    "scientificName": "Primula meadia",
+    "type": "perennial",
+    "heightMin": 0.5,
+    "heightMax": 1.5,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-sun"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy",
+      "well-drained"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "pink",
+      "white"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "dormantMonths": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "Swept-back pink or white petals resemble tiny shooting stars or badminton shuttlecocks. A spring ephemeral of rich woodlands and moist prairies that goes completely dormant by summer. Requires buzz pollination by bumblebees. One of the most elegant native wildflowers.",
+    "wildlifeValue": "Buzz-pollinated by bumblebees; early spring nectar source",
+    "specialFeatures": [
+      "spring-ephemeral",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "green-dragon",
+    "name": "Green Dragon",
+    "scientificName": "Arisaema dracontium",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A close relative of Jack-in-the-Pulpit with a single large, dragon-claw-like compound leaf and a narrow green spathe with a long, protruding spadix. Bright red berry clusters appear in fall after the foliage dies back. Prefers richer, wetter conditions than Jack-in-the-Pulpit.",
+    "wildlifeValue": "Red berries eaten by wood thrushes; pollinated by fungus gnats",
+    "specialFeatures": [
+      "shade-tolerant",
+      "wet-tolerance"
+    ]
+  },
+  {
+    "id": "spotted-wintergreen",
+    "name": "Spotted Wintergreen",
+    "scientificName": "Chimaphila maculata",
+    "type": "perennial",
+    "heightMin": 0.3,
+    "heightMax": 0.8,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [
+      6,
+      7
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "A charming little evergreen wildflower with white-striped dark green leaves and small nodding white to pink flowers. Partially parasitic on soil fungi (mycoheterotroph). Common under pines and oaks in dry acidic woods. The patterned leaves are attractive year-round.",
+    "wildlifeValue": "Nectar for bumblebees; evergreen groundcover in dry woods",
+    "specialFeatures": [
+      "evergreen",
+      "shade-tolerant",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "wild-ginger",
+    "name": "Wild Ginger",
+    "scientificName": "Asarum canadense",
+    "type": "perennial",
+    "heightMin": 0.3,
+    "heightMax": 0.8,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Velvety heart-shaped leaves form a dense groundcover in shade. The unusual jug-shaped maroon flowers hide at ground level beneath the foliage — pollinated by ground-crawling beetles and flies. The aromatic rhizomes smell like ginger but are unrelated. An excellent native groundcover for rich shade.",
+    "wildlifeValue": "Host for pipevine swallowtail butterfly; groundcover for forest floor wildlife",
+    "specialFeatures": [
+      "shade-tolerant",
+      "groundcover",
+      "aromatic",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "heartleaf",
+    "name": "Heartleaf",
+    "scientificName": "Hexastylis arifolia",
+    "type": "perennial",
+    "heightMin": 0.3,
+    "heightMax": 0.5,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy",
+      "well-drained"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "An evergreen relative of Wild Ginger with glossy, arrow-shaped leaves that form attractive year-round groundcover. Hidden jug-shaped flowers at ground level are pollinated by ground beetles. Several species are endemic to the Southeast. Slow-growing but extremely long-lived and low-maintenance.",
+    "wildlifeValue": "Evergreen groundcover; pollinated by ground beetles; host for pipevine swallowtail",
+    "specialFeatures": [
+      "evergreen",
+      "shade-tolerant",
+      "groundcover",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "atamasco-lily",
+    "name": "Atamasco Lily",
+    "scientificName": "Zephyranthes atamasco",
+    "type": "perennial",
+    "heightMin": 0.5,
+    "heightMax": 1,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      3,
+      4
+    ],
+    "bloomColors": [
+      "white",
+      "pink"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "dormantMonths": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "Stunning white trumpet flowers (aging to pink) emerge directly from the ground in early spring, often in large colonies in moist meadows and open floodplains. Also called 'rain lily' for its tendency to bloom after spring rains. A spring ephemeral from a bulb. Increasingly uncommon in the wild.",
+    "wildlifeValue": "Early nectar for swallowtails and native bees",
+    "specialFeatures": [
+      "spring-ephemeral",
+      "early-bloom",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "carolina-lily",
+    "name": "Carolina Lily",
+    "scientificName": "Lilium michauxii",
+    "type": "perennial",
+    "heightMin": 2,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [
+      7,
+      8
+    ],
+    "bloomColors": [
+      "orange",
+      "red-orange"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A beautiful native lily with nodding, spotted orange-red Turk's-cap flowers. Shorter and more compact than Turk's Cap Lily, preferring drier, sandier soils. Found on well-drained slopes and sandy woodlands of the Piedmont and Coastal Plain. Increasingly rare due to deer browse and habitat loss.",
+    "wildlifeValue": "Pollinated by tiger swallowtails and ruby-throated hummingbirds",
+    "specialFeatures": [
+      "wildlife",
+      "hummingbird"
+    ]
+  },
+  {
+    "id": "turks-cap-lily",
+    "name": "Turk's Cap Lily",
+    "scientificName": "Lilium superbum",
+    "type": "perennial",
+    "heightMin": 4,
+    "heightMax": 8,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      7,
+      8
+    ],
+    "bloomColors": [
+      "orange",
+      "red-orange"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "The tallest and most spectacular native lily, bearing up to 40 nodding, orange-red spotted flowers per stem on plants reaching 8 feet. Found in moist mountain meadows and streambanks. The strongly recurved petals give flowers their 'turk's cap' shape. A showstopper in the native garden.",
+    "wildlifeValue": "Major nectar source for tiger swallowtails and hummingbirds",
+    "specialFeatures": [
+      "wildlife",
+      "hummingbird",
+      "large-flowers"
+    ]
+  },
+  {
+    "id": "spider-lily",
+    "name": "Spider Lily",
+    "scientificName": "Hymenocallis caroliniana",
+    "type": "perennial",
+    "heightMin": 1.5,
+    "heightMax": 2.5,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "rich",
+      "loamy",
+      "sandy"
+    ],
+    "bloomMonths": [
+      7,
+      8
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Exotic-looking white flowers with long, spidery petals and a central cup bloom atop strap-like foliage. Found along NC stream edges and floodplains. Intensely fragrant, especially at night when they attract hawk moths. A dramatic native bulb for moist garden areas.",
+    "wildlifeValue": "Pollinated by hawk moths and swallowtails; fragrant night bloomer",
+    "specialFeatures": [
+      "fragrant",
+      "wet-tolerance",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "dwarf-crested-iris",
+    "name": "Dwarf Crested Iris",
+    "scientificName": "Iris cristata",
+    "type": "perennial",
+    "heightMin": 0.3,
+    "heightMax": 0.5,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy",
+      "well-drained"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "lavender",
+      "blue-violet"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "A diminutive iris that spreads by rhizomes to form lovely colonies of lavender-blue flowers just 4-6 inches tall. The orange-crested falls are distinctive. One of the easiest and most rewarding native wildflowers for shade gardens. Spreads readily in good conditions.",
+    "wildlifeValue": "Nectar for native bees and bumblebees",
+    "specialFeatures": [
+      "shade-tolerant",
+      "groundcover",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "southern-blue-flag",
+    "name": "Southern Blue Flag Iris",
+    "scientificName": "Iris virginica",
+    "type": "perennial",
+    "heightMin": 1.5,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay",
+      "rich"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "blue-violet"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Showy blue-violet flowers with yellow-striped falls rise above sword-like foliage along pond edges, ditches, and rain gardens. One of the showiest native wetland plants. Thrives in standing water. An excellent choice for rain gardens and constructed wetlands.",
+    "wildlifeValue": "Nectar for bumblebees and native bees; cover for wetland wildlife",
+    "specialFeatures": [
+      "wet-tolerance",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "copper-iris",
+    "name": "Copper Iris",
+    "scientificName": "Iris fulva",
+    "type": "perennial",
+    "heightMin": 1.5,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay",
+      "rich"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "red-orange"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "The only native red-flowered iris in North America — unique coppery red-orange flowers are pollinated by hummingbirds rather than bees. Found in bottomlands and wet ditches of NC's Coastal Plain. Spreads by rhizomes in wet soils. A rare and beautiful native for water garden edges.",
+    "wildlifeValue": "Hummingbird-pollinated — unusual for an iris; wetland habitat",
+    "specialFeatures": [
+      "wet-tolerance",
+      "hummingbird",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "lanceleaf-coreopsis",
+    "name": "Lanceleaf Coreopsis",
+    "scientificName": "Coreopsis lanceolata",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 2,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [
+      5,
+      6,
+      7
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Cheerful golden-yellow daisies on slender stems bloom prolifically in late spring through early summer. One of the easiest native wildflowers to grow from seed — often used in wildflower meadow mixes. Extremely drought-tolerant. Deadheading extends blooming into fall.",
+    "wildlifeValue": "Nectar for bees and butterflies; seeds for goldfinches",
+    "specialFeatures": [
+      "drought-tolerant",
+      "long-blooming",
+      "pollinator"
+    ]
+  },
+  {
+    "id": "partridge-pea",
+    "name": "Partridge Pea",
+    "scientificName": "Chamaecrista fasciculata",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [
+      7,
+      8,
+      9
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "evergreen": false,
+    "description": "A profusely blooming annual legume (self-seeds reliably) with cheerful yellow flowers and delicate fern-like foliage. The seeds are a critical food for bobwhite quail and other ground birds. Nitrogen-fixing. An essential component of NC meadow restoration and an important host for cloudless sulphur butterflies.",
+    "wildlifeValue": "Seeds critical for bobwhite quail; host for cloudless sulphur butterfly; nitrogen-fixing",
+    "specialFeatures": [
+      "wildlife",
+      "drought-tolerant",
+      "nitrogen-fixer",
+      "pollinator"
+    ]
+  },
+  {
+    "id": "wild-senna",
+    "name": "Wild Senna",
+    "scientificName": "Senna marilandica",
+    "type": "perennial",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "clay",
+      "well-drained"
+    ],
+    "bloomMonths": [
+      7,
+      8
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "evergreen": false,
+    "description": "A bold, shrub-like perennial with compound leaves and clusters of yellow flowers followed by distinctive flat seed pods. An important host plant for cloudless sulphur and sleepy orange butterflies. The handsome architectural form and seedpods add fall and winter interest.",
+    "wildlifeValue": "Major host for cloudless sulphur and sleepy orange butterflies; bee nectar",
+    "specialFeatures": [
+      "wildlife",
+      "host-plant",
+      "winter-interest"
+    ]
+  },
+  {
+    "id": "pink-turtlehead",
+    "name": "Pink Turtlehead",
+    "scientificName": "Chelone lyonii",
+    "type": "perennial",
+    "heightMin": 2,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-sun"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "rich",
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      8,
+      9
+    ],
+    "bloomColors": [
+      "pink"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Spikes of snapdragon-like pink flowers resembling turtle heads bloom in late summer when few other shade plants are flowering. Native to NC mountains in moist woodlands and streambanks. The sole larval host for Baltimore checkerspot butterfly in the Southeast. Glossy dark foliage is attractive all season.",
+    "wildlifeValue": "Host for Baltimore checkerspot butterfly; bumblebee nectar; late-season bloomer",
+    "specialFeatures": [
+      "wildlife",
+      "host-plant",
+      "shade-tolerant",
+      "wet-tolerance"
+    ]
+  },
+  {
+    "id": "hairy-beardtongue",
+    "name": "Hairy Beardtongue",
+    "scientificName": "Penstemon hirsutus",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 2.5,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "lavender",
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Spikes of tubular lavender-to-white flowers with fuzzy throats attract bumblebees and mason bees. One of the most drought-tolerant native perennials, thriving on rocky, thin soils. The 'beard' is a hairy sterile stamen inside the flower. Semi-evergreen basal rosettes in mild winters.",
+    "wildlifeValue": "Nectar for bumblebees, mason bees, and hummingbirds",
+    "specialFeatures": [
+      "drought-tolerant",
+      "pollinator",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "smooth-penstemon",
+    "name": "Smooth Penstemon",
+    "scientificName": "Penstemon laevigatus",
+    "type": "perennial",
+    "heightMin": 1.5,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "well-drained"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "white",
+      "lavender"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Panicles of white to pale lavender tubular flowers attract a wide range of native bees. More tolerant of moisture than Hairy Beardtongue. Common in NC's Piedmont open woods and meadow edges. An easy, dependable native for the perennial border.",
+    "wildlifeValue": "Important nectar for native bees, bumblebees, and hummingbirds",
+    "specialFeatures": [
+      "pollinator",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "rattlesnake-master",
+    "name": "Rattlesnake Master",
+    "scientificName": "Eryngium yuccifolium",
+    "type": "perennial",
+    "heightMin": 3,
+    "heightMax": 5,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      6,
+      7,
+      8
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "One of the most unique-looking native plants — spiny yucca-like leaves and spherical white flower heads that look like nothing else in the meadow. A member of the carrot family despite its appearance. Incredibly deep-rooted and drought-tolerant. Host for the rare rattlesnake master borer moth.",
+    "wildlifeValue": "Host for rattlesnake master borer moth; nectar for many native bees and wasps",
+    "specialFeatures": [
+      "drought-tolerant",
+      "pollinator",
+      "wildlife",
+      "unique-structure"
+    ]
+  },
+  {
+    "id": "prairie-dock",
+    "name": "Prairie Dock",
+    "scientificName": "Silphium terebinthinaceum",
+    "type": "perennial",
+    "heightMin": 4,
+    "heightMax": 10,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      7,
+      8,
+      9
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Dramatic basal leaves the size of elephant ears send up nearly leafless flower stalks soaring 6-10 feet with yellow sunflower-like blooms. One of the tallest native prairie plants. Enormous taproots can reach 15 feet deep, making it supremely drought-tolerant once established.",
+    "wildlifeValue": "Nectar for native bees and butterflies; seeds for goldfinches",
+    "specialFeatures": [
+      "drought-tolerant",
+      "wildlife",
+      "unique-structure"
+    ]
+  },
+  {
+    "id": "cup-plant",
+    "name": "Cup Plant",
+    "scientificName": "Silphium perfoliatum",
+    "type": "perennial",
+    "heightMin": 4,
+    "heightMax": 8,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "clay",
+      "rich"
+    ],
+    "bloomMonths": [
+      7,
+      8,
+      9
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "evergreen": false,
+    "description": "Named for the cup-shaped reservoir formed where opposite leaves clasp the square stem — these natural 'bird baths' collect rainwater and attract birds. Tall with yellow sunflower-like blooms. Goldfinches feast on the seeds. Can spread aggressively in rich, moist soils.",
+    "wildlifeValue": "Leaf cups provide water for birds; seeds for goldfinches; nectar for bees",
+    "specialFeatures": [
+      "wildlife",
+      "wet-tolerance"
+    ]
+  },
+  {
+    "id": "starry-rosinweed",
+    "name": "Starry Rosinweed",
+    "scientificName": "Silphium asteriscus",
+    "type": "perennial",
+    "heightMin": 2,
+    "heightMax": 4,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      6,
+      7,
+      8
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "The most manageable Silphium for garden use — shorter and less aggressive than its larger relatives. Bright yellow daisy flowers over a long summer season. Resinous stems gave the Rosinweed group their name. Tolerates drought and partial shade better than most other Silphiums.",
+    "wildlifeValue": "Seeds for goldfinches; nectar for bees and butterflies",
+    "specialFeatures": [
+      "drought-tolerant",
+      "long-blooming",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "whorled-coreopsis",
+    "name": "Whorled Coreopsis",
+    "scientificName": "Coreopsis major",
+    "type": "perennial",
+    "heightMin": 2,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "sandy"
+    ],
+    "bloomMonths": [
+      6,
+      7,
+      8
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Bright yellow daisies over whorled fine-textured foliage create an airy, meadow-like effect. Native to dry open woodlands and roadsides throughout NC. More shade-tolerant than other coreopsis species. A cheerful, carefree native for sunny to partially shaded borders.",
+    "wildlifeValue": "Nectar for bees and butterflies; seeds for songbirds",
+    "specialFeatures": [
+      "drought-tolerant",
+      "long-blooming",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "woodland-sunflower",
+    "name": "Woodland Sunflower",
+    "scientificName": "Helianthus divaricatus",
+    "type": "perennial",
+    "heightMin": 2,
+    "heightMax": 5,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      7,
+      8,
+      9
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "One of the few sunflowers that thrives in partial shade and dry conditions. Golden-yellow flowers light up woodland edges from July through September. Spreads by rhizomes to form colonies — excellent for naturalizing dry slopes and open woods.",
+    "wildlifeValue": "Seeds for goldfinches and sparrows; nectar for bees and butterflies",
+    "specialFeatures": [
+      "drought-tolerant",
+      "shade-tolerant",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "ox-eye-sunflower",
+    "name": "Ox-eye Sunflower",
+    "scientificName": "Heliopsis helianthoides",
+    "type": "perennial",
+    "heightMin": 3,
+    "heightMax": 5,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "An exceptionally long-blooming native with golden-yellow daisy flowers from June through September. More compact and better-behaved than true sunflowers — doesn't spread aggressively. The name 'Ox-eye' refers to the prominent central cone. One of the most reliable native perennials for continuous summer color.",
+    "wildlifeValue": "Extended nectar source for bees, butterflies, and skippers; seeds for birds",
+    "specialFeatures": [
+      "long-blooming",
+      "drought-tolerant",
+      "pollinator",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "sweet-goldenrod",
+    "name": "Sweet Goldenrod",
+    "scientificName": "Solidago odora",
+    "type": "perennial",
+    "heightMin": 2,
+    "heightMax": 4,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [
+      8,
+      9,
+      10
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Anise-scented leaves distinguish this goldenrod — crush a leaf to smell the sweet licorice fragrance. The one-sided plumes of golden-yellow flowers are a magnet for migrating monarchs. Does NOT cause hay fever (ragweed is the culprit). Was used to make a pleasant herbal tea.",
+    "wildlifeValue": "Critical late-season nectar for monarchs and native bees; seeds for birds",
+    "specialFeatures": [
+      "aromatic",
+      "wildlife",
+      "drought-tolerant",
+      "pollinator"
+    ]
+  },
+  {
+    "id": "wreath-goldenrod",
+    "name": "Wreath Goldenrod",
+    "scientificName": "Solidago caesia",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      9,
+      10
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "The best goldenrod for shade — clusters of yellow flowers arranged along arching blue-green stems in fall. Also called blue-stemmed goldenrod for its distinctive waxy blue stems. A well-mannered, clump-forming goldenrod that doesn't spread aggressively. One of the few fall-blooming natives for shade.",
+    "wildlifeValue": "Late-season nectar for bees and butterflies in woodland settings",
+    "specialFeatures": [
+      "shade-tolerant",
+      "wildlife",
+      "pollinator"
+    ]
+  },
+  {
+    "id": "zigzag-goldenrod",
+    "name": "Zigzag Goldenrod",
+    "scientificName": "Solidago flexicaulis",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      9,
+      10
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Named for its distinctive zigzagging stem, this shade-loving goldenrod bears clusters of yellow flowers in the axils of broad leaves. An excellent and well-behaved native for woodland gardens, providing important late-season nectar in shaded areas where fall flowers are scarce.",
+    "wildlifeValue": "Late-season nectar for woodland bees and butterflies",
+    "specialFeatures": [
+      "shade-tolerant",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "rough-stemmed-goldenrod",
+    "name": "Rough-stemmed Goldenrod",
+    "scientificName": "Solidago rugosa",
+    "type": "perennial",
+    "heightMin": 2,
+    "heightMax": 5,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      9,
+      10
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "One of the most common and showiest goldenrods, with large, plume-like flower clusters arching gracefully in fall. Found in old fields, meadows, and roadsides throughout NC. Spreads by rhizomes to form large patches. An outstanding late-season nectar source for migrating monarchs.",
+    "wildlifeValue": "Major fall nectar for monarchs and native bees; host for many moth species",
+    "specialFeatures": [
+      "wildlife",
+      "pollinator"
+    ]
+  },
+  {
+    "id": "seaside-goldenrod",
+    "name": "Seaside Goldenrod",
+    "scientificName": "Solidago sempervirens",
+    "type": "perennial",
+    "heightMin": 2,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "sandy",
+      "well-drained"
+    ],
+    "bloomMonths": [
+      9,
+      10,
+      11
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "A semi-evergreen goldenrod of NC's coastal dunes and salt marshes with thick, fleshy leaves and showy golden plumes in fall. Extremely salt-tolerant and drought-tolerant. The last goldenrod to bloom, often flowering into November. Basal rosettes remain green through winter.",
+    "wildlifeValue": "Critical late-season nectar for migrating monarchs on the coast; salt-tolerant",
+    "specialFeatures": [
+      "evergreen",
+      "salt-tolerant",
+      "drought-tolerant",
+      "wildlife",
+      "pollinator"
+    ]
+  },
+  {
+    "id": "smooth-blue-aster",
+    "name": "Smooth Blue Aster",
+    "scientificName": "Symphyotrichum laeve",
+    "type": "perennial",
+    "heightMin": 2,
+    "heightMax": 4,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "sandy"
+    ],
+    "bloomMonths": [
+      9,
+      10,
+      11
+    ],
+    "bloomColors": [
+      "blue-purple"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "One of the most beautiful native asters, with lavender-blue flowers on waxy blue-green stems. The smooth, clasping leaves have a distinctive powdery bloom. Extremely drought-tolerant for an aster. Blooms profusely in fall without flopping. A must-have for the native meadow garden.",
+    "wildlifeValue": "Late-season nectar for monarchs, bees, and migrating butterflies",
+    "specialFeatures": [
+      "drought-tolerant",
+      "pollinator",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "aromatic-aster",
+    "name": "Aromatic Aster",
+    "scientificName": "Symphyotrichum oblongifolium",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 2.5,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "sandy",
+      "rocky",
+      "clay"
+    ],
+    "bloomMonths": [
+      9,
+      10,
+      11
+    ],
+    "bloomColors": [
+      "blue-purple"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A compact, mounding aster that becomes a dome of blue-purple flowers in fall. Leaves smell of balsam when crushed. Among the most drought-tolerant native asters — thrives in rocky, thin soils. Long-blooming from September through hard frost. Excellent as a late-season groundcover.",
+    "wildlifeValue": "Outstanding late-season nectar for monarchs and native bees; host for pearl crescent",
+    "specialFeatures": [
+      "drought-tolerant",
+      "long-blooming",
+      "pollinator",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "white-wood-aster",
+    "name": "White Wood Aster",
+    "scientificName": "Eurybia divaricata",
+    "type": "perennial",
+    "heightMin": 1,
+    "heightMax": 2,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      8,
+      9,
+      10
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "One of the few fall-blooming plants for dry shade — sprays of small white aster flowers brighten woodland understories from August through October. Heart-shaped basal leaves form nice ground-level foliage. Dark zigzagging stems are attractive. Spreads by rhizomes to naturalize shaded areas.",
+    "wildlifeValue": "Late-season nectar for woodland bees and butterflies",
+    "specialFeatures": [
+      "shade-tolerant",
+      "drought-tolerant",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "heart-leaved-aster",
+    "name": "Heart-leaved Aster",
+    "scientificName": "Symphyotrichum cordifolium",
+    "type": "perennial",
+    "heightMin": 2,
+    "heightMax": 5,
+    "sizeCategory": "medium",
+    "sun": [
+      "part-shade",
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy"
+    ],
+    "bloomMonths": [
+      9,
+      10,
+      11
+    ],
+    "bloomColors": [
+      "blue-purple"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Clouds of small blue-purple asters create a hazy, impressionistic effect along woodland edges in fall. Named for its heart-shaped basal leaves. One of the most common native asters in NC, blooming prolifically at the edges of forests and along trails. Partially shade-tolerant.",
+    "wildlifeValue": "Important late-season nectar for native bees and migrating butterflies",
+    "specialFeatures": [
+      "wildlife",
+      "shade-tolerant",
+      "pollinator"
+    ]
   },
 ];
 

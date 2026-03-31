@@ -265,5 +265,8 @@ export const FALL_COLOR_DATA = {
   "sweetbells": {
     fallColors: ["scarlet","fall-orange"],
     fallColorMonths: [10],
-  },
+  },,
+
+  // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
+,
 };
