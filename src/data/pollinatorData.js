@@ -107,7 +107,7 @@ export const POLLINATOR_DATA = {
   "virginia-bluebells": ["ruby-throated hummingbird", "bumblebees", "native bees", "hummingbird clearwing moth"],
 
   // ─── ADDITIONAL GROUNDCOVERS ────────────────────────────────────────────────
-  "partridgeberry": ["native bees", "bumblebees"],,
+  "partridgeberry": ["native bees", "bumblebees"],
 
   // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
   "red-maple": ["native bees","honeybees"],
@@ -121,7 +121,7 @@ export const POLLINATOR_DATA = {
   "cucumber-magnolia": ["beetles"],
   "fraser-magnolia": ["beetles"],
   "bigleaf-magnolia": ["beetles"],
-  "kentucky-coffeetree": ["native bees","bumblebees"],,
+  "kentucky-coffeetree": ["native bees","bumblebees"],
 
   // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
   "sparkleberry": ["native bees","bumblebees"],
@@ -154,7 +154,7 @@ export const POLLINATOR_DATA = {
   "sweetbells": ["native bees"],
   "leatherwood": ["native bees"],
   "sweetleaf": ["native bees","bumblebees"],
-  "saw-palmetto": ["native bees","honeybees"],,
+  "saw-palmetto": ["native bees","honeybees"],
 
   // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
   "solomons-seal": ["bumblebees"],
@@ -195,7 +195,7 @@ export const POLLINATOR_DATA = {
   "smooth-blue-aster": ["monarch butterfly","native bees","bumblebees"],
   "aromatic-aster": ["monarch butterfly","native bees","bumblebees"],
   "white-wood-aster": ["native bees","bumblebees"],
-  "heart-leaved-aster": ["native bees","bumblebees"],,
+  "heart-leaved-aster": ["native bees","bumblebees"],
 
   // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
   "stokes-aster": ["butterflies","bees"],
@@ -233,7 +233,7 @@ export const POLLINATOR_DATA = {
   "muscadine-grape": ["small bees","beetles"],
   "summer-grape": ["small bees"],
   "climbing-hydrangea": ["bees"],
-  "yellow-jessamine": ["bees","hummingbirds"],,
+  "yellow-jessamine": ["bees","hummingbirds"],
 
   // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
   "purpletop-grass": [],

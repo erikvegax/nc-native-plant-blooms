@@ -71,7 +71,7 @@ async function merge() {
 
   // Insert before the closing ];
   plantsContent = plantsContent.replace(
-    /\n\];\s*\nexport default plants;/,
+    /,?\n\];\s*\nexport default plants;/,
     `,\n\n  // ─── ADDITIONAL PLANTS (batch-merged) ─────────────────────────────────────\n${plantEntries},\n];\n\nexport default plants;`
   );
   writeFileSync(plantsPath, plantsContent);
@@ -87,7 +87,7 @@ async function merge() {
     )
     .join(",\n");
   fallContent = fallContent.replace(
-    /\n\};\s*$/,
+    /,?\n\};\s*$/,
     `,\n\n  // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────\n${fallEntries},\n};\n`
   );
   writeFileSync(fallPath, fallContent);
@@ -100,7 +100,7 @@ async function merge() {
     .map(([id, data]) => `  "${id}": ${JSON.stringify(data)}`)
     .join(",\n");
   pollContent = pollContent.replace(
-    /\n\};\s*$/,
+    /,?\n\};\s*$/,
     `,\n\n  // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────\n${pollEntries},\n};\n`
   );
   writeFileSync(pollPath, pollContent);

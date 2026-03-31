@@ -137,7 +137,7 @@ export const FALL_COLOR_DATA = {
   "indian-grass": {
     fallColors: ["golden-yellow", "copper"],
     fallColorMonths: [10, 11],
-  },,
+  },
 
   // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
   "white-oak": {
@@ -215,7 +215,7 @@ export const FALL_COLOR_DATA = {
   "pond-cypress": {
     fallColors: ["copper","fall-orange"],
     fallColorMonths: [10,11],
-  },,
+  },
 
   // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
   "black-huckleberry": {
@@ -265,10 +265,7 @@ export const FALL_COLOR_DATA = {
   "sweetbells": {
     fallColors: ["scarlet","fall-orange"],
     fallColorMonths: [10],
-  },,
-
-  // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
-,,
+  },
 
   // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
   "virginia-creeper": {
@@ -278,7 +275,7 @@ export const FALL_COLOR_DATA = {
   "bowmans-root": {
     fallColors: ["crimson","fall-orange"],
     fallColorMonths: [10,11],
-  },,
+  },
 
   // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
   "broomsedge-bluestem": {

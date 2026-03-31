@@ -2524,7 +2524,7 @@ const plants = [
       "A charming native evergreen groundcover that hugs the forest floor, forming dense mats of small glossy leaves with white veining. Pairs of tiny fragrant white tubular flowers in summer are followed by bright red berries that persist through winter, providing a lovely contrast against the dark foliage. An ideal groundcover beneath acid-loving shrubs like blueberries and rhododendrons.",
     wildlifeValue: "Berries eaten by grouse, turkeys, and foxes; cover for small forest animals",
     specialFeatures: ["evergreen", "wildlife", "shade-tolerant", "winter-interest"],
-  },,
+  },
 
   // ─── ADDITIONAL PLANTS (batch-merged) ─────────────────────────────────────
   {
@@ -5098,7 +5098,7 @@ const plants = [
       "shade-tolerant",
       "wildlife"
     ]
-  },,
+  },
 
   // ─── ADDITIONAL PLANTS (batch-merged) ─────────────────────────────────────
   {
@@ -7051,7 +7051,7 @@ const plants = [
       "wet-tolerance",
       "fall-color"
     ]
-  },,
+  },
 
   // ─── ADDITIONAL PLANTS (batch-merged) ─────────────────────────────────────
   {
@@ -9315,7 +9315,7 @@ const plants = [
       "shade-tolerant",
       "pollinator"
     ]
-  },,
+  },
 
   // ─── ADDITIONAL PLANTS (batch-merged) ─────────────────────────────────────
   {
@@ -11199,7 +11199,7 @@ const plants = [
       "evergreen",
       "fall-blooming"
     ]
-  },,
+  },
 
   // ─── ADDITIONAL PLANTS (batch-merged) ─────────────────────────────────────
   {
