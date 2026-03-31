@@ -215,5 +215,55 @@ export const FALL_COLOR_DATA = {
   "pond-cypress": {
     fallColors: ["copper","fall-orange"],
     fallColorMonths: [10,11],
+  },,
+
+  // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
+  "black-huckleberry": {
+    fallColors: ["scarlet"],
+    fallColorMonths: [10],
+  },
+  "red-chokeberry": {
+    fallColors: ["scarlet","crimson"],
+    fallColorMonths: [10,11],
+  },
+  "black-chokeberry": {
+    fallColors: ["crimson","burgundy"],
+    fallColorMonths: [10],
+  },
+  "large-fothergilla": {
+    fallColors: ["scarlet","fall-orange","golden-yellow"],
+    fallColorMonths: [10,11],
+  },
+  "american-smoketree": {
+    fallColors: ["scarlet","fall-orange","crimson"],
+    fallColorMonths: [10,11],
+  },
+  "mapleleaf-viburnum": {
+    fallColors: ["crimson","burgundy"],
+    fallColorMonths: [10],
+  },
+  "possumhaw-viburnum": {
+    fallColors: ["crimson","burgundy"],
+    fallColorMonths: [10,11],
+  },
+  "blackhaw-viburnum": {
+    fallColors: ["burgundy","crimson"],
+    fallColorMonths: [10,11],
+  },
+  "rusty-blackhaw": {
+    fallColors: ["scarlet","burgundy"],
+    fallColorMonths: [10,11],
+  },
+  "vernal-witch-hazel": {
+    fallColors: ["golden-yellow"],
+    fallColorMonths: [10],
+  },
+  "gray-dogwood": {
+    fallColors: ["burgundy"],
+    fallColorMonths: [10],
+  },
+  "sweetbells": {
+    fallColors: ["scarlet","fall-orange"],
+    fallColorMonths: [10],
   },
 };

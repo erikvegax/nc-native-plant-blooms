@@ -5098,6 +5098,1959 @@ const plants = [
       "shade-tolerant",
       "wildlife"
     ]
+  },,
+
+  // ─── ADDITIONAL PLANTS (batch-merged) ─────────────────────────────────────
+  {
+    "id": "sparkleberry",
+    "name": "Sparkleberry",
+    "scientificName": "Vaccinium arboreum",
+    "type": "shrub",
+    "heightMin": 10,
+    "heightMax": 20,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "The largest native blueberry relative, sometimes tree-like. Clusters of white bell-shaped flowers in spring are followed by small, shiny black berries that persist into winter. Semi-evergreen to evergreen in NC's Coastal Plain and Piedmont. Exfoliating bark adds winter interest.",
+    "wildlifeValue": "Berries eaten by many bird species; nectar for bees; host for spring azure",
+    "specialFeatures": [
+      "evergreen",
+      "wildlife",
+      "winter-interest",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "deerberry",
+    "name": "Deerberry",
+    "scientificName": "Vaccinium stamineum",
+    "type": "shrub",
+    "heightMin": 3,
+    "heightMax": 8,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "sandy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A graceful, open-branched shrub of dry woodlands with dangling white bell flowers and blue-green berries. The berries are tart but edible and consumed by deer and birds. Common on dry ridges and slopes throughout NC. Attractive blue-green foliage all season.",
+    "wildlifeValue": "Berries eaten by deer, turkey, and bears; nectar for bees",
+    "specialFeatures": [
+      "wildlife",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "black-huckleberry",
+    "name": "Black Huckleberry",
+    "scientificName": "Gaylussacia baccata",
+    "type": "shrub",
+    "heightMin": 1,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "sandy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "pink"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A low, colonial shrub of acidic woodlands producing sweet, shiny black berries prized by both wildlife and people. Small pinkish bell-shaped flowers in spring. Spreads by rhizomes to form dense patches on dry, acidic slopes. Reliable scarlet fall color.",
+    "wildlifeValue": "Berries relished by grouse, turkey, bears, and songbirds",
+    "specialFeatures": [
+      "fall-color",
+      "wildlife",
+      "edible",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "coastal-doghobble",
+    "name": "Coastal Doghobble",
+    "scientificName": "Leucothoe axillaris",
+    "type": "shrub",
+    "heightMin": 2,
+    "heightMax": 4,
+    "sizeCategory": "small",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "rich",
+      "loamy",
+      "sandy"
+    ],
+    "bloomMonths": [
+      3,
+      4
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "An elegant evergreen shrub with arching stems bearing glossy, dark green leaves and drooping racemes of fragrant white bell-shaped flowers. Found along streams and in wet forests of NC's Coastal Plain. New foliage often emerges bronze-tinged. Excellent for shaded, moist sites.",
+    "wildlifeValue": "Nectar for early bees; cover for wildlife in wet forests",
+    "specialFeatures": [
+      "evergreen",
+      "shade-tolerant",
+      "wet-tolerance",
+      "fragrant"
+    ]
+  },
+  {
+    "id": "mountain-doghobble",
+    "name": "Mountain Doghobble",
+    "scientificName": "Leucothoe fontanesiana",
+    "type": "shrub",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy",
+      "well-drained"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "A graceful evergreen shrub of NC mountain streambanks with long, arching stems and dangling clusters of white bell flowers. Forms dense thickets that once literally hobbled dogs trying to navigate through mountain laurel and rhododendron tangles. Foliage turns bronze-purple in winter.",
+    "wildlifeValue": "Nectar for bees; dense cover for wildlife along mountain streams",
+    "specialFeatures": [
+      "evergreen",
+      "shade-tolerant",
+      "winter-interest"
+    ]
+  },
+  {
+    "id": "ninebark",
+    "name": "Ninebark",
+    "scientificName": "Physocarpus opulifolius",
+    "type": "shrub",
+    "heightMin": 5,
+    "heightMax": 8,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "clay",
+      "rocky"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Named for its distinctive peeling, layered bark that reveals multiple colors. Dense clusters of white flowers in late spring attract numerous pollinators. Extremely adaptable — tolerates drought, clay, poor soils, and even occasional flooding. One of the toughest native shrubs for difficult sites.",
+    "wildlifeValue": "Flowers attract diverse native bees; seeds for birds; host for spring azure",
+    "specialFeatures": [
+      "wildlife",
+      "winter-interest",
+      "drought-tolerant",
+      "adaptable"
+    ]
+  },
+  {
+    "id": "new-jersey-tea",
+    "name": "New Jersey Tea",
+    "scientificName": "Ceanothus americanus",
+    "type": "shrub",
+    "heightMin": 2,
+    "heightMax": 3,
+    "sizeCategory": "small",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "sandy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      5,
+      6,
+      7
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A small but mighty shrub covered with frothy white flower clusters in late spring that are a magnet for native bees and butterflies. Nitrogen-fixing root nodules improve soil. Leaves were used as a tea substitute during the Revolutionary War. Thrives in dry, poor soils where larger shrubs struggle.",
+    "wildlifeValue": "Exceptional pollinator plant; host for spring azure and mottled duskywing butterflies",
+    "specialFeatures": [
+      "pollinator",
+      "drought-tolerant",
+      "nitrogen-fixer",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "dwarf-palmetto",
+    "name": "Dwarf Palmetto",
+    "scientificName": "Sabal minor",
+    "type": "shrub",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "part-shade",
+      "full-shade",
+      "full-sun"
+    ],
+    "moisture": [
+      "medium",
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "sandy",
+      "clay"
+    ],
+    "bloomMonths": [
+      6,
+      7
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "The hardiest native palm, creating a tropical effect in NC gardens. Fan-shaped evergreen leaves emerge from an underground or very short trunk. Found naturally in NC's Coastal Plain swamps and bottomlands. Fragrant cream flower clusters attract bees. Small black fruits are eaten by birds.",
+    "wildlifeValue": "Berries eaten by birds; year-round cover; bee nectar source",
+    "specialFeatures": [
+      "evergreen",
+      "wildlife",
+      "wet-tolerance",
+      "tropical-effect"
+    ]
+  },
+  {
+    "id": "american-hazelnut",
+    "name": "American Hazelnut",
+    "scientificName": "Corylus americana",
+    "type": "shrub",
+    "heightMin": 6,
+    "heightMax": 12,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "sandy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "A multi-stemmed shrub producing edible hazelnuts in attractive fringed husks. Male catkins dangle attractively in late winter before leaves emerge. Spreads by suckers to form thickets. The nuts are smaller but sweeter than commercial hazelnuts and are a critical food for wildlife.",
+    "wildlifeValue": "Nuts eaten by squirrels, grouse, turkey, deer; host for many moth species",
+    "specialFeatures": [
+      "wildlife",
+      "edible",
+      "winter-interest"
+    ]
+  },
+  {
+    "id": "red-chokeberry",
+    "name": "Red Chokeberry",
+    "scientificName": "Aronia arbutifolia",
+    "type": "shrub",
+    "heightMin": 6,
+    "heightMax": 10,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay",
+      "sandy"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A four-season native shrub with white spring flowers, glossy red berries that persist well into winter, and brilliant scarlet fall foliage. Tolerates wet soils, clay, and poor drainage — excellent for rain gardens. The astringent berries are high in antioxidants and persist because birds eat them only as a last resort.",
+    "wildlifeValue": "Persistent winter berries for birds; spring nectar for bees",
+    "specialFeatures": [
+      "fall-color",
+      "wildlife",
+      "winter-interest",
+      "wet-tolerance"
+    ]
+  },
+  {
+    "id": "black-chokeberry",
+    "name": "Black Chokeberry",
+    "scientificName": "Aronia melanocarpa",
+    "type": "shrub",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "sandy",
+      "clay"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "More compact than Red Chokeberry with glossy black berries that are even higher in antioxidants — now marketed as a 'superfruit.' White spring flowers, excellent purplish-red fall color. Extremely adaptable to both dry and wet conditions. Forms colonies by suckering.",
+    "wildlifeValue": "Berries for birds in late winter; spring nectar for bees",
+    "specialFeatures": [
+      "fall-color",
+      "wildlife",
+      "edible",
+      "adaptable"
+    ]
+  },
+  {
+    "id": "wax-myrtle",
+    "name": "Wax Myrtle",
+    "scientificName": "Morella cerifera",
+    "type": "shrub",
+    "heightMin": 10,
+    "heightMax": 15,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium",
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "sandy",
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "A fast-growing evergreen shrub or small tree with aromatic olive-green foliage. Waxy gray berries on female plants are a vital winter food for yellow-rumped warblers (once called 'myrtle warblers'). Nitrogen-fixing and salt-tolerant. One of the most useful native screening plants for NC landscapes.",
+    "wildlifeValue": "Critical winter berries for yellow-rumped warblers and tree swallows; nitrogen-fixing",
+    "specialFeatures": [
+      "evergreen",
+      "wildlife",
+      "salt-tolerant",
+      "nitrogen-fixer",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "winterberry",
+    "name": "Winterberry",
+    "scientificName": "Ilex verticillata",
+    "type": "shrub",
+    "heightMin": 6,
+    "heightMax": 10,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay",
+      "rich"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "The showiest winter-interest shrub in the NC native palette — bare branches are encrusted with brilliant red berries from fall through winter. A deciduous holly that thrives in wet soils. Both male and female plants are needed for berry production. Absolutely stunning in winter landscapes.",
+    "wildlifeValue": "Red berries are critical late-winter food for cedar waxwings, robins, and bluebirds",
+    "specialFeatures": [
+      "winter-interest",
+      "wildlife",
+      "wet-tolerance"
+    ]
+  },
+  {
+    "id": "swamp-azalea",
+    "name": "Swamp Azalea",
+    "scientificName": "Rhododendron viscosum",
+    "type": "shrub",
+    "heightMin": 5,
+    "heightMax": 8,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "sandy",
+      "loamy",
+      "rich"
+    ],
+    "bloomMonths": [
+      6,
+      7
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A summer-blooming native azalea with intensely fragrant, sticky white flowers that perfume entire wetland areas on warm evenings. Found in swamps and streambanks of NC's Coastal Plain and lower Piedmont. The last of NC's native azaleas to bloom. Also called 'clammy azalea' for its sticky flowers.",
+    "wildlifeValue": "Nectar for swallowtail butterflies and hummingbirds",
+    "specialFeatures": [
+      "fragrant",
+      "wildlife",
+      "wet-tolerance"
+    ]
+  },
+  {
+    "id": "large-fothergilla",
+    "name": "Large Fothergilla",
+    "scientificName": "Fothergilla major",
+    "type": "shrub",
+    "heightMin": 6,
+    "heightMax": 10,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "rich"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "The larger cousin of Dwarf Fothergilla, with the same spectacular fall color — brilliant orange, red, and yellow simultaneously — and fragrant white bottlebrush flowers in spring. Native to mountain woodlands. One of the best native shrubs for year-round ornamental value.",
+    "wildlifeValue": "Early spring nectar for bees and bumblebees",
+    "specialFeatures": [
+      "fall-color",
+      "fragrant",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "coralberry",
+    "name": "Coralberry",
+    "scientificName": "Symphoricarpos orbiculatus",
+    "type": "shrub",
+    "heightMin": 2,
+    "heightMax": 5,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "clay",
+      "rocky"
+    ],
+    "bloomMonths": [
+      6,
+      7
+    ],
+    "bloomColors": [
+      "pink"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A tough, arching shrub that earns its keep with dense clusters of coral-pink to purplish-red berries along the stems from fall through winter. Thrives in shade and poor, dry soils where few other shrubs survive. Spreads by suckers to form colonies — useful for erosion control on slopes.",
+    "wildlifeValue": "Winter berries for birds and small mammals; nectar for hummingbirds and bees",
+    "specialFeatures": [
+      "winter-interest",
+      "wildlife",
+      "shade-tolerant",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "red-buckeye",
+    "name": "Red Buckeye",
+    "scientificName": "Aesculus pavia",
+    "type": "shrub",
+    "heightMin": 10,
+    "heightMax": 20,
+    "sizeCategory": "large",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy",
+      "well-drained"
+    ],
+    "bloomMonths": [
+      3,
+      4
+    ],
+    "bloomColors": [
+      "red"
+    ],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dormantMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "Bright red flower clusters in early spring make this the single most important native plant for ruby-throated hummingbirds arriving from their Gulf Coast migration. Blooms reliably before many nectar sources are available. Goes dormant by late summer. Glossy dark green palmate foliage is handsome in spring.",
+    "wildlifeValue": "Critical early nectar for ruby-throated hummingbirds; swallowtail butterflies",
+    "specialFeatures": [
+      "wildlife",
+      "early-bloom",
+      "hummingbird",
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "american-smoketree",
+    "name": "American Smoketree",
+    "scientificName": "Cotinus obovatus",
+    "type": "shrub",
+    "heightMin": 15,
+    "heightMax": 25,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "rocky",
+      "loamy"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "pale-yellow"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "One of the rarest native trees in eastern North America, prized for what may be the most spectacular fall color of any NC native — electric orange, scarlet, and purple. Billowy pinkish seed plumes in summer create the 'smoke' effect. Much superior to the commonly planted Eurasian smoketree. A conservation priority.",
+    "wildlifeValue": "Nectar for bees; fall berries for birds",
+    "specialFeatures": [
+      "fall-color",
+      "wildlife",
+      "drought-tolerant",
+      "winter-interest"
+    ]
+  },
+  {
+    "id": "saw-palmetto",
+    "name": "Saw Palmetto",
+    "scientificName": "Serenoa repens",
+    "type": "shrub",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "sandy",
+      "well-drained"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "A tough, clumping palm of NC's southeastern Coastal Plain sandhills and maritime forests. Fan-shaped fronds on saw-toothed petioles form dense colonies. Fragrant cream flowers attract many pollinators. The dark berries are an important wildlife food. Incredibly fire-adapted and long-lived.",
+    "wildlifeValue": "Berries eaten by bears, raccoons, and birds; important bee nectar source; cover",
+    "specialFeatures": [
+      "evergreen",
+      "wildlife",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "sandhill-rosemary",
+    "name": "Sandhill Rosemary",
+    "scientificName": "Ceratiola ericoides",
+    "type": "shrub",
+    "heightMin": 3,
+    "heightMax": 5,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun"
+    ],
+    "moisture": [
+      "dry"
+    ],
+    "soil": [
+      "sandy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "An aromatic evergreen shrub restricted to deep sand ridges of NC's Sandhills region. The fine, needle-like foliage resembles rosemary. A keystone species of one of the most endangered plant communities in the Southeast — the sandhill scrub. Extremely drought-adapted with a deep root system.",
+    "wildlifeValue": "Provides cover for rare sandhill species; berries eaten by birds",
+    "specialFeatures": [
+      "evergreen",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "southern-bayberry",
+    "name": "Southern Bayberry",
+    "scientificName": "Morella caroliniensis",
+    "type": "shrub",
+    "heightMin": 6,
+    "heightMax": 10,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "Similar to Wax Myrtle but slightly smaller and more cold-hardy, extending into NC's mountains. Aromatic evergreen leaves and waxy gray berries on female plants. Historically used for making bayberry candles. Nitrogen-fixing roots allow it to colonize poor soils.",
+    "wildlifeValue": "Waxy berries eaten by warblers and tree swallows; nitrogen-fixing",
+    "specialFeatures": [
+      "evergreen",
+      "wildlife",
+      "nitrogen-fixer",
+      "aromatic"
+    ]
+  },
+  {
+    "id": "leatherwood",
+    "name": "Leatherwood",
+    "scientificName": "Dirca palustris",
+    "type": "shrub",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      2,
+      3
+    ],
+    "bloomColors": [
+      "pale-yellow"
+    ],
+    "activeMonths": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1
+    ],
+    "evergreen": false,
+    "description": "One of the earliest-blooming native shrubs, producing small pale yellow flowers in late winter before the leaves. The bark is remarkably tough and flexible — twigs can be tied in knots without breaking. A rare understory plant of rich mountain coves. Difficult to find in nurseries but worth seeking out.",
+    "wildlifeValue": "Very early nectar for bees emerging in late winter",
+    "specialFeatures": [
+      "early-bloom",
+      "shade-tolerant",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "sweetleaf",
+    "name": "Sweetleaf",
+    "scientificName": "Symplocos tinctoria",
+    "type": "shrub",
+    "heightMin": 10,
+    "heightMax": 20,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "sandy",
+      "rich"
+    ],
+    "bloomMonths": [
+      3,
+      4
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "A semi-evergreen large shrub or small tree with fragrant clusters of cream-yellow flowers in early spring. Leaves have a sweet taste (hence the name) and were historically used as a dye source. One of the first shrubs to bloom in NC. Common in Piedmont and Coastal Plain forests.",
+    "wildlifeValue": "Important early nectar for native bees; berries eaten by birds",
+    "specialFeatures": [
+      "evergreen",
+      "early-bloom",
+      "fragrant",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "silky-dogwood",
+    "name": "Silky Dogwood",
+    "scientificName": "Cornus amomum",
+    "type": "shrub",
+    "heightMin": 6,
+    "heightMax": 10,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay",
+      "rich"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A multi-stemmed shrub of wet areas with flat-topped clusters of cream-white flowers followed by blue berries on bright red stalks — a striking color combination. Red-purple winter stems add interest. Excellent for streambank stabilization and rain gardens. Tolerates standing water.",
+    "wildlifeValue": "Blue berries eaten by 40+ bird species; host for spring azure butterfly",
+    "specialFeatures": [
+      "wildlife",
+      "wet-tolerance",
+      "winter-interest"
+    ]
+  },
+  {
+    "id": "gray-dogwood",
+    "name": "Gray Dogwood",
+    "scientificName": "Cornus racemosa",
+    "type": "shrub",
+    "heightMin": 6,
+    "heightMax": 10,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A highly adaptable thicket-forming shrub with white flower clusters, white berries on bright red stalks, and purplish fall color. Spreads by suckers to form dense colonies — excellent for wildlife hedgerows and naturalizing. One of the most adaptable native shrubs, tolerating a wide range of conditions.",
+    "wildlifeValue": "White berries devoured by birds; dense thickets provide nesting cover",
+    "specialFeatures": [
+      "wildlife",
+      "fall-color",
+      "adaptable"
+    ]
+  },
+  {
+    "id": "stiff-dogwood",
+    "name": "Stiff Dogwood",
+    "scientificName": "Cornus foemina",
+    "type": "shrub",
+    "heightMin": 6,
+    "heightMax": 12,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay",
+      "sandy"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A large shrub or small tree common along NC stream edges and fencerows. White flower clusters in spring are followed by dark blue berries on red stalks. More upright and tree-like than other shrub dogwoods. An important component of riparian buffers throughout the Piedmont.",
+    "wildlifeValue": "Berries eaten by many bird species; nesting habitat",
+    "specialFeatures": [
+      "wildlife",
+      "wet-tolerance"
+    ]
+  },
+  {
+    "id": "american-bladdernut",
+    "name": "American Bladdernut",
+    "scientificName": "Staphylea trifolia",
+    "type": "shrub",
+    "heightMin": 8,
+    "heightMax": 12,
+    "sizeCategory": "large",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "dormantMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "An unusual understory shrub with drooping clusters of white bell-shaped flowers in spring and distinctive inflated, papery seed capsules that rattle in the breeze through fall and winter. Found in rich woodlands and floodplains. The striped bark and bladder-like pods make it a great conversation piece.",
+    "wildlifeValue": "Spring nectar for bees; seeds eaten by some birds",
+    "specialFeatures": [
+      "shade-tolerant",
+      "winter-interest"
+    ]
+  },
+  {
+    "id": "mapleleaf-viburnum",
+    "name": "Mapleleaf Viburnum",
+    "scientificName": "Viburnum acerifolium",
+    "type": "shrub",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "rocky"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "cream"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "The best native viburnum for dry shade — thriving where most shrubs fail. Maple-shaped leaves turn striking pink to magenta-purple in fall. Cream flower clusters followed by dark blue-black berries. Spreads slowly by suckers to form attractive groundcover colonies under trees.",
+    "wildlifeValue": "Berries eaten by many bird species; host for spring azure butterfly",
+    "specialFeatures": [
+      "fall-color",
+      "wildlife",
+      "shade-tolerant",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "possumhaw-viburnum",
+    "name": "Possumhaw Viburnum",
+    "scientificName": "Viburnum nudum",
+    "type": "shrub",
+    "heightMin": 5,
+    "heightMax": 12,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay",
+      "rich"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "A stunning multi-season shrub with glossy dark green leaves, white flower clusters, and berries that change from green to pink to blue to dark purple — often showing multiple colors simultaneously. Thrives in wet soils. Outstanding glossy crimson-burgundy fall color.",
+    "wildlifeValue": "Berries eagerly eaten by many bird species; spring nectar for bees",
+    "specialFeatures": [
+      "fall-color",
+      "wildlife",
+      "wet-tolerance",
+      "four-season"
+    ]
+  },
+  {
+    "id": "blackhaw-viburnum",
+    "name": "Blackhaw Viburnum",
+    "scientificName": "Viburnum prunifolium",
+    "type": "shrub",
+    "heightMin": 10,
+    "heightMax": 15,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "clay"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "One of the most versatile native shrubs — tolerates sun or shade, dry or moist soils. Flat-topped white flower clusters in spring are followed by blue-black edible fruits that taste like raisins. Can be grown as a small tree. Excellent wine-red to burgundy fall color.",
+    "wildlifeValue": "Edible berries for birds and mammals; host for spring azure; nectar for bees",
+    "specialFeatures": [
+      "fall-color",
+      "wildlife",
+      "edible",
+      "adaptable",
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "rusty-blackhaw",
+    "name": "Rusty Blackhaw",
+    "scientificName": "Viburnum rufidulum",
+    "type": "shrub",
+    "heightMin": 10,
+    "heightMax": 20,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "soil": [
+      "well-drained",
+      "loamy",
+      "clay",
+      "rocky"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "Distinguished from Blackhaw by its rusty-fuzzy buds, leaf undersides, and petioles. Glossy, leathery leaves turn brilliant scarlet-burgundy in fall — some of the best fall color of any viburnum. Blue-black edible berries. More drought-tolerant than most viburnums.",
+    "wildlifeValue": "Berries for birds; host for spring azure butterfly; bee nectar",
+    "specialFeatures": [
+      "fall-color",
+      "wildlife",
+      "edible",
+      "drought-tolerant"
+    ]
+  },
+  {
+    "id": "smooth-alder",
+    "name": "Smooth Alder",
+    "scientificName": "Alnus serrulata",
+    "type": "shrub",
+    "heightMin": 8,
+    "heightMax": 15,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "loamy",
+      "clay",
+      "sandy"
+    ],
+    "bloomMonths": [],
+    "bloomColors": [],
+    "activeMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2
+    ],
+    "evergreen": false,
+    "description": "A fast-growing, thicket-forming shrub of NC stream edges and wet areas. Male catkins are decorative in late winter. Nitrogen-fixing root nodules enrich the soil. One of the most important plants for stabilizing stream banks and preventing erosion. Tolerates permanent flooding.",
+    "wildlifeValue": "Seeds for goldfinches and redpolls; nitrogen-fixing; streambank stabilizer",
+    "specialFeatures": [
+      "wet-tolerance",
+      "nitrogen-fixer",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "vernal-witch-hazel",
+    "name": "Vernal Witch Hazel",
+    "scientificName": "Hamamelis vernalis",
+    "type": "shrub",
+    "heightMin": 6,
+    "heightMax": 10,
+    "sizeCategory": "large",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "loamy",
+      "rich",
+      "clay"
+    ],
+    "bloomMonths": [
+      1,
+      2,
+      3
+    ],
+    "bloomColors": [
+      "yellow"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12
+    ],
+    "evergreen": false,
+    "description": "Blooms even earlier than Common Witch Hazel — fragrant spidery yellow-to-red flowers unfurl on bare branches in the dead of winter, from January to March. One of the very first plants to flower each year in NC. Golden-yellow fall color. An essential plant for extending the garden season into winter.",
+    "wildlifeValue": "Earliest nectar source for winter-flying bees and flies",
+    "specialFeatures": [
+      "winter-interest",
+      "early-bloom",
+      "fragrant",
+      "fall-color"
+    ]
+  },
+  {
+    "id": "catawba-rhododendron",
+    "name": "Catawba Rhododendron",
+    "scientificName": "Rhododendron catawbiense",
+    "type": "shrub",
+    "heightMin": 6,
+    "heightMax": 10,
+    "sizeCategory": "large",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "well-drained",
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "purple",
+      "lavender"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "The iconic evergreen of the southern Appalachian balds, producing spectacular purple-lavender flower displays in late spring that draw visitors from around the world. Found at higher elevations in NC's mountains. The parent of most cold-hardy rhododendron hybrids. Curls its leaves in winter cold.",
+    "wildlifeValue": "Nectar for bumblebees and swallowtails; year-round cover for wildlife",
+    "specialFeatures": [
+      "evergreen",
+      "wildlife",
+      "shade-tolerant"
+    ]
+  },
+  {
+    "id": "mountain-pieris",
+    "name": "Mountain Pieris",
+    "scientificName": "Pieris floribunda",
+    "type": "shrub",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "part-shade",
+      "full-shade"
+    ],
+    "moisture": [
+      "medium",
+      "moist"
+    ],
+    "soil": [
+      "well-drained",
+      "rich",
+      "loamy"
+    ],
+    "bloomMonths": [
+      3,
+      4
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "A compact evergreen shrub of NC mountain acid soils with upright clusters of white, urn-shaped flowers in early spring. More compact and disease-resistant than the commonly planted Japanese pieris. Flower buds form in fall and are ornamental through winter. Requires acidic, well-drained soil.",
+    "wildlifeValue": "Early spring nectar for bees; year-round cover",
+    "specialFeatures": [
+      "evergreen",
+      "early-bloom",
+      "shade-tolerant",
+      "winter-interest"
+    ]
+  },
+  {
+    "id": "fetterbush",
+    "name": "Fetterbush",
+    "scientificName": "Lyonia lucida",
+    "type": "shrub",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [
+      4,
+      5
+    ],
+    "bloomColors": [
+      "pink",
+      "white"
+    ],
+    "activeMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "dormantMonths": [],
+    "evergreen": true,
+    "description": "A glossy-leaved evergreen shrub of NC Coastal Plain pocosins and wet pine flatwoods. Clusters of pink to white urn-shaped flowers in spring. The arching stems and shiny, dark green foliage are attractive year-round. An underused evergreen native for moist, acidic garden sites.",
+    "wildlifeValue": "Nectar for native bees; year-round cover in wetland habitats",
+    "specialFeatures": [
+      "evergreen",
+      "wet-tolerance",
+      "wildlife"
+    ]
+  },
+  {
+    "id": "sweetbells",
+    "name": "Sweetbells",
+    "scientificName": "Eubotrys racemosus",
+    "type": "shrub",
+    "heightMin": 3,
+    "heightMax": 6,
+    "sizeCategory": "medium",
+    "sun": [
+      "full-sun",
+      "part-shade"
+    ],
+    "moisture": [
+      "moist",
+      "wet"
+    ],
+    "soil": [
+      "sandy",
+      "loamy"
+    ],
+    "bloomMonths": [
+      5,
+      6
+    ],
+    "bloomColors": [
+      "white"
+    ],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "dormantMonths": [
+      12,
+      1,
+      2,
+      3
+    ],
+    "evergreen": false,
+    "description": "An arching, deciduous shrub of NC's Coastal Plain bogs and wet pine savannas. One-sided racemes of fragrant white bell-shaped flowers in late spring. Good fall color in shades of red and orange. Often found growing with fetterbush and titi in acidic wetlands.",
+    "wildlifeValue": "Nectar for native bees; component of rare wetland plant communities",
+    "specialFeatures": [
+      "fragrant",
+      "wet-tolerance",
+      "fall-color"
+    ]
   },
 ];
 

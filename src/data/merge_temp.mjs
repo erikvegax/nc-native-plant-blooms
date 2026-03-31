@@ -16,6 +16,10 @@ const tempFiles = [
 ];
 
 async function merge() {
+  // Load existing plant IDs to avoid duplicates
+  const existingPlants = (await import("./plants.js")).default;
+  const existingIds = new Set(existingPlants.map((p) => p.id));
+
   let allPlants = [];
   let allFallColors = {};
   let allPollinators = {};
@@ -27,10 +31,28 @@ async function merge() {
       continue;
     }
     const mod = await import(`./${file}`);
-    if (mod.plants) allPlants.push(...mod.plants);
-    if (mod.fallColors) Object.assign(allFallColors, mod.fallColors);
-    if (mod.pollinators) Object.assign(allPollinators, mod.pollinators);
-    console.log(`Loaded ${file}: ${mod.plants?.length ?? 0} plants`);
+    const newPlants = (mod.plants ?? []).filter((p) => !existingIds.has(p.id));
+    const skipped = (mod.plants?.length ?? 0) - newPlants.length;
+    allPlants.push(...newPlants);
+    newPlants.forEach((p) => existingIds.add(p.id));
+    // Only include fall/pollinator data for plants we're actually adding
+    const newIds = new Set(newPlants.map((p) => p.id));
+    if (mod.fallColors) {
+      for (const [id, data] of Object.entries(mod.fallColors)) {
+        if (newIds.has(id)) allFallColors[id] = data;
+      }
+    }
+    if (mod.pollinators) {
+      for (const [id, data] of Object.entries(mod.pollinators)) {
+        if (newIds.has(id)) allPollinators[id] = data;
+      }
+    }
+    console.log(`Loaded ${file}: ${newPlants.length} new plants${skipped ? ` (${skipped} already exist)` : ""}`);
+  }
+
+  if (allPlants.length === 0) {
+    console.log("\nNo new plants to merge.");
+    return;
   }
 
   console.log(`\nTotal new plants: ${allPlants.length}`);
