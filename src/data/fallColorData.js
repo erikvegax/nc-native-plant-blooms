@@ -268,5 +268,15 @@ export const FALL_COLOR_DATA = {
   },,
 
   // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
-,
+,,
+
+  // ─── ADDITIONAL PLANTS ──────────────────────────────────────────────────────
+  "virginia-creeper": {
+    fallColors: ["scarlet","crimson"],
+    fallColorMonths: [10,11],
+  },
+  "bowmans-root": {
+    fallColors: ["crimson","fall-orange"],
+    fallColorMonths: [10,11],
+  },
 };
