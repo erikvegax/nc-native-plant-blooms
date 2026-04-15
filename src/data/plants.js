@@ -2495,6 +2495,9 @@ const plants = [
     description:
       "The iconic tallgrass prairie grass of North America, growing 4–8 feet tall with distinctive turkey-foot seed heads. The steel-blue summer foliage turns striking shades of copper and bronze in fall and winter, providing dramatic year-round structure. Extremely drought-tolerant and deep-rooted. One of the highest wildlife value grasses, supporting 65+ species of Lepidoptera.",
     wildlifeValue: "Host for 65+ Lepidoptera species; seeds for birds; nesting habitat for ground birds",
+    spreadMin: 1.5,
+    spreadMax: 2,
+    spreading: true,
     specialFeatures: ["fall-color", "drought-tolerant", "wildlife", "winter-interest"],
   },
   {
@@ -2516,6 +2519,9 @@ const plants = [
     description:
       "A graceful native warm-season grass with distinctive golden-bronze seed heads that shimmer beautifully in fall and winter light. The blue-green summer foliage transitions to rich copper and gold as temperatures drop. More compact and refined than big bluestem, making it well-suited for designed landscapes and rain gardens. Extremely drought-tolerant once established.",
     wildlifeValue: "Host for several skipper butterflies; seeds for birds; nesting cover",
+    spreadMin: 1.5,
+    spreadMax: 2,
+    spreading: true,
     specialFeatures: ["fall-color", "drought-tolerant", "wildlife", "winter-interest"],
   },
 
@@ -2539,6 +2545,9 @@ const plants = [
     description:
       "The largest and most majestic of the native NC ferns, with broad, almost shrub-like fronds that can reach 5 feet. Unlike most ferns, it tolerates standing water and actually thrives along stream banks and pond margins. The fertile fronds bearing spores resemble flower clusters, earning it the nickname 'flowering fern.' Spectacular in wet, shaded spots where little else will grow.",
     wildlifeValue: "Dense fronds provide nesting material and cover for birds and small mammals",
+    spreadMin: 2,
+    spreadMax: 3,
+    spreading: true,
     specialFeatures: ["shade-tolerant", "wet-tolerance", "large-scale"],
   },
   {
@@ -2560,6 +2569,9 @@ const plants = [
     description:
       "One of the most elegant native ferns, with delicate fan-shaped fronds held on distinctive glossy black stems arranged in a graceful horizontal plane. Creates a refined, airy texture in shade gardens. Unlike many ferns, it prefers moderately moist (not soggy) conditions. Slow to establish but long-lived. Unfurling fiddleheads in spring are especially ornamental.",
     wildlifeValue: "Cover and nesting material for birds; supports forest understory ecosystem",
+    spreadMin: 1,
+    spreadMax: 2,
+    spreading: true,
     specialFeatures: ["shade-tolerant", "elegant-texture"],
   },
 
@@ -11783,6 +11795,9 @@ const plants = [
     "evergreen": false,
     "description": "Open, drooping panicles of dark purple spikelets top tall stems in late summer. Extremely common roadside grass throughout NC. Oily seeds leave purple stains. Easy to establish and naturalizes freely.",
     "wildlifeValue": "Seeds eaten by sparrows and juncos; cover for ground-nesting birds",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "fall-interest",
       "wildlife"
@@ -11833,6 +11848,9 @@ const plants = [
     "evergreen": false,
     "description": "Iconic warm-season bunchgrass that turns coppery-orange in fall and persists through winter. Often the first grass to colonize old fields. Fluffy white seed heads catch the light beautifully in low winter sun.",
     "wildlifeValue": "Sparrows and ground-nesting birds; cover for wildlife year-round",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": false,
     "specialFeatures": [
       "winter-interest",
       "fall-color"
@@ -11882,6 +11900,9 @@ const plants = [
     "evergreen": false,
     "description": "Pairs of fluffy silvery-white seed heads that split apart give this grass its common name. Striking winter display when backlit. Grows in dry, infertile soils where few other grasses thrive.",
     "wildlifeValue": "Cover and seeds for birds; nesting material",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": false,
     "specialFeatures": [
       "winter-interest",
       "drought-tolerant"
@@ -11933,6 +11954,9 @@ const plants = [
     "evergreen": false,
     "description": "Dense, bushy clusters of coppery seed heads packed tightly at the top of stems. Found in wet ditches, seeps, and pond margins. Turns rich orange-bronze in fall. One of the showiest native grasses for moist sites.",
     "wildlifeValue": "Cover for sparrows and wrens; seeds for small birds",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wetland"
@@ -11980,6 +12004,9 @@ const plants = [
     "evergreen": true,
     "description": "The signature grass of longleaf pine savannas — wiry, tufted, and fire-adapted. Blooms most prolifically after fire. Historically the dominant groundcover across millions of acres of the SE Coastal Plain.",
     "wildlifeValue": "Essential groundcover for longleaf pine ecosystem wildlife",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "fire-adapted",
       "evergreen"
@@ -12031,6 +12058,9 @@ const plants = [
     "evergreen": false,
     "description": "Spectacular billowing clouds of bright pink flower panicles in fall make this one of the showiest native grasses. Fine-textured clumping grass that is drought-tolerant once established. A landscape favorite.",
     "wildlifeValue": "Seeds for sparrows; cover for small wildlife",
+    "spreadMin": 2,
+    "spreadMax": 3,
+    "spreading": false,
     "specialFeatures": [
       "fall-blooming",
       "drought-tolerant"
@@ -12082,6 +12112,9 @@ const plants = [
     "evergreen": false,
     "description": "Broad-leaved warm-season grass with bamboo-like stems and open panicles. Common in moist meadows and woodland edges. The wide, tongue-shaped leaves are distinctive among native grasses.",
     "wildlifeValue": "Seeds important for turkey and quail; deer browse the leaves",
+    "spreadMin": 1.5,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "wildlife",
       "shade-tolerant"
@@ -12133,6 +12166,9 @@ const plants = [
     "evergreen": false,
     "description": "Distinctive spiky seed heads resemble bottle brushes — the spikelets spread outward at right angles. One of the best native grasses for shade. Cool-season grass that greens up early and tolerates dry woodland conditions.",
     "wildlifeValue": "Seeds eaten by woodland birds; turkeys especially",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": false,
     "specialFeatures": [
       "shade-tolerant",
       "wildlife"
@@ -12184,6 +12220,9 @@ const plants = [
     "evergreen": false,
     "description": "Robust cool-season bunchgrass with arching seed heads. Common along streams, woodland edges, and floodplains. Green up early in spring, providing erosion control and early season structure.",
     "wildlifeValue": "Seeds for sparrows and small birds; erosion control on stream banks",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "erosion-control",
       "shade-tolerant"
@@ -12235,6 +12274,9 @@ const plants = [
     "evergreen": true,
     "description": "Dense clumps of round, dark green stems topped with loose clusters of tiny brown flowers. One of the most common and useful wetland plants for rain gardens, bioswales, and pond edges. Evergreen in mild winters.",
     "wildlifeValue": "Cover for frogs, toads, and birds; waterfowl nesting habitat",
+    "spreadMin": 2,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "rain-garden",
       "evergreen",
@@ -12288,6 +12330,9 @@ const plants = [
     "evergreen": false,
     "description": "Dense spiky seed heads resemble a fox's bushy tail. A clumping wetland sedge excellent for rain gardens and wet meadows. Tolerates periodic flooding and helps filter stormwater runoff.",
     "wildlifeValue": "Seeds for wetland birds; cover for amphibians",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "rain-garden",
       "wetland"
@@ -12340,6 +12385,9 @@ const plants = [
     "evergreen": false,
     "description": "Forms distinctive raised tussocks (mounds) in wetlands and along streams. Fine-textured arching leaves fountain outward. The tussock microhabitat supports diverse insect and amphibian communities.",
     "wildlifeValue": "Tussocks provide nesting sites for birds and habitat for salamanders",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "wetland",
       "wildlife"
@@ -12390,6 +12438,9 @@ const plants = [
     "evergreen": true,
     "description": "Semi-evergreen sedge forming graceful clumps of narrow arching leaves. Drooping seed heads on slender stems are attractive in spring. Excellent as a native lawn substitute or groundcover in partial shade.",
     "wildlifeValue": "Cover for small wildlife; seeds for birds",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "lawn-alternative",
@@ -12443,6 +12494,9 @@ const plants = [
     "evergreen": false,
     "description": "Large drooping clusters of woolly-looking reddish-brown spikelets top tall stems. A dramatic native sedge for wet areas, rain gardens, and pond margins. Fast-growing and effective at stabilizing wet soils.",
     "wildlifeValue": "Waterfowl cover and food; red-winged blackbird nesting habitat",
+    "spreadMin": 2,
+    "spreadMax": 4,
+    "spreading": true,
     "specialFeatures": [
       "rain-garden",
       "wetland"
@@ -12494,6 +12548,9 @@ const plants = [
     "evergreen": false,
     "description": "Fine-textured fountain of hair-like leaves with airy, fragrant flower panicles that smell like cilantro or buttered popcorn. Turns golden-orange in fall. Slow to establish but extremely long-lived and drought-tolerant.",
     "wildlifeValue": "Seeds for sparrows; cover for small wildlife",
+    "spreadMin": 1.5,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "fragrant",
       "drought-tolerant",
@@ -12540,6 +12597,9 @@ const plants = [
     "evergreen": true,
     "description": "Small upright fern with dark, shiny ebony-colored stems and ladder-like pinnae. One of the most common and adaptable ferns in NC, found on rocks, walls, and woodland banks. Nearly evergreen.",
     "wildlifeValue": "Cover for small wildlife; spores eaten by some insects",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "shade-tolerant",
@@ -12587,6 +12647,9 @@ const plants = [
     "evergreen": false,
     "description": "Graceful, lacy fronds on a medium-sized fern that forms attractive vase-shaped clumps. One of the most elegant native ferns. Fiddleheads emerge red-tinged in spring. Adapts well to garden culture.",
     "wildlifeValue": "Cover for amphibians and small mammals",
+    "spreadMin": 1.5,
+    "spreadMax": 2.5,
+    "spreading": false,
     "specialFeatures": [
       "shade-tolerant"
     ]
@@ -12632,6 +12695,9 @@ const plants = [
     "evergreen": false,
     "description": "Fronds taper at both ends — 'New Yorkers burn the candle at both ends.' Spreads by rhizomes to form dense colonies that make excellent deciduous groundcover. Yellowish-green fronds turn golden in fall.",
     "wildlifeValue": "Groundcover for woodland wildlife; habitat for invertebrates",
+    "spreadMin": 2,
+    "spreadMax": 4,
+    "spreading": true,
     "specialFeatures": [
       "groundcover",
       "shade-tolerant"
@@ -12678,6 +12744,9 @@ const plants = [
     "evergreen": false,
     "description": "Broad, coarse-textured fronds with bead-like fertile spore stalks that persist through winter. Called 'sensitive' because it's among the first ferns to die back at the first frost. Spreads vigorously in wet areas.",
     "wildlifeValue": "Cover for wetland wildlife; persistent fertile fronds used by birds",
+    "spreadMin": 2,
+    "spreadMax": 4,
+    "spreading": true,
     "specialFeatures": [
       "wetland",
       "winter-interest"
@@ -12724,6 +12793,9 @@ const plants = [
     "evergreen": false,
     "description": "Glossy, dimorphic fern — sterile fronds are broad and chain-like, fertile fronds are narrow with rows of sori. Spreads by rhizomes in acidic wetlands and stream margins. Attractive glossy texture.",
     "wildlifeValue": "Wetland cover for amphibians and small wildlife",
+    "spreadMin": 1.5,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "wetland",
       "shade-tolerant"
@@ -12768,6 +12840,9 @@ const plants = [
     "evergreen": true,
     "description": "Epiphytic fern growing on tree branches and rocks that curls up brown and appears dead during drought, then unfurls green within hours of rain. A signature plant of Southern live oak branches. Evergreen.",
     "wildlifeValue": "Microhabitat for invertebrates on tree branches",
+    "spreadMin": 0.5,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "epiphytic",
       "drought-tolerant",
@@ -12814,6 +12889,9 @@ const plants = [
     "evergreen": true,
     "description": "Handsome evergreen fern with leathery blue-green fronds in a symmetrical vase shape. Sori are positioned along the margins of the pinnules. Thrives on rocky slopes and at the base of boulders. Very cold-hardy.",
     "wildlifeValue": "Year-round cover for woodland wildlife",
+    "spreadMin": 1.5,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "shade-tolerant",
@@ -12861,6 +12939,9 @@ const plants = [
     "evergreen": false,
     "description": "Lacy, yellowish-green fronds that smell like freshly cut hay when crushed. Spreads aggressively by rhizomes to form dense colonies. Turns golden-yellow in fall. Can dominate large areas in mountain forests.",
     "wildlifeValue": "Groundcover for turkeys and grouse; deer-resistant",
+    "spreadMin": 3,
+    "spreadMax": 6,
+    "spreading": true,
     "specialFeatures": [
       "fragrant",
       "groundcover",
@@ -12907,6 +12988,9 @@ const plants = [
     "evergreen": false,
     "description": "Large fern named for the fertile pinnae that 'interrupt' the middle of the frond — they wither and fall off by summer, leaving a gap. Closely related to cinnamon and royal ferns. Forms massive crowns over time.",
     "wildlifeValue": "Cover for woodland wildlife; historical fern fiber used by hummingbirds for nests",
+    "spreadMin": 2,
+    "spreadMax": 3,
+    "spreading": false,
     "specialFeatures": [
       "shade-tolerant"
     ]
@@ -12952,6 +13036,9 @@ const plants = [
     "evergreen": false,
     "description": "Broad, triangular fronds with the lowest pair of pinnae angled downward and forward. Spreads by rhizomes to form attractive colonies. Often found near beech trees in rich cove forests. Soft, delicate texture.",
     "wildlifeValue": "Groundcover for woodland invertebrates and amphibians",
+    "spreadMin": 1.5,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "groundcover",
       "shade-tolerant"
@@ -12995,6 +13082,9 @@ const plants = [
     "evergreen": true,
     "description": "Unique fern with simple, undivided lance-shaped fronds that taper to long tips. These tips root where they touch the ground, creating new plants — the fern 'walks' across rocks. Found on mossy limestone boulders.",
     "wildlifeValue": "Microhabitat specialist; indicator of high-quality limestone habitats",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "rock-garden",
@@ -13042,6 +13132,9 @@ const plants = [
     "evergreen": false,
     "description": "Large, arching fronds with a fine texture that spread by rhizomes to form lush colonies. More heat-tolerant than most ferns. Semi-evergreen in the Piedmont and Coastal Plain. Excellent for massed plantings in shade.",
     "wildlifeValue": "Cover for shade-dwelling wildlife",
+    "spreadMin": 2,
+    "spreadMax": 4,
+    "spreading": true,
     "specialFeatures": [
       "shade-tolerant",
       "groundcover"
@@ -13088,6 +13181,9 @@ const plants = [
     "evergreen": false,
     "description": "A single triangular sterile frond and a separate tall fertile stalk bearing grape-like spore clusters. The fertile stalk was said to resemble a rattlesnake's rattle. Indicator of rich, undisturbed woodlands.",
     "wildlifeValue": "Indicator species for healthy forest ecosystems",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "shade-tolerant"
     ]
@@ -13793,6 +13889,9 @@ const plants = [
     "evergreen": false,
     "description": "Tall, round dark green stems with clusters of brown spikelets near the top. Major wetland species used extensively in constructed wetlands and stormwater treatment. Provides dense wildlife cover.",
     "wildlifeValue": "Important waterfowl habitat; red-winged blackbirds, marsh wrens nest in stands",
+    "spreadMin": 2,
+    "spreadMax": 4,
+    "spreading": true,
     "specialFeatures": [
       "wetland",
       "rain-garden",
@@ -14414,6 +14513,9 @@ const plants = [
     "evergreen": true,
     "description": "The signature dune grass of NC's barrier islands. Large oat-like seed heads nod in the ocean breeze. Deep roots trap sand and build dunes. Protected by law — collecting is prohibited. Essential for coastal dune stability.",
     "wildlifeValue": "Seeds eaten by beach mice and sparrows; stabilizes dune habitat for nesting sea turtles",
+    "spreadMin": 2,
+    "spreadMax": 4,
+    "spreading": true,
     "specialFeatures": [
       "coastal",
       "evergreen",
@@ -14462,6 +14564,9 @@ const plants = [
     "evergreen": true,
     "description": "Dense, upright tufts of stiff blue-green leaves with spike-like seed heads. Primary dune-building grass on NC's northern Outer Banks. Spreads by aggressive rhizomes, trapping sand to form and stabilize dunes.",
     "wildlifeValue": "Dune habitat for shorebirds and beach-nesting species",
+    "spreadMin": 2,
+    "spreadMax": 4,
+    "spreading": true,
     "specialFeatures": [
       "coastal",
       "evergreen",
