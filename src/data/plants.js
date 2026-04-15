@@ -2595,6 +2595,9 @@ const plants = [
     description:
       "A charming native evergreen groundcover that hugs the forest floor, forming dense mats of small glossy leaves with white veining. Pairs of tiny fragrant white tubular flowers in summer are followed by bright red berries that persist through winter, providing a lovely contrast against the dark foliage. An ideal groundcover beneath acid-loving shrubs like blueberries and rhododendrons.",
     wildlifeValue: "Berries eaten by grouse, turkeys, and foxes; cover for small forest animals",
+    spreadMin: 1,
+    spreadMax: 3,
+    spreading: true,
     specialFeatures: ["evergreen", "wildlife", "shade-tolerant", "winter-interest"],
   },
 
@@ -11216,6 +11219,9 @@ const plants = [
     "evergreen": false,
     "description": "Graceful drooping clusters of lilac-purple fragrant flowers on a well-behaved native vine. Unlike invasive Asian wisteria, it blooms after leaves emerge, grows less aggressively, and stays manageable. Nitrogen-fixing.",
     "wildlifeValue": "Bumblebees; host for Silver-spotted Skipper butterfly",
+    "spreadMin": 8,
+    "spreadMax": 15,
+    "spreading": true,
     "specialFeatures": [
       "fragrant",
       "butterfly-host",
@@ -11273,6 +11279,9 @@ const plants = [
     "evergreen": false,
     "description": "Clusters of large trumpet-shaped orange-red flowers are irresistible to hummingbirds. Vigorous woody vine that climbs by aerial rootlets. Can be aggressive — best on sturdy structures with room to spread.",
     "wildlifeValue": "Primary hummingbird plant; also visited by sphinx moths",
+    "spreadMin": 8,
+    "spreadMax": 15,
+    "spreading": true,
     "specialFeatures": [
       "hummingbird-garden",
       "long-blooming"
@@ -11324,6 +11333,9 @@ const plants = [
     "evergreen": true,
     "description": "Masses of fragrant yellow trumpet flowers in late winter to early spring signal the end of winter. Evergreen twining vine with glossy leaves. State flower of South Carolina. All parts are toxic.",
     "wildlifeValue": "Early spring bees; hummingbirds",
+    "spreadMin": 4,
+    "spreadMax": 8,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "fragrant",
@@ -11379,6 +11391,9 @@ const plants = [
     "evergreen": false,
     "description": "Exotic-looking fringed flowers with intricate purple and white filaments. Produces edible yellow fruits called maypops. Fast-growing tendril climber that spreads by root suckers. Dies back to the ground in winter.",
     "wildlifeValue": "Host plant for Gulf Fritillary and Variegated Fritillary butterflies; bumblebees",
+    "spreadMin": 4,
+    "spreadMax": 10,
+    "spreading": true,
     "specialFeatures": [
       "butterfly-host",
       "edible-fruit"
@@ -11431,6 +11446,9 @@ const plants = [
     "evergreen": false,
     "description": "Large heart-shaped leaves create dense shade on this twining vine. Small pipe-shaped maroon and cream flowers are hidden beneath the foliage. Critical host plant for the Pipevine Swallowtail butterfly.",
     "wildlifeValue": "Sole host plant for Pipevine Swallowtail butterfly",
+    "spreadMin": 8,
+    "spreadMax": 15,
+    "spreading": false,
     "specialFeatures": [
       "butterfly-host",
       "shade-tolerant"
@@ -11485,6 +11503,9 @@ const plants = [
     "evergreen": false,
     "description": "Five-leaflet compound leaves turn brilliant scarlet to crimson in fall. Small blue-black berries on red stalks are highly ornamental. Climbs by adhesive disks. Extremely adaptable native vine for walls and fences.",
     "wildlifeValue": "Berries eaten by 30+ bird species; host for sphinx moths",
+    "spreadMin": 10,
+    "spreadMax": 20,
+    "spreading": true,
     "specialFeatures": [
       "fall-color",
       "wildlife"
@@ -11536,6 +11557,9 @@ const plants = [
     "evergreen": false,
     "description": "Twining vine prized for its clusters of orange-red berries that split to reveal scarlet seeds in fall. Often used in dried arrangements. Important to plant the native species, not the invasive Oriental bittersweet.",
     "wildlifeValue": "Berries eaten by bluebirds, robins, and other songbirds",
+    "spreadMin": 6,
+    "spreadMax": 12,
+    "spreading": false,
     "specialFeatures": [
       "fall-interest",
       "wildlife"
@@ -11587,6 +11611,9 @@ const plants = [
     "evergreen": false,
     "description": "The Southeast's iconic native grape, producing thick-skinned, musky-sweet bronze or purple fruits. Grown commercially for wine, juice, and fresh eating. Vigorous vine needing strong support.",
     "wildlifeValue": "Fruits eaten by many birds and mammals; caterpillar host for multiple moths",
+    "spreadMin": 10,
+    "spreadMax": 20,
+    "spreading": false,
     "specialFeatures": [
       "edible-fruit",
       "wildlife"
@@ -11638,6 +11665,9 @@ const plants = [
     "evergreen": false,
     "description": "High-climbing wild grape with large lobed leaves that are rusty-hairy underneath. Small dark blue-black fruits ripen in fall. Common in forest edges and clearings throughout NC.",
     "wildlifeValue": "Fruits and foliage important for songbirds, turkey, and deer; moth host",
+    "spreadMin": 8,
+    "spreadMax": 15,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "edible-fruit"
@@ -11689,6 +11719,9 @@ const plants = [
     "evergreen": false,
     "description": "Native climbing hydrangea (also called wood-vamp) with clusters of small fragrant white flowers. Climbs by aerial rootlets like English ivy but is much less aggressive. Semi-evergreen in mild winters.",
     "wildlifeValue": "Bees and small pollinators",
+    "spreadMin": 6,
+    "spreadMax": 12,
+    "spreading": false,
     "specialFeatures": [
       "shade-tolerant",
       "fragrant"
@@ -11741,6 +11774,9 @@ const plants = [
     "evergreen": true,
     "description": "Scentless relative of Carolina Jessamine that blooms later in spring and again in fall. Evergreen twining vine found in swampy areas and stream banks. Less common than its fragrant cousin but equally attractive.",
     "wildlifeValue": "Bees and hummingbirds",
+    "spreadMin": 4,
+    "spreadMax": 8,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "fall-blooming"
@@ -13944,6 +13980,9 @@ const plants = [
     "evergreen": true,
     "description": "Native alternative to invasive Japanese pachysandra. Mottled semi-evergreen leaves and fragrant bottlebrush-like white to pinkish flowers in early spring. Slowly spreads to form a dense mat. Far better for wildlife than its Asian cousin.",
     "wildlifeValue": "Early spring bees visit flowers; cover for ground-dwelling wildlife",
+    "spreadMin": 1,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "shade-tolerant",
@@ -13997,6 +14036,9 @@ const plants = [
     "evergreen": true,
     "description": "Dense mats of needle-like evergreen foliage erupt in a carpet of pink, lavender, or white flowers in spring. Native to rocky outcrops and dry slopes in NC's mountains and Piedmont. Iconic rock garden plant.",
     "wildlifeValue": "Early butterflies and bees",
+    "spreadMin": 1.5,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "drought-tolerant",
@@ -14049,6 +14091,9 @@ const plants = [
     "evergreen": true,
     "description": "Cheerful clusters of golden-yellow daisy-like flowers on tall stems above a basal rosette of heart-shaped evergreen leaves. One of the best native groundcovers — spreads by stolons to form dense weed-suppressing mats.",
     "wildlifeValue": "Early bees, small butterflies, and syrphid flies",
+    "spreadMin": 1.5,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "groundcover",
@@ -14101,6 +14146,9 @@ const plants = [
     "evergreen": false,
     "description": "Tiny but intensely flavorful red strawberries follow white five-petaled flowers. Spreads by runners to form mats. One of the parents of the modern cultivated strawberry. An excellent edible native groundcover.",
     "wildlifeValue": "Fruits eaten by birds, box turtles, chipmunks; bee-pollinated flowers",
+    "spreadMin": 1,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "edible-fruit",
       "groundcover"
@@ -14151,6 +14199,9 @@ const plants = [
     "evergreen": true,
     "description": "Low-growing evergreen mat with glossy dark leaves, small urn-shaped pink-white flowers, and bright red berries. Found on sandy or rocky soils at higher elevations in NC. Excellent groundcover for difficult, dry sites.",
     "wildlifeValue": "Berries eaten by bears, grouse, and turkeys; bumblebee-pollinated",
+    "spreadMin": 3,
+    "spreadMax": 6,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "drought-tolerant",
@@ -14202,6 +14253,9 @@ const plants = [
     "evergreen": true,
     "description": "Fuzzy white flower clusters resemble tiny cat paws. Silvery-green basal leaves form rosettes that spread by stolons. Thrives in poor, dry soils. Host plant for American Lady butterfly. A charming, tough groundcover.",
     "wildlifeValue": "Host plant for American Lady butterfly; small pollinators visit flowers",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "butterfly-host",
       "evergreen",
