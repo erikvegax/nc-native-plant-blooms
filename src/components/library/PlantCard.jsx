@@ -85,19 +85,20 @@ export default function PlantCard({ plant, isInPlan, onAdd, onRemove }) {
 
       <div className="mt-2 flex items-center gap-2 text-xs text-stone-500 flex-wrap">
         <span title={SUN_ORDER.filter((s) => plant.sun.includes(s)).map((s) => SUN_ICONS[s].label).join(", ")}>
+          <span className="font-medium text-stone-600">Sun</span>{" "}
           {SUN_ORDER.filter((s) => plant.sun.includes(s)).map((s) => SUN_ICONS[s].icon).join(" ")}
         </span>
         <span className="text-stone-300">|</span>
-        <span title={`Moisture: ${plant.moisture.join(", ")}`}>
-          {MOISTURE_LABELS[plant.moisture[plant.moisture.length - 1]]}
+        <span>
+          <span className="font-medium text-stone-600">Height</span>{" "}
+          {plant.heightMin}–{plant.heightMax}′
         </span>
-        <span className="text-stone-300">|</span>
-        <span>{plant.heightMin}–{plant.heightMax}′</span>
 
         {plant.bloomColors.length > 0 && (
           <>
             <span className="text-stone-300">|</span>
             <span className="flex gap-1.5 items-center">
+              <span className="font-medium text-stone-600">Bloom</span>
               {plant.bloomColors.slice(0, 3).map((color) => (
                 <span
                   key={color}

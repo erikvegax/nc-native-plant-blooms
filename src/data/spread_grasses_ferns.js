@@ -1,0 +1,42 @@
+// Spread data for grasses and ferns missing spreadMin/spreadMax/spreading
+
+export const spreadData = {
+  // ─── Grasses / Sedges / Rushes ────────────────────────────────────────────
+  "big-bluestem": { spreadMin: 1.5, spreadMax: 2, spreading: true },
+  "indian-grass": { spreadMin: 1.5, spreadMax: 2, spreading: true },
+  "purpletop-grass": { spreadMin: 1, spreadMax: 2, spreading: true },
+  "broomsedge-bluestem": { spreadMin: 1, spreadMax: 1.5, spreading: false },
+  "split-beard-bluestem": { spreadMin: 1, spreadMax: 1.5, spreading: false },
+  "bushy-bluestem": { spreadMin: 1, spreadMax: 2, spreading: false },
+  "wiregrass": { spreadMin: 1, spreadMax: 2, spreading: false },
+  "pink-muhly-grass": { spreadMin: 2, spreadMax: 3, spreading: false },
+  "deer-tongue-grass": { spreadMin: 1.5, spreadMax: 3, spreading: true },
+  "bottlebrush-grass": { spreadMin: 1, spreadMax: 1.5, spreading: false },
+  "virginia-wild-rye": { spreadMin: 1, spreadMax: 2, spreading: false },
+  "soft-rush": { spreadMin: 2, spreadMax: 3, spreading: true },
+  "fox-sedge": { spreadMin: 1, spreadMax: 2, spreading: false },
+  "tussock-sedge": { spreadMin: 1, spreadMax: 2, spreading: false },
+  "cherokee-sedge": { spreadMin: 1, spreadMax: 2, spreading: true },
+  "woolgrass": { spreadMin: 2, spreadMax: 4, spreading: true },
+  "prairie-dropseed": { spreadMin: 1.5, spreadMax: 2, spreading: false },
+  "soft-stem-bulrush": { spreadMin: 2, spreadMax: 4, spreading: true },
+  "sea-oats": { spreadMin: 2, spreadMax: 4, spreading: true },
+  "american-beach-grass": { spreadMin: 2, spreadMax: 4, spreading: true },
+
+  // ─── Ferns ────────────────────────────────────────────────────────────────
+  "royal-fern": { spreadMin: 2, spreadMax: 3, spreading: true },
+  "maidenhair-fern": { spreadMin: 1, spreadMax: 2, spreading: true },
+  "ebony-spleenwort": { spreadMin: 0.5, spreadMax: 1, spreading: false },
+  "lady-fern": { spreadMin: 1.5, spreadMax: 2.5, spreading: false },
+  "new-york-fern": { spreadMin: 2, spreadMax: 4, spreading: true },
+  "sensitive-fern": { spreadMin: 2, spreadMax: 4, spreading: true },
+  "netted-chain-fern": { spreadMin: 1.5, spreadMax: 3, spreading: true },
+  "resurrection-fern": { spreadMin: 0.5, spreadMax: 2, spreading: true },
+  "marginal-wood-fern": { spreadMin: 1.5, spreadMax: 2, spreading: false },
+  "hay-scented-fern": { spreadMin: 3, spreadMax: 6, spreading: true },
+  "interrupted-fern": { spreadMin: 2, spreadMax: 3, spreading: false },
+  "broad-beech-fern": { spreadMin: 1.5, spreadMax: 3, spreading: true },
+  "walking-fern": { spreadMin: 0.5, spreadMax: 1, spreading: true },
+  "southern-shield-fern": { spreadMin: 2, spreadMax: 4, spreading: true },
+  "rattlesnake-fern": { spreadMin: 0.5, spreadMax: 1, spreading: false },
+};

@@ -19,6 +19,7 @@ const INITIAL_FILTERS = {
   bloomMonth: [],
   bloomColor: [],
   spreading: [],
+  evergreen: [],
   berryInterest: [],
 };
 
