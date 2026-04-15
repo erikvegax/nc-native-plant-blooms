@@ -2253,6 +2253,9 @@ const plants = [
     description:
       "One of the most visually striking native wildflowers in the Southeast—upright tubular flowers are brilliant red on the outside and vivid yellow within, perfectly designed for hummingbirds. Despite its exotic appearance, it's easy to grow in part to full shade with consistent moisture. Slowly forms impressive clumps over time.",
     wildlifeValue: "Primary nectar source for ruby-throated hummingbirds; hummingbird clearwing moth",
+    spreadMin: 1,
+    spreadMax: 1.5,
+    spreading: false,
     specialFeatures: ["wildlife", "shade-tolerant", "hummingbird"],
   },
   {
@@ -2274,6 +2277,9 @@ const plants = [
     description:
       "A striking native prairie and meadow plant with tall spikes of vibrant purple flowers that bloom top-to-bottom—unusual among spike-flowered plants. One of the best native plants for attracting monarchs during their fall migration. Extremely drought-tolerant once established, growing from a corm. Also called liatris or gayfeather.",
     wildlifeValue: "Top monarch butterfly nectar plant; goldfinches eat seeds; native bees; skippers",
+    spreadMin: 1,
+    spreadMax: 1.5,
+    spreading: false,
     specialFeatures: ["wildlife", "drought-tolerant", "pollinator"],
   },
   {
@@ -2295,6 +2301,9 @@ const plants = [
     description:
       "One of the longest-blooming and most carefree native perennials, covered in cheerful golden-yellow daisy flowers from early summer through fall. The fine, thread-like foliage creates an airy texture in the garden. Extremely drought-tolerant and adaptable. Deadheading extends the bloom season further. Spreads gently to form attractive masses.",
     wildlifeValue: "Nectar for native bees, bumblebees, and skippers; seeds for goldfinches",
+    spreadMin: 1.5,
+    spreadMax: 2,
+    spreading: true,
     specialFeatures: ["drought-tolerant", "long-blooming", "pollinator"],
   },
   {
@@ -2316,6 +2325,9 @@ const plants = [
     description:
       "Native to NC wetlands and pond edges, this herbaceous perennial produces enormous flowers—often 8–12 inches across—in shades of white, pink, and red throughout summer. One of the most dramatic native plants available. Emerges late in spring (don't dig it up!), then grows rapidly to form a bold focal point. Loved by ruby-throated hummingbirds.",
     wildlifeValue: "Ruby-throated hummingbird; specialist Ptilothrix bee; native bumblebees",
+    spreadMin: 2,
+    spreadMax: 3,
+    spreading: false,
     specialFeatures: ["wildlife", "wet-tolerance", "large-flowers", "hummingbird"],
   },
   {
@@ -2337,6 +2349,9 @@ const plants = [
     description:
       "A stunning late-season native perennial that lights up wet meadows, ditches, and rain gardens with masses of golden-yellow flowers when most other plants are winding down. Provides critical late-season nectar for migrating monarchs and native bees stocking up before winter. Can form large colonies in moist conditions. Goldfinches flock to the seed heads.",
     wildlifeValue: "Critical late-season nectar for monarchs; seeds for goldfinches; native bees",
+    spreadMin: 3,
+    spreadMax: 5,
+    spreading: true,
     specialFeatures: ["late-bloom", "wildlife", "wet-tolerance", "pollinator"],
   },
   {
@@ -2358,6 +2373,9 @@ const plants = [
     description:
       "An elegant early-blooming native perennial with bright yellow flat-topped flower clusters (umbels) that are among the first important nectar sources of spring. A critical host plant for black swallowtail butterfly caterpillars. Glossy dark green foliage remains attractive through the growing season. Thrives in rain gardens and moist meadows.",
     wildlifeValue: "Host plant for black swallowtail butterfly; early spring nectar for native bees",
+    spreadMin: 1,
+    spreadMax: 2,
+    spreading: false,
     specialFeatures: ["early-bloom", "wildlife", "host-plant", "pollinator"],
   },
   {
@@ -2379,6 +2397,9 @@ const plants = [
     description:
       "A beautiful native wildflower of sandy, dry woodlands and open areas, bearing tall spikes of blue-purple (occasionally pink or white) pea-like flowers. The sole host plant for the federally endangered Karner blue butterfly. Fixes nitrogen in the soil. Does not tolerate clay or wet soils—sandy, well-drained sites are essential for success.",
     wildlifeValue: "Host for Karner blue butterfly; specialist Lupinus bees; bumblebees",
+    spreadMin: 1,
+    spreadMax: 1.5,
+    spreading: false,
     specialFeatures: ["wildlife", "drought-tolerant", "host-plant", "nitrogen-fixer"],
   },
   {
@@ -2400,6 +2421,9 @@ const plants = [
     description:
       "A tall, graceful native sage producing an abundance of true sky-blue flowers in fall when the color is rare in the garden. Stems may flop in rich soils—plant in full sun with lean, well-drained conditions for the best form. A magnet for migrating monarchs and swallowtails. May need staking or cutting back in midsummer to encourage bushier growth.",
     wildlifeValue: "Critical fall nectar for monarch butterflies and native bumblebees; hummingbirds",
+    spreadMin: 1,
+    spreadMax: 2,
+    spreading: false,
     specialFeatures: ["late-bloom", "wildlife", "drought-tolerant", "hummingbird"],
   },
   {
@@ -2421,6 +2445,9 @@ const plants = [
     description:
       "A beloved spring ephemeral wildflower, carpeting NC floodplain forests with sky-blue trumpet flowers in early spring. Buds open pink and mature to clear blue. The entire plant—foliage and all—disappears completely by early summer, making it ideal for combining with ferns or hostas that fill in later. One of the most elegant native wildflowers.",
     wildlifeValue: "Critical early-spring nectar for bumblebee queens, hummingbirds, and native bees",
+    spreadMin: 1,
+    spreadMax: 1.5,
+    spreading: true,
     specialFeatures: ["early-bloom", "wildlife", "spring-ephemeral", "shade-tolerant"],
   },
   {
@@ -2442,6 +2469,9 @@ const plants = [
     description:
       "An iconic woodland wildflower with a uniquely hooded spathe striped in green and purple enclosing the club-like spadix—the 'jack in the pulpit.' In fall, clusters of brilliant red berries ripen and are eaten by wood thrushes and other birds. Plants change sex from year to year based on available nutrients. A fascinating conversation piece for shaded gardens.",
     wildlifeValue: "Red berries eaten by wood thrush and other birds; fungus gnats pollinate flowers",
+    spreadMin: 0.5,
+    spreadMax: 1,
+    spreading: false,
     specialFeatures: ["wildlife", "shade-tolerant", "unique-structure"],
   },
 
@@ -7400,6 +7430,9 @@ const plants = [
     "evergreen": false,
     "description": "Graceful arching stems lined with paired dangling cream-white bell flowers in spring. Blue-black berries follow in fall. The elegant form adds a refined woodland aesthetic to shade gardens. Spreads slowly by rhizomes to form attractive colonies.",
     "wildlifeValue": "Berries eaten by thrushes and grouse; nectar for bumblebees",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "shade-tolerant",
       "wildlife"
@@ -7451,6 +7484,9 @@ const plants = [
     "evergreen": false,
     "description": "Similar arching form to Solomon's Seal but with a feathery terminal plume of fragrant white flowers instead of dangling bells. Red speckled berries ripen in late summer. One of the most common and dependable native woodland wildflowers in NC.",
     "wildlifeValue": "Berries eaten by thrushes, grouse, and chipmunks; pollinated by native bees",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "shade-tolerant",
       "wildlife",
@@ -7502,6 +7538,9 @@ const plants = [
     "evergreen": false,
     "description": "A spring ephemeral that carpets rich woodland floors with mottled brown-and-green leaves (resembling trout) and nodding yellow lily flowers. Entire colonies go dormant by late spring. Can take 7 years from seed to first bloom. One of the most charming early spring wildflowers.",
     "wildlifeValue": "Early pollen for native bees and bee flies emerging in spring",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": true,
     "specialFeatures": [
       "spring-ephemeral",
       "shade-tolerant",
@@ -7556,6 +7595,9 @@ const plants = [
     "evergreen": true,
     "description": "One of the very first wildflowers to bloom, pushing delicate lavender, white, or pink flowers through the leaf litter as early as February. The three-lobed evergreen leaves persist through winter. A true treasure of NC's rich deciduous forests. Slow to establish but long-lived.",
     "wildlifeValue": "Critical very early pollen for native bees and bee flies",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "early-bloom",
@@ -7610,6 +7652,9 @@ const plants = [
     "evergreen": false,
     "description": "A delicate spring ephemeral with wiry stems bearing clusters of white to pink flowers above ferny foliage. Blooms for an unusually long period for a spring wildflower — often 6 weeks or more. Tuberous roots allow it to persist in dry summer conditions. A graceful addition to woodland gardens.",
     "wildlifeValue": "Spring pollen for native bees and syrphid flies",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "spring-ephemeral",
       "shade-tolerant",
@@ -7662,6 +7707,9 @@ const plants = [
     "evergreen": false,
     "description": "Airy clouds of white flowers rise 3-6 feet above handsome blue-green columbine-like foliage in early summer. Surprisingly tall and stately for a native wildflower. Thrives at the edges of moist woodlands and meadows. Wind-pollinated — the fluffy staminate flowers are the showy part.",
     "wildlifeValue": "Cover and structure for wildlife; seeds for birds",
+    "spreadMin": 1.5,
+    "spreadMax": 2.5,
+    "spreading": false,
     "specialFeatures": [
       "shade-tolerant"
     ]
@@ -7714,6 +7762,9 @@ const plants = [
     "evergreen": true,
     "description": "A semi-evergreen woodland groundcover that spreads by stolons to form lush mats covered in lavender, violet, or pink flowers in spring. Unlike the sun-loving Moss Phlox, this species thrives in shade. One of the best native groundcovers for shaded areas in NC mountain and Piedmont gardens.",
     "wildlifeValue": "Nectar for swallowtails, skippers, and hummingbird moths",
+    "spreadMin": 1.5,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "shade-tolerant",
@@ -7766,6 +7817,9 @@ const plants = [
     "evergreen": true,
     "description": "Frothy spikes of white flowers rise above semi-evergreen, maple-shaped leaves that often develop burgundy markings in cool weather. Spreads by runners to form a beautiful groundcover in shade. One of the finest native plants for the woodland garden. Easy to grow in rich, moist shade.",
     "wildlifeValue": "Nectar for native bees and syrphid flies; groundcover for small wildlife",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "shade-tolerant",
@@ -7818,6 +7872,9 @@ const plants = [
     "evergreen": true,
     "description": "The native parent of the popular 'coral bells' cultivars, with attractive evergreen basal foliage that often develops purple-silver mottling. Airy sprays of tiny greenish-cream flowers on wiry stems. Thrives on rocky slopes and dry shade where many plants struggle. Extremely long-lived.",
     "wildlifeValue": "Nectar for native bees and hummingbirds; evergreen cover",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "shade-tolerant",
@@ -7872,6 +7929,9 @@ const plants = [
     "evergreen": false,
     "description": "Swept-back pink or white petals resemble tiny shooting stars or badminton shuttlecocks. A spring ephemeral of rich woodlands and moist prairies that goes completely dormant by summer. Requires buzz pollination by bumblebees. One of the most elegant native wildflowers.",
     "wildlifeValue": "Buzz-pollinated by bumblebees; early spring nectar source",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "spring-ephemeral",
       "wildlife"
@@ -7918,6 +7978,9 @@ const plants = [
     "evergreen": false,
     "description": "A close relative of Jack-in-the-Pulpit with a single large, dragon-claw-like compound leaf and a narrow green spathe with a long, protruding spadix. Bright red berry clusters appear in fall after the foliage dies back. Prefers richer, wetter conditions than Jack-in-the-Pulpit.",
     "wildlifeValue": "Red berries eaten by wood thrushes; pollinated by fungus gnats",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "shade-tolerant",
       "wet-tolerance"
@@ -7969,6 +8032,9 @@ const plants = [
     "evergreen": true,
     "description": "A charming little evergreen wildflower with white-striped dark green leaves and small nodding white to pink flowers. Partially parasitic on soil fungi (mycoheterotroph). Common under pines and oaks in dry acidic woods. The patterned leaves are attractive year-round.",
     "wildlifeValue": "Nectar for bumblebees; evergreen groundcover in dry woods",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "shade-tolerant",
@@ -8016,6 +8082,9 @@ const plants = [
     "evergreen": false,
     "description": "Velvety heart-shaped leaves form a dense groundcover in shade. The unusual jug-shaped maroon flowers hide at ground level beneath the foliage — pollinated by ground-crawling beetles and flies. The aromatic rhizomes smell like ginger but are unrelated. An excellent native groundcover for rich shade.",
     "wildlifeValue": "Host for pipevine swallowtail butterfly; groundcover for forest floor wildlife",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "shade-tolerant",
       "groundcover",
@@ -8064,6 +8133,9 @@ const plants = [
     "evergreen": true,
     "description": "An evergreen relative of Wild Ginger with glossy, arrow-shaped leaves that form attractive year-round groundcover. Hidden jug-shaped flowers at ground level are pollinated by ground beetles. Several species are endemic to the Southeast. Slow-growing but extremely long-lived and low-maintenance.",
     "wildlifeValue": "Evergreen groundcover; pollinated by ground beetles; host for pipevine swallowtail",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "shade-tolerant",
@@ -8118,6 +8190,9 @@ const plants = [
     "evergreen": false,
     "description": "Stunning white trumpet flowers (aging to pink) emerge directly from the ground in early spring, often in large colonies in moist meadows and open floodplains. Also called 'rain lily' for its tendency to bloom after spring rains. A spring ephemeral from a bulb. Increasingly uncommon in the wild.",
     "wildlifeValue": "Early nectar for swallowtails and native bees",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": true,
     "specialFeatures": [
       "spring-ephemeral",
       "early-bloom",
@@ -8171,6 +8246,9 @@ const plants = [
     "evergreen": false,
     "description": "A beautiful native lily with nodding, spotted orange-red Turk's-cap flowers. Shorter and more compact than Turk's Cap Lily, preferring drier, sandier soils. Found on well-drained slopes and sandy woodlands of the Piedmont and Coastal Plain. Increasingly rare due to deer browse and habitat loss.",
     "wildlifeValue": "Pollinated by tiger swallowtails and ruby-throated hummingbirds",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "hummingbird"
@@ -8223,6 +8301,9 @@ const plants = [
     "evergreen": false,
     "description": "The tallest and most spectacular native lily, bearing up to 40 nodding, orange-red spotted flowers per stem on plants reaching 8 feet. Found in moist mountain meadows and streambanks. The strongly recurved petals give flowers their 'turk's cap' shape. A showstopper in the native garden.",
     "wildlifeValue": "Major nectar source for tiger swallowtails and hummingbirds",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "hummingbird",
@@ -8276,6 +8357,9 @@ const plants = [
     "evergreen": false,
     "description": "Exotic-looking white flowers with long, spidery petals and a central cup bloom atop strap-like foliage. Found along NC stream edges and floodplains. Intensely fragrant, especially at night when they attract hawk moths. A dramatic native bulb for moist garden areas.",
     "wildlifeValue": "Pollinated by hawk moths and swallowtails; fragrant night bloomer",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "fragrant",
       "wet-tolerance",
@@ -8330,6 +8414,9 @@ const plants = [
     "evergreen": false,
     "description": "A diminutive iris that spreads by rhizomes to form lovely colonies of lavender-blue flowers just 4-6 inches tall. The orange-crested falls are distinctive. One of the easiest and most rewarding native wildflowers for shade gardens. Spreads readily in good conditions.",
     "wildlifeValue": "Nectar for native bees and bumblebees",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "shade-tolerant",
       "groundcover",
@@ -8383,6 +8470,9 @@ const plants = [
     "evergreen": false,
     "description": "Showy blue-violet flowers with yellow-striped falls rise above sword-like foliage along pond edges, ditches, and rain gardens. One of the showiest native wetland plants. Thrives in standing water. An excellent choice for rain gardens and constructed wetlands.",
     "wildlifeValue": "Nectar for bumblebees and native bees; cover for wetland wildlife",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "wet-tolerance",
       "wildlife"
@@ -8435,6 +8525,9 @@ const plants = [
     "evergreen": false,
     "description": "The only native red-flowered iris in North America — unique coppery red-orange flowers are pollinated by hummingbirds rather than bees. Found in bottomlands and wet ditches of NC's Coastal Plain. Spreads by rhizomes in wet soils. A rare and beautiful native for water garden edges.",
     "wildlifeValue": "Hummingbird-pollinated — unusual for an iris; wetland habitat",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "wet-tolerance",
       "hummingbird",
@@ -8488,6 +8581,9 @@ const plants = [
     "evergreen": false,
     "description": "Cheerful golden-yellow daisies on slender stems bloom prolifically in late spring through early summer. One of the easiest native wildflowers to grow from seed — often used in wildflower meadow mixes. Extremely drought-tolerant. Deadheading extends blooming into fall.",
     "wildlifeValue": "Nectar for bees and butterflies; seeds for goldfinches",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "drought-tolerant",
       "long-blooming",
@@ -8541,6 +8637,9 @@ const plants = [
     "evergreen": false,
     "description": "A profusely blooming annual legume (self-seeds reliably) with cheerful yellow flowers and delicate fern-like foliage. The seeds are a critical food for bobwhite quail and other ground birds. Nitrogen-fixing. An essential component of NC meadow restoration and an important host for cloudless sulphur butterflies.",
     "wildlifeValue": "Seeds critical for bobwhite quail; host for cloudless sulphur butterfly; nitrogen-fixing",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "drought-tolerant",
@@ -8595,6 +8694,9 @@ const plants = [
     "evergreen": false,
     "description": "A bold, shrub-like perennial with compound leaves and clusters of yellow flowers followed by distinctive flat seed pods. An important host plant for cloudless sulphur and sleepy orange butterflies. The handsome architectural form and seedpods add fall and winter interest.",
     "wildlifeValue": "Major host for cloudless sulphur and sleepy orange butterflies; bee nectar",
+    "spreadMin": 2,
+    "spreadMax": 3,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "host-plant",
@@ -8648,6 +8750,9 @@ const plants = [
     "evergreen": false,
     "description": "Spikes of snapdragon-like pink flowers resembling turtle heads bloom in late summer when few other shade plants are flowering. Native to NC mountains in moist woodlands and streambanks. The sole larval host for Baltimore checkerspot butterfly in the Southeast. Glossy dark foliage is attractive all season.",
     "wildlifeValue": "Host for Baltimore checkerspot butterfly; bumblebee nectar; late-season bloomer",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "wildlife",
       "host-plant",
@@ -8703,6 +8808,9 @@ const plants = [
     "evergreen": false,
     "description": "Spikes of tubular lavender-to-white flowers with fuzzy throats attract bumblebees and mason bees. One of the most drought-tolerant native perennials, thriving on rocky, thin soils. The 'beard' is a hairy sterile stamen inside the flower. Semi-evergreen basal rosettes in mild winters.",
     "wildlifeValue": "Nectar for bumblebees, mason bees, and hummingbirds",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": false,
     "specialFeatures": [
       "drought-tolerant",
       "pollinator",
@@ -8756,6 +8864,9 @@ const plants = [
     "evergreen": false,
     "description": "Panicles of white to pale lavender tubular flowers attract a wide range of native bees. More tolerant of moisture than Hairy Beardtongue. Common in NC's Piedmont open woods and meadow edges. An easy, dependable native for the perennial border.",
     "wildlifeValue": "Important nectar for native bees, bumblebees, and hummingbirds",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": false,
     "specialFeatures": [
       "pollinator",
       "wildlife"
@@ -8809,6 +8920,9 @@ const plants = [
     "evergreen": false,
     "description": "One of the most unique-looking native plants — spiny yucca-like leaves and spherical white flower heads that look like nothing else in the meadow. A member of the carrot family despite its appearance. Incredibly deep-rooted and drought-tolerant. Host for the rare rattlesnake master borer moth.",
     "wildlifeValue": "Host for rattlesnake master borer moth; nectar for many native bees and wasps",
+    "spreadMin": 1.5,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "drought-tolerant",
       "pollinator",
@@ -8863,6 +8977,9 @@ const plants = [
     "evergreen": false,
     "description": "Dramatic basal leaves the size of elephant ears send up nearly leafless flower stalks soaring 6-10 feet with yellow sunflower-like blooms. One of the tallest native prairie plants. Enormous taproots can reach 15 feet deep, making it supremely drought-tolerant once established.",
     "wildlifeValue": "Nectar for native bees and butterflies; seeds for goldfinches",
+    "spreadMin": 2,
+    "spreadMax": 3,
+    "spreading": false,
     "specialFeatures": [
       "drought-tolerant",
       "wildlife",
@@ -8916,6 +9033,9 @@ const plants = [
     "evergreen": false,
     "description": "Named for the cup-shaped reservoir formed where opposite leaves clasp the square stem — these natural 'bird baths' collect rainwater and attract birds. Tall with yellow sunflower-like blooms. Goldfinches feast on the seeds. Can spread aggressively in rich, moist soils.",
     "wildlifeValue": "Leaf cups provide water for birds; seeds for goldfinches; nectar for bees",
+    "spreadMin": 2,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "wildlife",
       "wet-tolerance"
@@ -8969,6 +9089,9 @@ const plants = [
     "evergreen": false,
     "description": "The most manageable Silphium for garden use — shorter and less aggressive than its larger relatives. Bright yellow daisy flowers over a long summer season. Resinous stems gave the Rosinweed group their name. Tolerates drought and partial shade better than most other Silphiums.",
     "wildlifeValue": "Seeds for goldfinches; nectar for bees and butterflies",
+    "spreadMin": 1.5,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "drought-tolerant",
       "long-blooming",
@@ -9023,6 +9146,9 @@ const plants = [
     "evergreen": false,
     "description": "Bright yellow daisies over whorled fine-textured foliage create an airy, meadow-like effect. Native to dry open woodlands and roadsides throughout NC. More shade-tolerant than other coreopsis species. A cheerful, carefree native for sunny to partially shaded borders.",
     "wildlifeValue": "Nectar for bees and butterflies; seeds for songbirds",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "drought-tolerant",
       "long-blooming",
@@ -9077,6 +9203,9 @@ const plants = [
     "evergreen": false,
     "description": "One of the few sunflowers that thrives in partial shade and dry conditions. Golden-yellow flowers light up woodland edges from July through September. Spreads by rhizomes to form colonies — excellent for naturalizing dry slopes and open woods.",
     "wildlifeValue": "Seeds for goldfinches and sparrows; nectar for bees and butterflies",
+    "spreadMin": 2,
+    "spreadMax": 4,
+    "spreading": true,
     "specialFeatures": [
       "drought-tolerant",
       "shade-tolerant",
@@ -9132,6 +9261,9 @@ const plants = [
     "evergreen": false,
     "description": "An exceptionally long-blooming native with golden-yellow daisy flowers from June through September. More compact and better-behaved than true sunflowers — doesn't spread aggressively. The name 'Ox-eye' refers to the prominent central cone. One of the most reliable native perennials for continuous summer color.",
     "wildlifeValue": "Extended nectar source for bees, butterflies, and skippers; seeds for birds",
+    "spreadMin": 2,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "long-blooming",
       "drought-tolerant",
@@ -9187,6 +9319,9 @@ const plants = [
     "evergreen": false,
     "description": "Anise-scented leaves distinguish this goldenrod — crush a leaf to smell the sweet licorice fragrance. The one-sided plumes of golden-yellow flowers are a magnet for migrating monarchs. Does NOT cause hay fever (ragweed is the culprit). Was used to make a pleasant herbal tea.",
     "wildlifeValue": "Critical late-season nectar for monarchs and native bees; seeds for birds",
+    "spreadMin": 1.5,
+    "spreadMax": 2.5,
+    "spreading": true,
     "specialFeatures": [
       "aromatic",
       "wildlife",
@@ -9240,6 +9375,9 @@ const plants = [
     "evergreen": false,
     "description": "The best goldenrod for shade — clusters of yellow flowers arranged along arching blue-green stems in fall. Also called blue-stemmed goldenrod for its distinctive waxy blue stems. A well-mannered, clump-forming goldenrod that doesn't spread aggressively. One of the few fall-blooming natives for shade.",
     "wildlifeValue": "Late-season nectar for bees and butterflies in woodland settings",
+    "spreadMin": 1.5,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "shade-tolerant",
       "wildlife",
@@ -9292,6 +9430,9 @@ const plants = [
     "evergreen": false,
     "description": "Named for its distinctive zigzagging stem, this shade-loving goldenrod bears clusters of yellow flowers in the axils of broad leaves. An excellent and well-behaved native for woodland gardens, providing important late-season nectar in shaded areas where fall flowers are scarce.",
     "wildlifeValue": "Late-season nectar for woodland bees and butterflies",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "shade-tolerant",
       "wildlife"
@@ -9343,6 +9484,9 @@ const plants = [
     "evergreen": false,
     "description": "One of the most common and showiest goldenrods, with large, plume-like flower clusters arching gracefully in fall. Found in old fields, meadows, and roadsides throughout NC. Spreads by rhizomes to form large patches. An outstanding late-season nectar source for migrating monarchs.",
     "wildlifeValue": "Major fall nectar for monarchs and native bees; host for many moth species",
+    "spreadMin": 1.5,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "wildlife",
       "pollinator"
@@ -9393,6 +9537,9 @@ const plants = [
     "evergreen": true,
     "description": "A semi-evergreen goldenrod of NC's coastal dunes and salt marshes with thick, fleshy leaves and showy golden plumes in fall. Extremely salt-tolerant and drought-tolerant. The last goldenrod to bloom, often flowering into November. Basal rosettes remain green through winter.",
     "wildlifeValue": "Critical late-season nectar for migrating monarchs on the coast; salt-tolerant",
+    "spreadMin": 1.5,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "salt-tolerant",
@@ -9448,6 +9595,9 @@ const plants = [
     "evergreen": false,
     "description": "One of the most beautiful native asters, with lavender-blue flowers on waxy blue-green stems. The smooth, clasping leaves have a distinctive powdery bloom. Extremely drought-tolerant for an aster. Blooms profusely in fall without flopping. A must-have for the native meadow garden.",
     "wildlifeValue": "Late-season nectar for monarchs, bees, and migrating butterflies",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "drought-tolerant",
       "pollinator",
@@ -9502,6 +9652,9 @@ const plants = [
     "evergreen": false,
     "description": "A compact, mounding aster that becomes a dome of blue-purple flowers in fall. Leaves smell of balsam when crushed. Among the most drought-tolerant native asters — thrives in rocky, thin soils. Long-blooming from September through hard frost. Excellent as a late-season groundcover.",
     "wildlifeValue": "Outstanding late-season nectar for monarchs and native bees; host for pearl crescent",
+    "spreadMin": 2,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "drought-tolerant",
       "long-blooming",
@@ -9557,6 +9710,9 @@ const plants = [
     "evergreen": false,
     "description": "One of the few fall-blooming plants for dry shade — sprays of small white aster flowers brighten woodland understories from August through October. Heart-shaped basal leaves form nice ground-level foliage. Dark zigzagging stems are attractive. Spreads by rhizomes to naturalize shaded areas.",
     "wildlifeValue": "Late-season nectar for woodland bees and butterflies",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "shade-tolerant",
       "drought-tolerant",
@@ -9610,6 +9766,9 @@ const plants = [
     "evergreen": false,
     "description": "Clouds of small blue-purple asters create a hazy, impressionistic effect along woodland edges in fall. Named for its heart-shaped basal leaves. One of the most common native asters in NC, blooming prolifically at the edges of forests and along trails. Partially shade-tolerant.",
     "wildlifeValue": "Important late-season nectar for native bees and migrating butterflies",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "wildlife",
       "shade-tolerant",
@@ -9666,6 +9825,9 @@ const plants = [
     "evergreen": false,
     "description": "Large shaggy cornflower-like blooms in shades of blue and lavender on sturdy stems. Native to the Coastal Plain of NC. Basal rosette of evergreen-ish leaves persists through mild winters. Easy, long-blooming garden perennial.",
     "wildlifeValue": "Visited by butterflies and bees",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": false,
     "specialFeatures": [
       "long-blooming",
       "deer-resistant"
@@ -9719,6 +9881,9 @@ const plants = [
     "evergreen": false,
     "description": "Charming daisy-like flowers with lavender to white ray petals and yellow centers on fuzzy stems. Spreads by stolons to form mats. One of the earliest native composites to bloom in spring.",
     "wildlifeValue": "Small bees and butterflies",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "groundcover",
       "spring-blooming"
@@ -9771,6 +9936,9 @@ const plants = [
     "evergreen": false,
     "description": "Upright perennial with hooded blue-violet flowers in branched terminal racemes. Downy gray-green leaves give it a soft appearance. An excellent late-summer nectar source for native bees.",
     "wildlifeValue": "Important bee plant; bumblebees and leaf-cutter bees",
+    "spreadMin": 1.5,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "pollinator-garden",
       "deer-resistant"
@@ -9823,6 +9991,9 @@ const plants = [
     "evergreen": false,
     "description": "Silvery-white bracts surround tiny white flowers in dense terminal clusters. The silvery dusted foliage is aromatic with a minty scent. One of the top pollinator plants in eastern North America.",
     "wildlifeValue": "Outstanding pollinator magnet: bees, wasps, butterflies, beetles",
+    "spreadMin": 2,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "pollinator-garden",
       "deer-resistant",
@@ -9879,6 +10050,9 @@ const plants = [
     "evergreen": false,
     "description": "Fine-textured, bushy perennial with narrow leaves and abundant tiny white flower clusters. Strongly minty fragrance. Extremely adaptable and one of the most reliable pollinator plants.",
     "wildlifeValue": "Top-tier pollinator plant; attracts diverse beneficial insects",
+    "spreadMin": 2,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "pollinator-garden",
       "deer-resistant",
@@ -9933,6 +10107,9 @@ const plants = [
     "evergreen": false,
     "description": "Low basal rosette of lobed leaves sends up spikes of tubular blue-purple flowers. Self-seeds freely in open areas and makes an excellent lawn alternative. Often found in woodland edges and meadows.",
     "wildlifeValue": "Bees and small butterflies; seeds eaten by sparrows",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": true,
     "specialFeatures": [
       "lawn-alternative",
       "self-sowing"
@@ -9988,6 +10165,9 @@ const plants = [
     "evergreen": false,
     "description": "Brilliant scarlet tubular flowers on airy spikes bloom prolifically from late spring to frost. Technically a short-lived perennial or annual in NC but reseeds abundantly. A hummingbird magnet.",
     "wildlifeValue": "Primary hummingbird plant; also visited by butterflies",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": true,
     "specialFeatures": [
       "hummingbird-garden",
       "long-blooming",
@@ -10038,6 +10218,9 @@ const plants = [
     "evergreen": false,
     "description": "Delicate blue flowers with long, curving stamens that give the plant its common name. Annual or short-lived perennial of sandy open habitats. Aromatic foliage with sticky glandular hairs.",
     "wildlifeValue": "Bumblebees and long-tongued bees",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "deer-resistant",
       "fragrant"
@@ -10089,6 +10272,9 @@ const plants = [
     "evergreen": false,
     "description": "Flat-topped clusters of small white flower heads above coarsely textured dark green leaves. Sturdy, long-lived prairie perennial. Dried flower heads persist for winter interest.",
     "wildlifeValue": "Diverse small pollinators; beneficial predatory wasps",
+    "spreadMin": 1.5,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "pollinator-garden",
       "winter-interest"
@@ -10144,6 +10330,9 @@ const plants = [
     "evergreen": false,
     "description": "Trumpet-shaped lavender flowers open fresh each morning on a compact, bushy plant. Exploding seed capsules fling seeds several feet. Drought-tolerant and adaptable native wildflower.",
     "wildlifeValue": "Bees and butterflies; host plant for Common Buckeye butterfly",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": true,
     "specialFeatures": [
       "butterfly-host",
       "drought-tolerant"
@@ -10194,6 +10383,9 @@ const plants = [
     "evergreen": false,
     "description": "Tall spikes of rose-purple button-like flower heads open from top to bottom. Rounded bracts with papery edges distinguish this from other blazing stars. Excellent in dry prairie or meadow plantings.",
     "wildlifeValue": "Monarch butterflies, native bees, and goldfinches eat the seeds",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": false,
     "specialFeatures": [
       "pollinator-garden",
       "drought-tolerant"
@@ -10244,6 +10436,9 @@ const plants = [
     "evergreen": false,
     "description": "Compact blazing star with large individual flower heads and distinctive spreading (squarrose) bracts. Fewer but showier blooms than most Liatris species. Found in rocky and sandy dry habitats.",
     "wildlifeValue": "Butterflies, bees, and seed-eating birds",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "drought-tolerant",
       "rock-garden"
@@ -10294,6 +10489,9 @@ const plants = [
     "evergreen": false,
     "description": "Late-blooming blazing star with narrow grass-like leaves and wands of purple flower heads. An important late-season nectar source when many other plants have finished blooming.",
     "wildlifeValue": "Critical fall pollinator resource; migrating monarchs",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": false,
     "specialFeatures": [
       "fall-blooming",
       "pollinator-garden"
@@ -10346,6 +10544,9 @@ const plants = [
     "evergreen": false,
     "description": "Tall, bushy perennial with flat-topped clusters of fuzzy white flowers. Blooms later than most bonesets, extending the pollinator season into fall. Very common in disturbed areas and field edges.",
     "wildlifeValue": "Bees, wasps, butterflies, and beetles in high numbers",
+    "spreadMin": 2,
+    "spreadMax": 4,
+    "spreading": true,
     "specialFeatures": [
       "pollinator-garden",
       "fall-blooming"
@@ -10397,6 +10598,9 @@ const plants = [
     "evergreen": false,
     "description": "Ephemeral white 8-petaled flowers appear before the distinctive butterfly-shaped twin leaves fully expand. Named for Thomas Jefferson. Hinged seed capsules pop open when ripe. A choice woodland wildflower.",
     "wildlifeValue": "Early spring bees; ants disperse seeds",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "spring-ephemeral",
       "shade-tolerant"
@@ -10449,6 +10653,9 @@ const plants = [
     "evergreen": false,
     "description": "Delicate white pantaloon-shaped flowers dangle from arching stems above finely divided blue-green foliage. A true spring ephemeral — the entire plant disappears by early summer. Found on rich wooded slopes.",
     "wildlifeValue": "Early queen bumblebees; ants disperse seeds (myrmecochory)",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": true,
     "specialFeatures": [
       "spring-ephemeral",
       "shade-tolerant"
@@ -10501,6 +10708,9 @@ const plants = [
     "evergreen": false,
     "description": "Heart-shaped white to pinkish flowers with a fragrant scent on arching stems. Named for the yellow corn-kernel-like tubers. Very similar to Dutchman's Breeches but with rounded spurs and sweet fragrance.",
     "wildlifeValue": "Queen bumblebees; ants disperse seeds",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": true,
     "specialFeatures": [
       "spring-ephemeral",
       "shade-tolerant",
@@ -10554,6 +10764,9 @@ const plants = [
     "evergreen": false,
     "description": "Tiny pink-striped white flowers with grass-like leaves carpet woodland floors in early spring. One of the most common and beloved spring ephemerals. The small corm is edible and was used by Native Americans.",
     "wildlifeValue": "Spring mining bees (Andrena); early butterflies",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": true,
     "specialFeatures": [
       "spring-ephemeral",
       "groundcover"
@@ -10606,6 +10819,9 @@ const plants = [
     "evergreen": false,
     "description": "Clusters of four-petaled white to pinkish flowers above whorls of deeply cut leaves. A common spring ephemeral of rich deciduous forests. Host plant for the Falcate Orangetip butterfly.",
     "wildlifeValue": "Early bees; host for Falcate Orangetip and West Virginia White butterflies",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": true,
     "specialFeatures": [
       "spring-ephemeral",
       "butterfly-host"
@@ -10656,6 +10872,9 @@ const plants = [
     "evergreen": false,
     "description": "Stunning blue-purple spurred flowers on erect stems above deeply lobed foliage. Goes dormant by mid-summer. One of the most beautiful native spring wildflowers for woodland gardens. All parts are toxic.",
     "wildlifeValue": "Bumblebees and ruby-throated hummingbirds",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "spring-ephemeral",
       "shade-tolerant"
@@ -10708,6 +10927,9 @@ const plants = [
     "evergreen": false,
     "description": "Airy sprays of white to pinkish star-shaped flowers dance above trifoliate leaves. Red calyces persist after petals drop, extending ornamental interest. Excellent fall color in shades of red and orange.",
     "wildlifeValue": "Bees and small butterflies",
+    "spreadMin": 1.5,
+    "spreadMax": 2,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "deer-resistant"
@@ -10758,6 +10980,9 @@ const plants = [
     "evergreen": false,
     "description": "Bicolored pea flowers — creamy yellow upper petals and pink lower petals — in dense terminal clusters. Silky-hairy compound leaves. A nitrogen-fixer adapted to poor sandy soils. Historically used as a fish poison by Native Americans.",
     "wildlifeValue": "Bees; nitrogen-fixing benefits surrounding plants",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": false,
     "specialFeatures": [
       "drought-tolerant",
       "nitrogen-fixing"
@@ -10809,6 +11034,9 @@ const plants = [
     "evergreen": false,
     "description": "Bright golden-yellow four-petaled flowers open during the day (unlike the related evening primrose). Forms attractive clumps with reddish stems. Easy, cheerful, and reliable in sunny gardens.",
     "wildlifeValue": "Bees and small butterflies",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "long-blooming",
       "deer-resistant"
@@ -10861,6 +11089,9 @@ const plants = [
     "evergreen": false,
     "description": "Large lemon-yellow flowers open in the evening and are pollinated by moths through the night. Biennial — forms a rosette the first year, blooms the second. Seeds provide important winter food for birds.",
     "wildlifeValue": "Sphinx moths and other night pollinators; goldfinches eat seeds",
+    "spreadMin": 1.5,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "night-blooming",
       "wildlife"
@@ -10916,6 +11147,9 @@ const plants = [
     "evergreen": false,
     "description": "Low spreading mats covered with clusters of rosy-pink to magenta flowers over an exceptionally long bloom season. Creeping stems root at nodes. One of the best native groundcovers for sunny, dry sites.",
     "wildlifeValue": "Butterflies, especially swallowtails and skippers",
+    "spreadMin": 1.5,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "long-blooming",
       "groundcover",
@@ -12906,6 +13140,9 @@ const plants = [
     "evergreen": false,
     "description": "Spikes of violet-blue flowers above glossy heart-shaped leaves in shallow water. One of the showiest native aquatic plants. Grows in up to 12 inches of standing water. Excellent for pond margins and water gardens.",
     "wildlifeValue": "Bees, butterflies; seeds eaten by ducks; fish shelter among stems",
+    "spreadMin": 2,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "aquatic",
       "long-blooming"
@@ -12956,6 +13193,9 @@ const plants = [
     "evergreen": false,
     "description": "Large arrow-shaped leaves and a green spathe enclosing a cream spadix, similar to jack-in-the-pulpit. Grows in shallow water and mucky soils. Green berry clusters ripen to dark brown. Common in swamps and pond margins.",
     "wildlifeValue": "Seeds eaten by wood ducks; cover for aquatic wildlife",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "aquatic",
       "wetland"
@@ -13007,6 +13247,9 @@ const plants = [
     "evergreen": false,
     "description": "Bright golden-yellow flower spikes (spadix without a spathe) rise above water-repellent blue-green leaves. Water beads up and rolls off the velvety leaf surface. One of the earliest-blooming aquatic plants.",
     "wildlifeValue": "Seeds eaten by waterfowl; early season nectar for bees",
+    "spreadMin": 1,
+    "spreadMax": 2,
+    "spreading": true,
     "specialFeatures": [
       "aquatic",
       "spring-blooming"
@@ -13058,6 +13301,9 @@ const plants = [
     "evergreen": false,
     "description": "Spectacular large pale yellow flowers up to 10 inches across above huge circular leaves that can be 2 feet wide. The only native lotus in North America. Shower-head-like seed pods are used in dried arrangements.",
     "wildlifeValue": "Seeds eaten by ducks and wading birds; tubers eaten by muskrats and beavers",
+    "spreadMin": 3,
+    "spreadMax": 6,
+    "spreading": true,
     "specialFeatures": [
       "aquatic",
       "wildlife"
@@ -13110,6 +13356,9 @@ const plants = [
     "evergreen": false,
     "description": "Classic floating white water lily with a sweet fragrance. Round floating leaves with a V-shaped notch. Flowers open in the morning and close by afternoon. Found in quiet ponds, lakes, and slow streams throughout NC.",
     "wildlifeValue": "Habitat for fish and frogs; visited by bees and beetles; lily pad cover for aquatic life",
+    "spreadMin": 2,
+    "spreadMax": 5,
+    "spreading": true,
     "specialFeatures": [
       "aquatic",
       "fragrant"
@@ -13163,6 +13412,9 @@ const plants = [
     "evergreen": false,
     "description": "Yellow globe-shaped flowers barely open above heart-shaped floating leaves. More tolerant of shade and moving water than true water lilies. Massive rhizomes anchor in muddy bottoms. Very common in NC waterways.",
     "wildlifeValue": "Seeds and rhizomes eaten by waterfowl and beavers; fish and turtle habitat",
+    "spreadMin": 2,
+    "spreadMax": 4,
+    "spreading": true,
     "specialFeatures": [
       "aquatic",
       "wildlife"
@@ -13215,6 +13467,9 @@ const plants = [
     "evergreen": false,
     "description": "Tiny star-shaped violet-blue flowers with yellow centers on grass-like foliage. Despite the name, it's actually in the iris family, not a grass. Forms charming tufts in meadows and open woodlands. Self-seeds freely.",
     "wildlifeValue": "Small bees and syrphid flies",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": true,
     "specialFeatures": [
       "self-sowing",
       "lawn-alternative"
@@ -13267,6 +13522,9 @@ const plants = [
     "evergreen": false,
     "description": "Cheerful bright yellow buttercup-like flowers above rounded, glossy green leaves. One of the first wildflowers to bloom along mountain streams and seeps. Found at higher elevations in NC's mountains.",
     "wildlifeValue": "Early spring pollinators; syrphid flies and small bees",
+    "spreadMin": 1,
+    "spreadMax": 1.5,
+    "spreading": true,
     "specialFeatures": [
       "spring-blooming",
       "wetland"
@@ -13319,6 +13577,9 @@ const plants = [
     "evergreen": false,
     "description": "Large 5-inch pink to white hibiscus flowers with a red center on tall stems. Distinctive halberd-shaped (spear-tip) leaves. Found in marshes, ditches, and wet meadows. Dies back to ground in winter.",
     "wildlifeValue": "Bumblebees, hummingbirds; host for Painted Lady butterfly caterpillars",
+    "spreadMin": 2,
+    "spreadMax": 3,
+    "spreading": false,
     "specialFeatures": [
       "wetland",
       "long-blooming"
@@ -13370,6 +13631,9 @@ const plants = [
     "evergreen": false,
     "description": "Iris-like aromatic leaves with a distinctive sweet cinnamon fragrance when crushed. Inconspicuous finger-like spadix of tiny flowers. Grows in shallow water and wet soils. Historically used as a medicinal and fragrance plant.",
     "wildlifeValue": "Wetland cover for wildlife; muskrats eat the rhizomes",
+    "spreadMin": 1.5,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "fragrant",
       "wetland"
@@ -13421,6 +13685,9 @@ const plants = [
     "evergreen": false,
     "description": "Whorls of three-petaled white flowers on tall stems above distinctive arrowhead-shaped leaves. Starchy tubers were an important food source for Native Americans. Common in shallow water and mud flats.",
     "wildlifeValue": "Tubers eaten by ducks, geese, and muskrats; important waterfowl food",
+    "spreadMin": 1.5,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "aquatic",
       "wildlife"
@@ -13473,6 +13740,9 @@ const plants = [
     "evergreen": false,
     "description": "Dense colonies of narrow willow-like leaves in shallow streams and river margins with orchid-like white and purple flowers. Forms important fish habitat. Stabilizes stream banks and reduces erosion.",
     "wildlifeValue": "Critical fish habitat; cover for crayfish and aquatic insects; bees visit flowers",
+    "spreadMin": 2,
+    "spreadMax": 4,
+    "spreading": true,
     "specialFeatures": [
       "aquatic",
       "erosion-control"
@@ -13884,6 +14154,9 @@ const plants = [
     "evergreen": false,
     "description": "The world's most famous carnivorous plant — found ONLY within a 75-mile radius of Wilmington, NC. Hinged leaf traps snap shut on insects in a fraction of a second. Small white flowers on a tall stalk. Federally protected.",
     "wildlifeValue": "Unique insectivore; ecological indicator of healthy longleaf pine savannas",
+    "spreadMin": 0.25,
+    "spreadMax": 0.5,
+    "spreading": false,
     "specialFeatures": [
       "carnivorous",
       "fire-adapted",
@@ -13934,6 +14207,9 @@ const plants = [
     "evergreen": true,
     "description": "Rosettes of squat, burgundy-veined pitcher leaves that fill with rainwater to trap insects. Nodding dark red flowers on tall stalks. Found in bogs and wet savannas. The pitchers host a unique food web of aquatic organisms.",
     "wildlifeValue": "Unique pitcher ecosystem; supports specialized insects including the pitcher plant moth",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "carnivorous",
       "evergreen",
@@ -13983,6 +14259,9 @@ const plants = [
     "evergreen": true,
     "description": "Tall bright yellow-green trumpet-shaped pitchers with red veining at the throat lure insects inside. Large nodding yellow flowers bloom before the new pitchers emerge. Found in wet pine savannas of the Coastal Plain.",
     "wildlifeValue": "Traps insects; supports specialized moths and flies adapted to pitcher plants",
+    "spreadMin": 0.5,
+    "spreadMax": 1.5,
+    "spreading": false,
     "specialFeatures": [
       "carnivorous",
       "evergreen",
@@ -14034,6 +14313,9 @@ const plants = [
     "evergreen": false,
     "description": "Tiny rosettes of round leaves covered in glistening sticky tentacles that trap and digest small insects. Miniature white to pink flowers on a thin stalk. Found in sphagnum bogs and seeps at higher elevations in NC.",
     "wildlifeValue": "Insectivore; indicator of pristine bog habitats",
+    "spreadMin": 0.1,
+    "spreadMax": 0.25,
+    "spreading": false,
     "specialFeatures": [
       "carnivorous"
     ]
@@ -14082,6 +14364,9 @@ const plants = [
     "evergreen": false,
     "description": "Spoon-shaped leaves on elongated petioles form a rosette of glistening insect-trapping tentacles. Found in wet sandy margins of Carolina bays and pocosin edges. Often grows alongside Venus flytraps on the Coastal Plain.",
     "wildlifeValue": "Insectivore; indicator of healthy Coastal Plain wetlands",
+    "spreadMin": 0.1,
+    "spreadMax": 0.25,
+    "spreading": false,
     "specialFeatures": [
       "carnivorous"
     ]
@@ -14228,6 +14513,9 @@ const plants = [
     "evergreen": true,
     "description": "Rosettes of stiff, sword-shaped evergreen leaves with curly filaments on the edges. Tall spikes of waxy white bell-shaped flowers. Pollinated exclusively by yucca moths in an obligate mutualism. Found in sandy and rocky areas.",
     "wildlifeValue": "Yucca moth obligate pollinator; shelter for small wildlife",
+    "spreadMin": 2,
+    "spreadMax": 4,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "drought-tolerant"
@@ -14277,6 +14565,9 @@ const plants = [
     "evergreen": true,
     "description": "NC's native cactus — flat green pads with tufts of spines and glochids. Showy yellow flowers followed by edible reddish-purple fruits. Found on sandy dunes, rock outcrops, and dry roadsides. Surprisingly cold-hardy.",
     "wildlifeValue": "Bees pollinate flowers; fruits eaten by box turtles, birds, and small mammals",
+    "spreadMin": 1,
+    "spreadMax": 3,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "drought-tolerant",
@@ -14329,6 +14620,9 @@ const plants = [
     "evergreen": false,
     "description": "Iconic pink inflated pouch-shaped flower between two broad basal leaves. Depends on specific mycorrhizal fungi and is extremely difficult to transplant. Found in acidic oak-pine woodlands. Can take 10+ years to bloom from seed.",
     "wildlifeValue": "Bumblebees (trapped temporarily in the pouch to ensure pollination)",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "shade-tolerant",
       "mycorrhizal-dependent"
@@ -14381,6 +14675,9 @@ const plants = [
     "evergreen": false,
     "description": "Stunning spikes of bright orange-yellow flowers with deeply fringed lips. One of the showiest native orchids. Found in bogs, wet meadows, and pine savannas. Pollinated by large butterflies including swallowtails.",
     "wildlifeValue": "Swallowtail butterflies; specialized pollination relationship",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": false,
     "specialFeatures": [
       "wetland",
       "fire-adapted"
@@ -14431,6 +14728,9 @@ const plants = [
     "evergreen": true,
     "description": "Rosette of dark green leaves with distinctive white net-like veining that persists year-round. Small white flowers in a dense spike. The most common native orchid in NC forests. Creeping rhizomes form small colonies.",
     "wildlifeValue": "Bumblebees; evergreen rosettes provide ground-level habitat year-round",
+    "spreadMin": 0.5,
+    "spreadMax": 1,
+    "spreading": true,
     "specialFeatures": [
       "evergreen",
       "shade-tolerant"
@@ -14482,6 +14782,9 @@ const plants = [
     "evergreen": false,
     "description": "Unusual orchid with a single purple-backed leaf that appears in fall and withers before the leafless flower stalk emerges in summer. Pollinated by noctuid moths. One of the most common but overlooked native orchids.",
     "wildlifeValue": "Night-flying moths; part of the forest floor food web",
+    "spreadMin": 0.25,
+    "spreadMax": 0.5,
+    "spreading": false,
     "specialFeatures": [
       "shade-tolerant"
     ]
@@ -14532,6 +14835,9 @@ const plants = [
     "evergreen": false,
     "description": "Single pleated leaf with white veins appears in fall and persists through winter, withering before the flower stalk of yellowish-brown and purple flowers emerges. Named for the glutinous substance in the corm once used as glue.",
     "wildlifeValue": "Small bees; part of rich woodland ecosystem",
+    "spreadMin": 0.25,
+    "spreadMax": 0.5,
+    "spreading": false,
     "specialFeatures": [
       "shade-tolerant"
     ]
