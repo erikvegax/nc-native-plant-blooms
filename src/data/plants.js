@@ -2009,6 +2009,9 @@ const plants = [
     description:
       "A wonderful medium NC native tree with aromatic bark, roots, and leaves. Clusters of tiny yellow flowers appear before the leaves in early spring. The distinctively lobed—mitten-shaped, three-fingered, and simple—leaves turn brilliant orange, red, and yellow in fall. The spicebush swallowtail butterfly depends on it as a larval host plant.",
     wildlifeValue: "Host plant for spicebush swallowtail; berries eaten by over 40 bird species",
+    spreadMin: 15,
+    spreadMax: 25,
+    spreading: true,
     specialFeatures: ["fall-color", "aromatic", "wildlife", "early-bloom"],
   },
   {
@@ -2030,6 +2033,9 @@ const plants = [
     description:
       "A stately NC native tree with glossy star-shaped leaves that deliver some of the most spectacular fall color in the Southeast—deep reds, purples, oranges, and yellows simultaneously on the same tree. Tolerates wet soils and compaction well. The persistent spiky seed balls provide winter food for finches and other birds.",
     wildlifeValue: "Seeds eaten by goldfinches, Carolina chickadees, and squirrels; cavity nesting",
+    spreadMin: 30,
+    spreadMax: 50,
+    spreading: false,
     specialFeatures: ["fall-color", "wildlife", "wet-tolerance"],
   },
   {
@@ -2051,6 +2057,9 @@ const plants = [
     description:
       "A showy small understory tree unique to the Southeast, producing upright panicles of tubular red-orange and yellow flowers in spring that are irresistible to hummingbirds. Among the first trees to leaf out and one of the earliest to enter dormancy. The large glossy seeds (buckeyes) are ornamental though toxic if ingested.",
     wildlifeValue: "Critical early nectar for ruby-throated hummingbirds; bumblebees; tiger swallowtails",
+    spreadMin: 10,
+    spreadMax: 20,
+    spreading: false,
     specialFeatures: ["wildlife", "early-bloom", "understory"],
   },
 
@@ -2569,6 +2578,9 @@ const plants = [
     "evergreen": false,
     "description": "The quintessential shade tree of NC forests, long-lived and stately with a broad rounded crown. Its acorns are the single most important food source for deer, turkey, and dozens of other wildlife species. Fall foliage ranges from deep red to wine-purple.",
     "wildlifeValue": "Acorns are top food for deer, turkey, squirrels, black bears; host to 500+ caterpillar species",
+    "spreadMin": 50,
+    "spreadMax": 80,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife",
@@ -2617,6 +2629,9 @@ const plants = [
     "evergreen": false,
     "description": "A fast-growing Piedmont and Coastal Plain oak with distinctive three-lobed leaves. Tolerates dry, poor soils better than most oaks. Provides excellent wildlife value through its abundant acorn crops and supports hundreds of caterpillar species.",
     "wildlifeValue": "Acorns for wildlife; host for hundreds of Lepidoptera species",
+    "spreadMin": 40,
+    "spreadMax": 60,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "drought-tolerant"
@@ -2664,6 +2679,9 @@ const plants = [
     "evergreen": false,
     "description": "One of the most popular street and shade trees in the NC Piedmont, with fine-textured willow-like leaves and a graceful symmetrical form. Fast-growing for an oak. Small acorns are produced in abundance and are an important food source for wood ducks and other birds.",
     "wildlifeValue": "Small acorns heavily used by wood ducks, mallards, and songbirds",
+    "spreadMin": 30,
+    "spreadMax": 50,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "fall-color"
@@ -2711,6 +2729,9 @@ const plants = [
     "evergreen": false,
     "description": "The dominant oak of NC's dry rocky ridges and mountain slopes, identifiable by its deeply furrowed bark and large chestnut-like leaves. Produces the largest acorns of any NC oak, an essential food source for black bears and turkey. Extremely drought-tolerant once established.",
     "wildlifeValue": "Large acorns critical for black bears, turkey, and deer on mountain ridges",
+    "spreadMin": 40,
+    "spreadMax": 60,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "drought-tolerant",
@@ -2759,6 +2780,9 @@ const plants = [
     "evergreen": false,
     "description": "A tough, drought-tolerant oak of NC's driest sites with distinctive cross-shaped leaves. Slower-growing but extremely long-lived. Its dense, rot-resistant wood was historically used for fence posts. Important wildlife tree on sites too dry for other oaks.",
     "wildlifeValue": "Acorns for wildlife; tolerates poorest soils where other oaks cannot grow",
+    "spreadMin": 30,
+    "spreadMax": 50,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "drought-tolerant"
@@ -2805,6 +2829,9 @@ const plants = [
     "evergreen": false,
     "description": "Named for its spectacular scarlet fall color — among the most brilliant of any NC tree. The deeply cut, glossy leaves are attractive all season. A common oak of dry upland forests in the Piedmont and mountains. Open grown trees develop a handsome rounded crown.",
     "wildlifeValue": "Acorns for wildlife; hosts hundreds of caterpillar species",
+    "spreadMin": 30,
+    "spreadMax": 50,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife",
@@ -2852,6 +2879,9 @@ const plants = [
     "evergreen": false,
     "description": "A bottomland oak that tolerates prolonged flooding better than almost any other oak species. Named for its distinctive acorn cap that nearly covers the entire nut. An excellent choice for wet sites, rain gardens, and floodplain restoration in NC's Coastal Plain and Piedmont.",
     "wildlifeValue": "Acorns for waterfowl, deer, and squirrels; flood-tolerant habitat tree",
+    "spreadMin": 30,
+    "spreadMax": 50,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "wet-tolerance"
@@ -2900,6 +2930,9 @@ const plants = [
     "evergreen": true,
     "description": "The iconic spreading evergreen oak of NC's coast and lower Piedmont, with massive horizontal limbs draped in resurrection fern and Spanish moss. Incredibly wind-resistant and salt-tolerant. One of the most long-lived trees in eastern North America, with some specimens exceeding 500 years.",
     "wildlifeValue": "Year-round cover and acorns; supports epiphytes like resurrection fern",
+    "spreadMin": 50,
+    "spreadMax": 80,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "wildlife",
@@ -2950,6 +2983,9 @@ const plants = [
     "evergreen": false,
     "description": "A fast-growing, semi-evergreen oak common throughout NC's Piedmont and Coastal Plain. Holds its leaves late into winter, providing extended visual interest. Tolerates wet soils and urban conditions. Produces heavy acorn crops that are highly valued by wildlife.",
     "wildlifeValue": "Abundant acorns for deer, turkey, squirrels, and ducks",
+    "spreadMin": 30,
+    "spreadMax": 50,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "wet-tolerance"
@@ -2997,6 +3033,9 @@ const plants = [
     "evergreen": false,
     "description": "One of the most majestic NC forest trees, with smooth silvery-gray bark and a broad dense canopy. Marcescent leaves turn golden-bronze and persist through much of winter, adding interest. Beechnuts are an important food for wildlife. Prefers rich, undisturbed forest soils.",
     "wildlifeValue": "Beechnuts eaten by bears, turkeys, and songbirds; cavity nesting",
+    "spreadMin": 40,
+    "spreadMax": 60,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife",
@@ -3046,6 +3085,9 @@ const plants = [
     "evergreen": false,
     "description": "Instantly recognizable by its shaggy peeling bark strips, this stately hickory produces the sweetest, most edible nuts of any NC hickory. The large compound leaves turn rich golden-yellow in fall. Deep taproots make it very drought-tolerant but difficult to transplant.",
     "wildlifeValue": "Nuts are critical food for squirrels, chipmunks, and black bears",
+    "spreadMin": 20,
+    "spreadMax": 35,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife",
@@ -3095,6 +3137,9 @@ const plants = [
     "evergreen": false,
     "description": "The most common hickory in NC's Piedmont forests, named 'mockernut' because the thick shell yields little nut meat. Fragrant compound leaves turn golden-yellow in fall. Extremely tough wood was prized for tool handles. An important wildlife food tree.",
     "wildlifeValue": "Nuts for squirrels and bears; host for hickory horned devil moth",
+    "spreadMin": 25,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife"
@@ -3142,6 +3187,9 @@ const plants = [
     "evergreen": false,
     "description": "A common upland hickory of NC forests, often found on drier ridges alongside oaks. Produces pear-shaped nuts that are slightly bitter but still valued by wildlife. The smooth, tight bark distinguishes it from shagbark hickory. Golden-yellow fall color.",
     "wildlifeValue": "Nuts eaten by squirrels, chipmunks, foxes, and bears",
+    "spreadMin": 20,
+    "spreadMax": 35,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife",
@@ -3190,6 +3238,9 @@ const plants = [
     "evergreen": false,
     "description": "Identified by its distinctive bright yellow winter buds and thin-shelled bitter nuts. The fastest-growing hickory, common in NC bottomlands and rich coves. Golden-yellow fall color. While the nuts are too bitter for humans, they are still consumed by wildlife.",
     "wildlifeValue": "Nuts eaten by squirrels and ducks; host for luna moth",
+    "spreadMin": 25,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife",
@@ -3239,6 +3290,9 @@ const plants = [
     "evergreen": false,
     "description": "The largest native tree in eastern North America, often reaching massive proportions along NC streams and bottomlands. Its striking white-and-olive patchwork bark is one of the most recognizable features of any tree. Tolerates flooding and poor drainage. Fast growing.",
     "wildlifeValue": "Seeds eaten by finches; large cavities used by wood ducks, owls, and raccoons",
+    "spreadMin": 40,
+    "spreadMax": 70,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "wet-tolerance",
@@ -3294,6 +3348,9 @@ const plants = [
     "evergreen": false,
     "description": "Red in every season — tiny red flowers in late winter are among the first signs of spring, followed by red samaras, green summer foliage, and brilliant scarlet-to-orange fall color. The most adaptable native maple, growing in both swamps and dry uplands across all of NC.",
     "wildlifeValue": "Very early pollen/nectar source; seeds eaten by birds and squirrels",
+    "spreadMin": 30,
+    "spreadMax": 50,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "early-bloom",
@@ -3348,6 +3405,9 @@ const plants = [
     "evergreen": false,
     "description": "The premier fall color tree, producing the most vivid orange, gold, and scarlet foliage of any NC native. In NC it's primarily a mountain species, thriving in rich coves at higher elevations. Can be tapped for maple syrup. Provides dense, cooling shade in summer.",
     "wildlifeValue": "Early spring flowers provide pollen for bees; seeds eaten by birds and squirrels",
+    "spreadMin": 30,
+    "spreadMax": 50,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife",
@@ -3396,6 +3456,9 @@ const plants = [
     "evergreen": true,
     "description": "An extremely adaptable evergreen that thrives on the poorest, driest sites in NC. Its blue berry-like cones are a critical winter food for cedar waxwings and over 50 other bird species. Dense foliage provides year-round shelter for birds. Aromatic wood is naturally rot-resistant.",
     "wildlifeValue": "Berries eaten by 50+ bird species; year-round cover; host for juniper hairstreak",
+    "spreadMin": 10,
+    "spreadMax": 20,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "wildlife",
@@ -3442,6 +3505,9 @@ const plants = [
     "evergreen": true,
     "description": "The iconic pine of NC's Sandhills and Coastal Plain, with the longest needles of any eastern pine (up to 18 inches). Once covered 90 million acres, now one of the most endangered ecosystems in North America. Longleaf pine savannas support extraordinary biodiversity including red-cockaded woodpeckers and Venus flytraps.",
     "wildlifeValue": "Essential habitat for red-cockaded woodpecker, fox squirrel, and hundreds of savanna species",
+    "spreadMin": 20,
+    "spreadMax": 35,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "wildlife",
@@ -3488,6 +3554,9 @@ const plants = [
     "evergreen": true,
     "description": "The most common pine in NC and the backbone of the southeastern timber industry. Fast-growing and adaptable, it quickly colonizes abandoned fields and disturbed sites. The large seeds are an important food for many bird species. Mature trees provide nesting sites for hawks and owls.",
     "wildlifeValue": "Seeds eaten by many birds; nesting habitat for raptors; pine warbler habitat",
+    "spreadMin": 25,
+    "spreadMax": 35,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "wildlife"
@@ -3534,6 +3603,9 @@ const plants = [
     "evergreen": true,
     "description": "A Piedmont and mountain pine distinguished by small, prickly cones and the unique ability to resprout from the base after fire — the only eastern pine that can do this. More drought-tolerant and longer-lived than loblolly. Once much more common, it has declined as fire suppression favors hardwoods.",
     "wildlifeValue": "Seeds for birds and squirrels; important component of fire-maintained ecosystems",
+    "spreadMin": 20,
+    "spreadMax": 30,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "wildlife",
@@ -3581,6 +3653,9 @@ const plants = [
     "evergreen": true,
     "description": "A scrappy, short-lived pioneer pine that colonizes the poorest clay and rocky soils where little else will grow. Common in the NC Piedmont on old fields and road cuts. Short twisted needles in pairs and persistent prickly cones. Provides important early-succession habitat for wildlife.",
     "wildlifeValue": "Seeds for birds; early-succession habitat; nesting cover",
+    "spreadMin": 15,
+    "spreadMax": 25,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "wildlife",
@@ -3629,6 +3704,9 @@ const plants = [
     "evergreen": false,
     "description": "An ancient deciduous conifer of NC's swamps and river edges, recognizable by its fluted trunk, 'knees' that emerge from standing water, and feathery foliage that turns russet-bronze in fall. Incredibly long-lived — some NC specimens exceed 1,000 years. Tolerates permanent flooding.",
     "wildlifeValue": "Cavity nesting for wood ducks and owls; seeds eaten by waterfowl",
+    "spreadMin": 20,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife",
@@ -3676,6 +3754,9 @@ const plants = [
     "evergreen": true,
     "description": "A rare, slender evergreen conifer found in pocosins and swamps of NC's Coastal Plain. Forms dense stands in acidic wetlands. The aromatic, rot-resistant wood was once heavily logged. Now an important conservation species, its swamp habitat supports unique plant and animal communities.",
     "wildlifeValue": "Seeds eaten by songbirds; year-round cover in wetlands; supports Hessel's hairstreak butterfly",
+    "spreadMin": 8,
+    "spreadMax": 15,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "wildlife",
@@ -3722,6 +3803,9 @@ const plants = [
     "evergreen": true,
     "description": "A graceful evergreen of NC mountain gorges and north-facing slopes, with delicate feathery branches that create deep shade. Currently threatened by the hemlock woolly adelgid, an invasive pest. Cool-loving and shade-tolerant, it creates unique microhabitats along mountain streams. An irreplaceable component of NC mountain ecosystems.",
     "wildlifeValue": "Year-round thermal cover; seeds for birds; shades mountain streams for trout",
+    "spreadMin": 20,
+    "spreadMax": 35,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "shade-tolerant",
@@ -3770,6 +3854,9 @@ const plants = [
     "evergreen": false,
     "description": "A small understory tree with distinctive smooth blue-gray bark and a muscular, fluted trunk — often called 'musclewood' or 'ironwood.' The wood is extremely hard. Orange-red fall color. An excellent shade-tolerant tree for smaller gardens and naturalistic plantings under tall canopy trees.",
     "wildlifeValue": "Seeds eaten by songbirds and turkeys; host for many moth species",
+    "spreadMin": 15,
+    "spreadMax": 25,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "shade-tolerant",
@@ -3818,6 +3905,9 @@ const plants = [
     "evergreen": false,
     "description": "A graceful small tree of dry, shady woodland slopes with shreddy brown bark and hop-like fruit clusters. The hardest wood of any NC tree. Tolerates dry, rocky soils. Attractive golden-yellow fall color. An excellent understory tree that deserves wider use in native landscapes.",
     "wildlifeValue": "Seeds eaten by songbirds and grouse; buds eaten by ruffed grouse in winter",
+    "spreadMin": 15,
+    "spreadMax": 25,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "shade-tolerant",
@@ -3865,6 +3955,9 @@ const plants = [
     "evergreen": false,
     "description": "Produces the most prized hardwood lumber in North America and delicious edible nuts. Among the last trees to leaf out in spring and the first to drop leaves in fall. Releases juglone, a chemical that inhibits some nearby plants. Best in rich bottomland soils.",
     "wildlifeValue": "Nuts critical for squirrels; host for luna moth and regal moth",
+    "spreadMin": 40,
+    "spreadMax": 60,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "edible"
@@ -3912,6 +4005,9 @@ const plants = [
     "evergreen": false,
     "description": "Once the most beloved shade tree in America, with a majestic vase-shaped form. Devastated by Dutch elm disease but not extinct — survivors persist throughout NC. Disease-resistant cultivars are now available. Provides excellent wildlife value and supports over 200 caterpillar species.",
     "wildlifeValue": "Seeds eaten by birds; host for 200+ Lepidoptera species including mourning cloak",
+    "spreadMin": 40,
+    "spreadMax": 60,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "fall-color"
@@ -3960,6 +4056,9 @@ const plants = [
     "evergreen": false,
     "description": "Named for the distinctive corky 'wings' along its twigs, this adaptable small elm tolerates drought and poor soils better than American elm. Common in NC's Piedmont on dry slopes and fencerows. More resistant to Dutch elm disease than American elm.",
     "wildlifeValue": "Seeds eaten by birds; host for question mark butterfly and other Lepidoptera",
+    "spreadMin": 25,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "drought-tolerant",
@@ -4008,6 +4107,9 @@ const plants = [
     "evergreen": false,
     "description": "A graceful bottomland tree with smooth gray warty bark and small sweet berries relished by birds. Tolerates wet soils and urban conditions. Common in NC floodplains. The berries persist into winter, making it an excellent wildlife tree. Host plant for hackberry emperor and other butterflies.",
     "wildlifeValue": "Berries eaten by 40+ bird species; host for hackberry emperor and snout butterflies",
+    "spreadMin": 30,
+    "spreadMax": 50,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "wet-tolerance"
@@ -4057,6 +4159,9 @@ const plants = [
     "evergreen": false,
     "description": "One of the toughest native trees, thriving in wind, drought, poor soils, and urban conditions. Distinctive warty bark and sweet berries. Overlaps with Sugarberry in NC's Piedmont. Host plant for hackberry emperor, American snout, and other butterflies. A superb urban-tolerant wildlife tree.",
     "wildlifeValue": "Berries eaten by many birds and mammals; host for hackberry butterflies",
+    "spreadMin": 30,
+    "spreadMax": 50,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "drought-tolerant"
@@ -4109,6 +4214,9 @@ const plants = [
     "evergreen": false,
     "description": "Showy drooping clusters of white flowers in spring are followed by small dark cherries that are a top wildlife food. The dark reddish-brown bark of mature trees is distinctive. Extremely high wildlife value — supports over 450 caterpillar species, more than almost any other tree genus.",
     "wildlifeValue": "Fruits eaten by 70+ bird species; host for 450+ Lepidoptera species including tiger swallowtail",
+    "spreadMin": 25,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "early-bloom"
@@ -4161,6 +4269,9 @@ const plants = [
     "evergreen": false,
     "description": "A small tree or large thicket-forming shrub that produces masses of fragrant white flowers in early spring before the leaves emerge. Edible yellow-red plums ripen in late summer — excellent for preserves. Creates valuable wildlife thickets. One of the showiest native spring-flowering trees.",
     "wildlifeValue": "Fruits eaten by birds and mammals; important early-spring nectar source",
+    "spreadMin": 15,
+    "spreadMax": 25,
+    "spreading": true,
     "specialFeatures": [
       "wildlife",
       "early-bloom",
@@ -4214,6 +4325,9 @@ const plants = [
     "evergreen": false,
     "description": "Among the earliest trees to bloom in NC, covering itself in fragrant white flowers in late winter. Smaller and more shrubby than American Plum, it spreads by root suckers to form dense thickets that are excellent wildlife habitat. Small sweet-tart plums ripen in summer.",
     "wildlifeValue": "Very early nectar for pollinators; fruits for birds and mammals; dense thicket cover",
+    "spreadMin": 12,
+    "spreadMax": 20,
+    "spreading": true,
     "specialFeatures": [
       "wildlife",
       "early-bloom",
@@ -4263,6 +4377,9 @@ const plants = [
     "evergreen": false,
     "description": "The only mulberry native to North America, bearing sweet, elongated dark-purple fruits that are eagerly consumed by birds and humans alike. Ripening fruits in June can attract dozens of bird species to a single tree. Prefers rich, moist soils in bottomlands and forest edges.",
     "wildlifeValue": "Fruits attract an extraordinary diversity of birds; host for several moth species",
+    "spreadMin": 25,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "edible"
@@ -4315,6 +4432,9 @@ const plants = [
     "evergreen": false,
     "description": "The largest magnolia species in NC, reaching timber-tree proportions in rich mountain coves. Greenish-yellow flowers are less showy than other magnolias but still attractive. Named for its cucumber-shaped immature fruit that turns red at maturity. Handsome large leaves provide bold texture.",
     "wildlifeValue": "Red seeds eaten by birds and squirrels; beetle-pollinated flowers",
+    "spreadMin": 25,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "wildlife"
     ]
@@ -4366,6 +4486,9 @@ const plants = [
     "evergreen": false,
     "description": "A mountain magnolia with enormous ear-shaped leaves (up to 2 feet long) and fragrant creamy-white flowers up to 10 inches across. Found in rich coves and along mountain streams in western NC. The large tropical-looking foliage gives gardens an exotic feel. Rose-red fruit clusters appear in fall.",
     "wildlifeValue": "Red seeds eaten by birds; beetle-pollinated; cover for wildlife",
+    "spreadMin": 15,
+    "spreadMax": 25,
+    "spreading": false,
     "specialFeatures": [
       "fragrant",
       "shade-tolerant",
@@ -4419,6 +4542,9 @@ const plants = [
     "evergreen": false,
     "description": "Has the largest simple leaves and largest flowers of any native North American tree — leaves can reach 3 feet and fragrant cream-white flowers span 12 inches. A rare, dramatic understory tree of rich sheltered coves. Hardy but needs wind protection to prevent leaf damage.",
     "wildlifeValue": "Seeds eaten by birds; beetle-pollinated flowers",
+    "spreadMin": 15,
+    "spreadMax": 25,
+    "spreading": false,
     "specialFeatures": [
       "fragrant",
       "shade-tolerant",
@@ -4466,6 +4592,9 @@ const plants = [
     "evergreen": true,
     "description": "A rare evergreen endemic to the southern Appalachians, found only in scattered populations from Virginia to Georgia. Distinguished from Eastern Hemlock by its radially arranged needles and larger cones. Seriously threatened by hemlock woolly adelgid. One of the rarest trees native to NC.",
     "wildlifeValue": "Year-round cover; seeds for birds; shades mountain streams",
+    "spreadMin": 15,
+    "spreadMax": 25,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "shade-tolerant",
@@ -4511,6 +4640,9 @@ const plants = [
     "evergreen": true,
     "description": "A tough, fire-adapted pine found on dry, rocky ridgetops and outcrops in NC's mountains. Heavily armed cones with sharp prickles require fire to open and release seeds. One of the most fire-dependent trees in the Appalachians. Picturesque gnarled form on exposed sites.",
     "wildlifeValue": "Seeds for birds and squirrels; fire-dependent ecosystem",
+    "spreadMin": 15,
+    "spreadMax": 25,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "drought-tolerant"
@@ -4555,6 +4687,9 @@ const plants = [
     "evergreen": true,
     "description": "The pine of NC's pocosins and wet flatwoods, uniquely adapted to both flooding and fire. Like Table Mountain Pine, its serotinous cones open after fire. Can resprout from the trunk after burning — unusual for a pine. Often found with pond cypress in Coastal Plain wetlands.",
     "wildlifeValue": "Seeds for birds; provides structure in pocosin ecosystems",
+    "spreadMin": 15,
+    "spreadMax": 25,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "wet-tolerance",
@@ -4608,6 +4743,9 @@ const plants = [
     "evergreen": false,
     "description": "A stately shade tree of rich NC mountain coves, producing intensely fragrant cream-yellow flowers in early summer that are one of the most important nectar sources for honeybees and native bees. Heart-shaped leaves are large and bold. The lightweight, easily carved wood has many traditional uses.",
     "wildlifeValue": "Premier bee tree — flowers produce abundant nectar; seeds eaten by birds and squirrels",
+    "spreadMin": 25,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "fragrant",
       "wildlife",
@@ -4661,6 +4799,9 @@ const plants = [
     "evergreen": false,
     "description": "A magnificent mountain cove tree with showy upright clusters of yellow flowers in spring. Among the first trees to leaf out and among the first to drop leaves in fall. The large glossy brown seeds (buckeyes) are toxic but ornamental. The largest of the eastern buckeyes.",
     "wildlifeValue": "Flowers attract ruby-throated hummingbirds and swallowtails; early nectar source",
+    "spreadMin": 25,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "early-bloom",
@@ -4709,6 +4850,9 @@ const plants = [
     "evergreen": false,
     "description": "A premier shade and timber tree with compound leaves that turn rich purple to burgundy in fall — among the most striking fall colors in NC. Severely threatened by the emerald ash borer. The strong, elastic wood is the traditional choice for baseball bats.",
     "wildlifeValue": "Seeds eaten by birds and small mammals; host for many moth species",
+    "spreadMin": 30,
+    "spreadMax": 50,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife"
@@ -4757,6 +4901,9 @@ const plants = [
     "evergreen": false,
     "description": "The most widespread and adaptable of NC's native ashes, thriving in wet bottomlands to dry uplands. Golden-yellow fall color. Like white ash, severely threatened by emerald ash borer. An important bottomland and riparian tree throughout the state.",
     "wildlifeValue": "Seeds eaten by wood ducks and songbirds; host for many Lepidoptera species",
+    "spreadMin": 25,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife",
@@ -4809,6 +4956,9 @@ const plants = [
     "evergreen": false,
     "description": "Drooping clusters of intensely fragrant white pea-flowers in late spring are a powerful bee attractant. A nitrogen-fixing legume tree that improves soil. Native to the Appalachians but widely naturalized. The extremely hard, rot-resistant wood is prized for fence posts. Can spread aggressively by root suckers.",
     "wildlifeValue": "Flowers are a major nectar source for bees; nitrogen-fixing improves soil",
+    "spreadMin": 20,
+    "spreadMax": 35,
+    "spreading": true,
     "specialFeatures": [
       "fragrant",
       "pollinator",
@@ -4857,6 +5007,9 @@ const plants = [
     "evergreen": false,
     "description": "A fast-growing, elegant tree with finely divided compound leaves that cast light, dappled shade — unlike the dense shade of most large trees. Native to NC's limestone valleys and floodplains. Long twisted seed pods contain sweet pulp once eaten by now-extinct megafauna. Formidable branched thorns on the trunk.",
     "wildlifeValue": "Seed pods eaten by deer and livestock; light shade allows understory growth",
+    "spreadMin": 30,
+    "spreadMax": 50,
+    "spreading": false,
     "specialFeatures": [
       "wildlife",
       "drought-tolerant"
@@ -4908,6 +5061,9 @@ const plants = [
     "evergreen": false,
     "description": "An uncommon native tree with dramatically large bipinnate compound leaves and bold winter silhouette. Among the last trees to leaf out in spring and first to drop in fall. Fragrant white flower clusters on female trees are followed by thick leathery pods. The roasted seeds were historically used as a coffee substitute.",
     "wildlifeValue": "Fragrant flowers attract bees; winter pods persist for visual interest",
+    "spreadMin": 25,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "winter-interest",
       "fragrant"
@@ -4953,6 +5109,9 @@ const plants = [
     "evergreen": false,
     "description": "A massive swamp tree with a dramatically swollen trunk base, growing in permanently flooded blackwater swamps and river edges of NC's Coastal Plain. Closely related to Black Gum but strictly a wetland species. An important source of tupelo honey. Brilliant red fall color.",
     "wildlifeValue": "Fruits eaten by wood ducks and other waterfowl; cavity nesting; tupelo honey",
+    "spreadMin": 25,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife",
@@ -4999,6 +5158,9 @@ const plants = [
     "evergreen": false,
     "description": "A deciduous conifer closely related to Bald Cypress but with ascending (rather than spreading) needle-covered branchlets. Found in still-water ponds and lake margins of NC's Coastal Plain. Develops prominent knees and a swollen base. Russet-bronze fall color. Slightly more compact than Bald Cypress.",
     "wildlifeValue": "Seeds for waterfowl; cavity nesting for wood ducks; knees provide fish habitat",
+    "spreadMin": 15,
+    "spreadMax": 25,
+    "spreading": false,
     "specialFeatures": [
       "fall-color",
       "wildlife",
@@ -5047,6 +5209,9 @@ const plants = [
     "evergreen": true,
     "description": "The tallest native conifer in eastern North America, with soft blue-green needles in bundles of five and a graceful layered form. Common in NC's mountains and upper Piedmont. Fast-growing and adaptable. The large seed-bearing cones attract many bird species. Provides valuable year-round screening and windbreak.",
     "wildlifeValue": "Seeds eaten by many birds; nesting habitat for warblers; year-round cover",
+    "spreadMin": 25,
+    "spreadMax": 40,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "wildlife"
@@ -5093,6 +5258,9 @@ const plants = [
     "evergreen": true,
     "description": "The most shade-tolerant of all southern pines, often found as an understory tree in hardwood forests of NC's Coastal Plain. Smooth gray bark and dark green foliage distinguish it from other pines. A unique and underappreciated pine that can thrive where other pines cannot — in the shade.",
     "wildlifeValue": "Seeds for birds and squirrels; year-round cover in Coastal Plain forests",
+    "spreadMin": 20,
+    "spreadMax": 35,
+    "spreading": false,
     "specialFeatures": [
       "evergreen",
       "shade-tolerant",
