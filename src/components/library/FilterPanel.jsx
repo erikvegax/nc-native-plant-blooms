@@ -115,6 +115,13 @@ export default function FilterPanel({ filters, onChange, onReset, showHeader = t
         onChange={onChange}
       />
       <FilterGroup
+        title="Foliage"
+        options={FILTER_OPTIONS.evergreen}
+        selected={filters.evergreen}
+        filterKey="evergreen"
+        onChange={onChange}
+      />
+      <FilterGroup
         title="Berry / Fruit Interest"
         options={FILTER_OPTIONS.berryInterest}
         selected={filters.berryInterest}

@@ -56,6 +56,13 @@ export function filterAndSearch(plants, filters, query) {
       if (wantsNonSpreading && !wantsSpreading && plant.spreading) return false;
     }
 
+    if (filters.evergreen.length) {
+      const wantsEvergreen = filters.evergreen.includes("evergreen");
+      const wantsDeciduous = filters.evergreen.includes("deciduous");
+      if (wantsEvergreen && !wantsDeciduous && !plant.evergreen) return false;
+      if (wantsDeciduous && !wantsEvergreen && plant.evergreen) return false;
+    }
+
     return true;
   });
 }
@@ -132,6 +139,10 @@ export const FILTER_OPTIONS = {
   spreading: [
     { value: "spreading", label: "Spreads / Colonizes" },
     { value: "non-spreading", label: "Clumping / Non-spreading" },
+  ],
+  evergreen: [
+    { value: "evergreen", label: "Evergreen" },
+    { value: "deciduous", label: "Deciduous" },
   ],
   berryInterest: [
     { value: "has-berries", label: "Has Berry / Fruit Interest" },

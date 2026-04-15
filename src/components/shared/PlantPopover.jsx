@@ -15,6 +15,64 @@ const MOISTURE_LABELS = {
   wet: "Wet",
 };
 
+const FEATURE_LABELS = {
+  "wildlife": "Wildlife Value",
+  "shade-tolerant": "Shade Tolerant",
+  "drought-tolerant": "Drought Tolerant",
+  "fall-color": "Fall Color",
+  "winter-interest": "Winter Interest",
+  "fragrant": "Fragrant",
+  "wet-tolerance": "Wet Tolerant",
+  "wet-tolerant": "Wet Tolerant",
+  "early-bloom": "Early Bloom",
+  "groundcover": "Groundcover",
+  "pollinator": "Pollinator Friendly",
+  "pollinator-magnet": "Pollinator Magnet",
+  "pollinator-garden": "Pollinator Garden",
+  "four-season-interest": "Four Season Interest",
+  "four-season": "Four Season Interest",
+  "hummingbird": "Hummingbird",
+  "hummingbird-garden": "Hummingbird Garden",
+  "woodland-garden": "Woodland Garden",
+  "long-blooming": "Long Blooming",
+  "rain-garden": "Rain Garden",
+  "wetland": "Wetland",
+  "deer-resistant": "Deer Resistant",
+  "spring-ephemeral": "Spring Ephemeral",
+  "edible": "Edible",
+  "edible-fruit": "Edible Fruit",
+  "edible-berries": "Edible Berries",
+  "structural": "Structural",
+  "aquatic": "Aquatic",
+  "nitrogen-fixer": "Nitrogen Fixer",
+  "nitrogen-fixing": "Nitrogen Fixer",
+  "butterfly-host": "Butterfly Host",
+  "host-plant": "Host Plant",
+  "erosion-control": "Erosion Control",
+  "rock-garden": "Rock Garden",
+  "fire-adapted": "Fire Adapted",
+  "carnivorous": "Carnivorous",
+  "clay-tolerant": "Clay Tolerant",
+  "lawn-alternative": "Lawn Alternative",
+  "aromatic": "Aromatic",
+  "fall-blooming": "Fall Blooming",
+  "self-seeds": "Self Seeds",
+  "self-sowing": "Self Sowing",
+  "salt-tolerant": "Salt Tolerant",
+  "spring-blooming": "Spring Blooming",
+  "midsummer-bloom": "Midsummer Bloom",
+  "monarch": "Monarch Butterfly",
+  "coastal": "Coastal",
+  "night-blooming": "Night Blooming",
+  "winter-blooming": "Winter Blooming",
+  "winter-bloom": "Winter Bloom",
+  "nc-endemic": "NC Endemic",
+  "epiphytic": "Epiphytic",
+  "mycorrhizal-dependent": "Mycorrhizal Dependent",
+  "late-bloom": "Late Bloom",
+  "adaptable": "Adaptable",
+};
+
 export default function PlantPopover({ plant, anchorRect, onClose, onRemove, popoverRef: externalRef, onMouseEnter, onMouseLeave }) {
   const [imageData, setImageData] = useState(null);
   const [imageLoading, setImageLoading] = useState(true);
@@ -119,37 +177,64 @@ export default function PlantPopover({ plant, anchorRect, onClose, onRemove, pop
         <p className="text-base font-semibold text-stone-800 leading-snug">{plant.name}</p>
         <p className="text-sm text-stone-400 italic mb-3">{plant.scientificName}</p>
 
-        {/* Conditions row */}
-        <div className="flex flex-wrap gap-1.5 mb-3">
-          {plant.sun.map((s) => (
-            <span key={s} className="text-xs bg-amber-50 text-amber-800 border border-amber-200 px-2 py-0.5 rounded-full">
-              {SUN_LABELS[s]}
-            </span>
-          ))}
-          {plant.moisture.map((m) => (
-            <span key={m} className="text-xs bg-blue-50 text-blue-800 border border-blue-200 px-2 py-0.5 rounded-full">
-              {MOISTURE_LABELS[m]}
-            </span>
-          ))}
-          <span className="text-xs bg-stone-50 text-stone-700 border border-stone-200 px-2 py-0.5 rounded-full">
-            {plant.heightMin}–{plant.heightMax}′ tall
-          </span>
-          {plant.spreadMin != null && (
-            <span className="text-xs bg-stone-50 text-stone-700 border border-stone-200 px-2 py-0.5 rounded-full">
-              {plant.spreadMin}–{plant.spreadMax}′ wide
-            </span>
-          )}
-          {plant.spreading && (
-            <span className="text-xs bg-orange-50 text-orange-700 border border-orange-200 px-2 py-0.5 rounded-full">
-              Spreads
-            </span>
-          )}
-          {plant.evergreen && (
-            <span className="text-xs bg-green-50 text-green-800 border border-green-200 px-2 py-0.5 rounded-full">
-              Evergreen
-            </span>
-          )}
+        {/* Conditions */}
+        <div className="flex flex-col gap-2 mb-3">
+          <div className="flex items-baseline gap-2">
+            <p className="text-[10px] font-semibold text-stone-400 uppercase tracking-wide w-14 shrink-0">Sun</p>
+            <div className="flex flex-wrap gap-1">
+              {plant.sun.map((s) => (
+                <span key={s} className="text-xs bg-amber-50 text-amber-800 border border-amber-200 px-2 py-0.5 rounded-full whitespace-nowrap">
+                  {SUN_LABELS[s]}
+                </span>
+              ))}
+            </div>
+          </div>
+          <div className="flex items-baseline gap-2">
+            <p className="text-[10px] font-semibold text-stone-400 uppercase tracking-wide w-14 shrink-0">Moisture</p>
+            <div className="flex flex-wrap gap-1">
+              {plant.moisture.map((m) => (
+                <span key={m} className="text-xs bg-blue-50 text-blue-800 border border-blue-200 px-2 py-0.5 rounded-full whitespace-nowrap">
+                  {MOISTURE_LABELS[m]}
+                </span>
+              ))}
+            </div>
+          </div>
+          <div className="flex items-baseline gap-2">
+            <p className="text-[10px] font-semibold text-stone-400 uppercase tracking-wide w-14 shrink-0">Size</p>
+            <div className="flex flex-wrap gap-1">
+              <span className="text-xs bg-stone-50 text-stone-700 border border-stone-200 px-2 py-0.5 rounded-full whitespace-nowrap">
+                {plant.heightMin}–{plant.heightMax}′ tall
+              </span>
+              {plant.spreadMin != null && (
+                <span className="text-xs bg-stone-50 text-stone-700 border border-stone-200 px-2 py-0.5 rounded-full whitespace-nowrap">
+                  {plant.spreadMin}–{plant.spreadMax}′ wide
+                </span>
+              )}
+            </div>
+          </div>
         </div>
+        {(plant.spreading || plant.evergreen || plant.specialFeatures?.length > 0) && (
+          <div className="mb-3">
+            <p className="text-[10px] font-semibold text-stone-400 uppercase tracking-wide mb-1">Characteristics</p>
+            <div className="flex flex-wrap gap-1.5">
+              {plant.evergreen && (
+                <span className="text-xs bg-green-50 text-green-800 border border-green-200 px-2 py-0.5 rounded-full">
+                  Evergreen
+                </span>
+              )}
+              {plant.spreading && (
+                <span className="text-xs bg-orange-50 text-orange-700 border border-orange-200 px-2 py-0.5 rounded-full">
+                  Spreads
+                </span>
+              )}
+              {plant.specialFeatures?.map((f) => (
+                <span key={f} className="text-xs bg-stone-50 text-stone-600 border border-stone-200 px-2 py-0.5 rounded-full">
+                  {FEATURE_LABELS[f] ?? f.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
 
         <p className="text-sm text-stone-600 leading-relaxed mb-3">{plant.description}</p>
 
@@ -163,6 +248,15 @@ export default function PlantPopover({ plant, anchorRect, onClose, onRemove, pop
         {imageData?.attribution && (
           <p className="text-[10px] text-stone-300 mt-3 leading-tight">{imageData.attribution}</p>
         )}
+
+        <a
+          href={`https://plants.ces.ncsu.edu/plants/${plant.scientificName.toLowerCase().replace(/\s+/g, "-")}/`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1 text-xs text-green-700 hover:text-green-900 hover:underline mt-3"
+        >
+          Learn more at NC State Plant Toolbox <span className="text-[10px]">↗</span>
+        </a>
 
         {onRemove && (
           <button
