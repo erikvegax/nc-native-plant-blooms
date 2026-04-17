@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import plants from "./data/plants";
 import { filterAndSearch } from "./utils/filterUtils";
 import Header from "./components/layout/Header";
@@ -237,6 +238,7 @@ export default function App() {
         activeFilterCount={activeFilterCount}
         planCount={activeGroup.planIds.length}
       />
+      <Analytics />
     </div>
   );
 }
